@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tin-bachproef.aux
+The style file: apa.bst
+Database file #1: tin-bachproef.bib
+You've used 3 entries,
+            1940 wiz_defined-function locations,
+            494 strings with 4070 characters,
+and the built_in function-call counts, 933 in all, are:
+= -- 88
+> -- 21
+< -- 3
++ -- 8
+- -- 6
+* -- 71
+:= -- 171
+add.period$ -- 9
+call.type$ -- 3
+change.case$ -- 16
+chr.to.int$ -- 3
+cite$ -- 3
+duplicate$ -- 42
+empty$ -- 75
+format.name$ -- 9
+if$ -- 178
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 18
+num.names$ -- 9
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 18
+quote$ -- 0
+skip$ -- 32
+stack$ -- 0
+substring$ -- 57
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 14
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 41
