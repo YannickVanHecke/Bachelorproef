@@ -5,20 +5,38 @@
 \chapter{Inleiding}
 \label{ch:inleiding}
 
-De inleiding moet de lezer alle nodige informatie verschaffen om het onderwerp te begrijpen zonder nog externe werken te moeten raadplegen \citep{Pollefliet2011}. Dit is een doorlopende tekst die gebaseerd is op al wat je over het onderwerp gelezen hebt (literatuuronderzoek).
+%% De inleiding moet de lezer alle nodige informatie verschaffen om het onderwerp te begrijpen zonder nog externe werken te moeten raadplegen \citep{Pollefliet2011}. Dit is een doorlopende tekst die gebaseerd is op al wat je over het onderwerp gelezen hebt (literatuuronderzoek).
 
-Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz. naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${cite\{\}}} of \texttt{$\backslash${citep\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\TeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin, gebruik je \texttt{$\backslash${}cite\{\}}.
-Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backslash${}citep\{\}}. Hieronder een voorbeeld van elk.
-
-\cite{Knuth1998} schreef een van de standaardwerken over sorteer- en zoekalgoritmen. Experten zijn het erover eens dat cloud computing een interessante opportuniteit vormen, zowel voor gebruikers als voor dienstverleners op vlak van informatietechnologie~\citep{Creeger2009}.
+%% Je verwijst bij elke bewering die je doet, vakterm die je introduceert, enz. naar je bronnen. In \LaTeX{} kan dat met het commando \texttt{$\backslash${cite\{\}}} of \texttt{$\backslash${citep\{\}}}. Als argument van het commando geef je de ``sleutel'' van een ``record'' in een bibliografische databank in het Bib\TeX{}-formaat (een tekstbestand). Als je expliciet naar de auteur verwijst in de zin, gebruik je \texttt{$\backslash${}cite\{\}}.
+%% Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backslash${}citep\{\}}. Hieronder een voorbeeld van elk.
 
 \section{Stand van zaken}
 \label{sec:stand-van-zaken}
 
 %% TODO: deze sectie (die je kan opsplitsen in verschillende secties) bevat je
 %% literatuurstudie. Vergeet niet telkens je bronnen te vermelden!
+Momenteel zijn er in de vakliteratuur artikelen te vinden over een vergelijkende studie tussen mobiele applicatie
+en responsive webapplicaties. Meeste onderzoeken zijn echter beperkt tot een lijst van kenmerken wanneer men welke optie
+het best kiest, zonder dat hier wetenschappelijk onderzoek aan vooraf ging.
 
-\lipsum[7-20]
+Toch zijn deze wetenschappelijke artikelen beschikbaar. Zo onderzochten Paulo R. M. de Andrade en Adriano B. Albuquerque
+in het artikel "CROSS PLATFORM APP A COMPARATIVE STUDY" ~\autocite{paulor.m.deandradeandrianob.albuquerque2015}
+de voornaamste reden om te kiezen voor enerzijds de mobiele applicatie en anderzijds de responsive website.
+
+De belangrijkste redenen uit het onderzoek om te kiezen voor een cross-platform mobiele applicatie zijn de volgende:
+\begin{itemize}
+  \item{Performantie}
+  \item{User Interfaces in de lijn van het besturingssysteem}
+  \item{Distributie via de app stores}
+  \item{Push notificaties}
+\end{itemize}
+
+In de vakliteratuur haalt men voor de hoofdzakelijkste redenen om te kiezen voor een responsive webapplicatie, de volgende aan:
+\begin{itemize}
+  \item{Eenvoudige ondersteuning voor meerdere systemen}
+  \item{Het publiceren van de toepassing}
+\end{itemize}
+
 
 \section{Probleemstelling en Onderzoeksvragen}
 \label{sec:onderzoeksvragen}
@@ -31,8 +49,57 @@ Soms wil je de auteur niet expliciet vernoemen, dan gebruik je \texttt{$\backsla
 %% onderzoeksvra(a)g(en). Een onderzoeksvraag is trouwens iets waar nog
 %% niemand op dit moment een antwoord heeft (voor zover je kan nagaan).
 
+Momenteel worden er bij de ICT-afdeling van de Gentse Politie aan verschillende projecten gewerkt waarbij het
+mobiel beschikbaar maken van interne gegevens een vereiste is.
+Om dit naar een gebruiksklaar eindproduct voor een mobiel apparaat om te zetten, bestaan er vandaag de twee opties.
+
+Enerzijds kan er gekozen worden voor een cross-platform mobiele applicatie.
+Dit houdt in dat men binnen 1 ontwikkelomgeving een applicatie ontwikkelt die bruikbaar is op de
+3 grote mobiele platformen Android van Google, iOS van Apple en windowsphone of
+Windows Universal Platform van Microsoft.
+Hierbij wordt er code gedeeld tussen de 3 platformen.
+
+Het weergeven van de data gebeurd op een platform-specifieke manier.
+Dit om men binnen de verschillende mobiele besturingssystemen werkt met andere UI elementen om de data in te tonen.
+
+Anderzijds bestaat de mogelijkheid om te kiezen voor een responsive webapplicatie.
+Dit wil zeggen dat de inhoud van de webapplicatie aangepast wordt,
+ naargelang het scherm waarbij men de mobiele website bekijkt.
+Zo wordt er op een smartphone mogelijks minder informatie weergegeven dan indien men de website bekijk op een computer of
+wordt in het geval van de smartphone de positie en afmetingen van de elementen aangepast.
+
+In dit werk wordt onderzocht in welke gevallen de webapplicatie de beste optie is alsook in welke gevallen de mobiele applicatie
+een beter alternatief vormt.
+
+Hierbij zullen volgende onderzoeksvragen beantwoord worden:
+\begin{itemize}
+  \item{Bij welke vorm van applicatie wordt het snelst resultaat behaald?}
+  \item{Welke optie is het meest gebruiksvriendelijk?}
+  \item{Welke optie is het efficiënst?}
+  \begin{itemize}
+    \item{Welke optie verbruikt de meeste hoeveelheid gegevens?}
+    \item{Welke optie geeft de eindgebruiker het snelst de gevraagd informatie}
+  \end{itemize}
+  \item{Welke optie is het veiligst?}
+  \item{Welke optie kan het snelst ontwikkeld worden?}
+\end{itemize}
 \section{Opzet van deze bachelorproef}
 \label{sec:opzet-bachelorproef}
+
+In functie van de snelheid van de ontwikkeling van beide producten, moet er een ontwikkelomgeving gekozen worden.
+Om een cross-platform mobiele applicatie te ontwikkelen, bestaat de keuze uit 2 technologieën. Enerzijds zijn er
+ontwikkelomgeving met C\# als achterliggende programmeertaal. Hierbij wordt de UI gedefinieërd in xml voor Android,
+xaml van windowsphone en Universal Windows Platform en storyboards voor iOS. Hierbij wordt de oorspronkelijke interactie
+en structuur van de UI en de logica van het mobiele besturingssysteem behouden. Visual Studio en Xamarin zijn 2 voorbeelden
+die gebaseerd zijn op deze technologie.
+
+Anderzijds kan men ook opteren voor een cross-platforme mobiele applicatie te bouwen op basis van html, css en javascript.
+Hierbij wordt er eerst een webservice van het te hosten project gemaakt, om vervolgens deze webservice op te starten in een emulator.
+
+In dit onderzoek zal gekozen worden voor de eerste manier van werken, nl. de ontwikkelomgeving met C\# als achterliggende
+programmeertaal.
+
+
 
 %% TODO: Het is gebruikelijk aan het einde van de inleiding een overzicht te
 %% geven van de opbouw van de rest van de tekst. Deze sectie bevat al een aanzet
@@ -45,4 +112,3 @@ In Hoofdstuk~\ref{ch:methodologie} wordt de methodologie toegelicht en worden de
 %% TODO: Vul hier aan voor je eigen hoofstukken, één of twee zinnen per hoofdstuk
 
 In Hoofdstuk~\ref{ch:conclusie}, tenslotte, wordt de conclusie gegeven en een antwoord geformuleerd op de onderzoeksvragen. Daarbij wordt ook een aanzet gegeven voor toekomstig onderzoek binnen dit domein.
-
