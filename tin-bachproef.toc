@@ -4,4 +4,13 @@
 \contentsline {section}{\numberline {1.2}Probleemstelling en Onderzoeksvragen}{5}{section.1.2}
 \contentsline {section}{\numberline {1.3}Opzet van deze bachelorproef}{5}{section.1.3}
 \contentsline {chapter}{\numberline {2}Methodologie}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}literatuuronderzoek}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}vastleggen casus}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Framework kiezen voor cross platforme mobiele applicatie}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Framework kiezen voor responsive webapplicatie}{7}{section.2.4}
+\contentsline {section}{\numberline {2.5}Opzetten REST api}{7}{section.2.5}
+\contentsline {section}{\numberline {2.6}Ontwikkelen cross platforme mobiele applicatie}{7}{section.2.6}
+\contentsline {section}{\numberline {2.7}Ontwikkelen responsive webapplicatie}{7}{section.2.7}
+\contentsline {section}{\numberline {2.8}Meten van gegevensverbruik bij cross platforme mobiele applicatie}{7}{section.2.8}
+\contentsline {section}{\numberline {2.9}Meten van gegevensverbruik bij responsive webapplicatie}{7}{section.2.9}
 \contentsline {chapter}{\numberline {3}Conclusie}{9}{chapter.3}
