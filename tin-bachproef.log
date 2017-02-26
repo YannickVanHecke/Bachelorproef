@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  8 FEB 2017 16:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  26 FEB 2017 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1178,48 +1178,60 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 14.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 15.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 15.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 16.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 16.
-Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 17.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 18.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 18.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 19.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 20.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 20.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 21.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 21.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 22.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 30.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 23.
+(babel)             in language  on input line 33.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 23.
-[7
+(babel)             in language  on input line 33.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 34.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 34.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 35.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 35.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 36.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 36.
 
-]) (./conclusie.tex
+Underfull \vbox (badness 3769) has occurred while \output is active []
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 37.
+ [7
+
+]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 37.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 37.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 37.
+ [8]) (./conclusie.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
@@ -1228,7 +1240,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
- [8]
+ [9]
 Hoofdstuk 3.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -1242,7 +1254,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 15.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 15.
-[9
+[10
 
 ]) (./tin-bachproef.bbl
 Package babel Info: Redefining dutch shorthand "|
@@ -1253,7 +1265,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 1.
- [10]
+ [11]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 7.
 )
@@ -1265,7 +1277,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 86.
- [11
+ [12
 
 ] (./tin-bachproef.lof)
 \tf@lof=\write5
@@ -1279,7 +1291,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 87.
- [12
+ [13
 
 ] (./tin-bachproef.lot)
 \tf@lot=\write6
@@ -1294,7 +1306,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 89.
- [13
+ [14
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
@@ -1302,22 +1314,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `tin-bachproef.out' has not changed.
-(rerunfilecheck)             Checksum: 2517A67FC0F27E04FA290FA0ACD2CAF4;1128.
+(rerunfilecheck)             Checksum: 2A3CBFD8DA63317A319F3C2AD98D6B9C;1127.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 10533 strings out of 493014
- 147654 string characters out of 6133350
- 344458 words of memory out of 5000000
+ 10534 strings out of 493014
+ 147661 string characters out of 6133350
+ 344459 words of memory out of 5000000
  13818 multiletter control sequences out of 15000+600000
  39821 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,11n,43p,970b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso12.pfb>
-Output written on tin-bachproef.pdf (16 pages, 191986 bytes).
+Output written on tin-bachproef.pdf (17 pages, 193610 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
+ 194 PDF objects out of 1000 (max. 8388607)
+ 167 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  126 words of extra memory for PDF output out of 10000 (max. 10000000)
 
