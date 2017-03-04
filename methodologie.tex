@@ -11,27 +11,40 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-\section{literatuuronderzoek}
-Ter voorbereiding van het onderzoek 
+\section{Literatuuronderzoek}
+Ter voorbereiding van deze vergelijkende studie werd er een literatuuronderzoek verricht.
+Dit hield in dat er op internet gezocht werd naar verschillende wetenschappelijke artikelen over voorgaande vergelijkende studies
+tussen cross platforme mobiele applicatie en responsive website. Dit literatuuronderzoek heeft al voornaamste reden het geven van
+een stand van zaken in
 
-\section{vastleggen casus}
+\section{Vastleggen casus}
 De eerste stap in het onderzoek naar de vergelijkende studie tussen een cross-platforme mobiele applicatie en een
-responsive website, is het vastleggen van de de casus. Dit bepaalt de functionele requirements van beide applicaties en
-gebeurde in overleg met de co-promotor.
+responsive website, was het vastleggen van de de casus. Dit bepaalde de functionele requirements van beide applicaties en
+gebeurde in overleg met de co-promotor. De casus omvatte een toepassing rond personeelsgegevens binnen de gentse politie.
+
 \section{Framework kiezen voor cross platform mobiele applicatie}
-Omdat vanuit de stage reeds gekozen werd voor de ontwikkelomgeving van Microsoft en hierdoor er reeds vooraf een vertrouwde
+Omdat vanuit de stage reeds gekozen werd voor de ontwikkelomgeving van Microsoft en dit hierdoor reeds een vertrouwde
 manier van werken was, heb ik gekozen om de cross platform mobiele applicatie te ontwikkelen met Visual Studio 2015.
 Hierbij wordt er gebruik gemaakt van een apart deelproject binnen de applicatie waarin code gemeenschappelijk wordt gemaakt voor
 de 3 platform-specifieke applicaties. Op deze manier kan men code hergebruiken, waardoor de efficiëntie van de geschreven code stijgt.
 
-
 \section{Framework kiezen voor responsive webapplicatie}
+Het framework, dat voor de responsive webapplicatie gebruikt werd, is het MVC-framework van Microsoft.
+Hierdoor kan de ontwikkeling van de webapplicatie ook in Visual Studio gebeuren, hetgeen voor de vergelijking van de ontwikkeltijd
+een eerlijker resultaat opleverde, dan wanneer men zich nog dient in te werken in nieuwe materie.
 
 \section{Opzetten REST api}
-
+Het opzetten van de REST api was de volgende stap in het onderzoeksproces. Aanvankelijk werd er gekozen om eerst de basisfunctionaliteiten te implementeren en
+pas nadien werd de authenticatie toegevoegd. Dit zorgt ervoor dat de data niet ongeoorloofd beschikbaar is voor derden.
+Hierbij dient men zich eerst te authenticeren aan de hand van de gebruikersnaam en het wachtwoord van het gebruikersaccount binnen de Politiezone Gent.
+Indien men zich succesvol geauthenticeerd heeft bij het domein aan de hand van de Active Directory, krijgt men van de REST api een token terug. De geldigheid van deze token kan men vrij kiezen.
+Deze token is verplicht bij te voegen bij alle requests die verstuurd worden naar de server.
+Het testen van de rest-api zal eerst gebeuren aan POSTMAN, een REST-client. Op deze manier is men zeker dat de REST-api correct werkt, alvorens over te gaan te het ontwikkelen van de mobiele applicatie.
 
 \section{Ontwikkelen cross platforme mobiele applicatie}
+
+
 \section{Ontwikkelen responsive webapplicatie}
+
 \section{Meten van gegevensverbruik bij cross platforme mobiele applicatie}
 \section{Meten van gegevensverbruik bij responsive webapplicatie}
-\lipsum[21-25]
