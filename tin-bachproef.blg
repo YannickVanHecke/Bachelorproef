@@ -5,32 +5,32 @@ The style file: apa.bst
 Database file #1: tin-bachproef.bib
 You've used 1 entry,
             1940 wiz_defined-function locations,
-            479 strings with 3913 characters,
-and the built_in function-call counts, 396 in all, are:
-= -- 37
-> -- 13
+            479 strings with 3882 characters,
+and the built_in function-call counts, 355 in all, are:
+= -- 33
+> -- 7
 < -- 1
-+ -- 4
-- -- 4
-* -- 36
-:= -- 72
++ -- 2
+- -- 2
+* -- 30
+:= -- 66
 add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 7
+change.case$ -- 6
 chr.to.int$ -- 1
 cite$ -- 1
 duplicate$ -- 14
 empty$ -- 29
-format.name$ -- 7
-if$ -- 76
+format.name$ -- 3
+if$ -- 68
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 1
 newline$ -- 8
 num.names$ -- 3
-pop$ -- 4
+pop$ -- 3
 preamble$ -- 1
-purify$ -- 7
+purify$ -- 6
 quote$ -- 0
 skip$ -- 12
 stack$ -- 0
