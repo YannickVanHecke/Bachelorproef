@@ -43,7 +43,7 @@ Indien men zich succesvol geauthenticeerd heeft bij het domein aan de hand van d
 Deze token is verplicht bij te voegen bij alle requests die verstuurd worden naar de server.
 Het testen van de REST api zal eerst gebeuren aan POSTMAN, een REST-client. Zo is men zeker dat de REST-api correct werkt, alvorens over te gaan te het ontwikkelen van de mobiele applicatie.
 
-\section{Ontwikkelen cross platforme mobiele applicatie}
+\section{De ontwikkeling van een cross platforme mobiele applicatie}
 Nadat het testen van de REST api voltooid is, begint de ontwikkeling van de cross platforme applicatie.
 Hierbij is het de bedoeling om de code die gemeenschappelijk is voor de 3 deelprojecten,
 nl. het ophalen van gegevens uit de webservice en deze op te slaan in een lokale databank, alsook het mappen naar objecten van deze gegevens
@@ -57,14 +57,22 @@ de gekozen ontwikkelomgeving.
 De volgende stap in deze vergelijkende studie tussen een cross platforme mobiele applicatie en responsive webapplicatie is het
 ontwikkelen van de responsive webapplicatie. Hierbij wordt dezelfde databank gebruikt die de webservice van de cross platforme
 mobiele applicatie. Verder wordt ook het domeinmodel van de webservice en de mobiele applicatie overgenomen. Hierna worden de controllers
-geïmplementeerd met authenticatie en authorisatie aan de hand van de Active Directory. Dit om vervolgens het responsive design van de webpagina's af te werken.
+geïmplementeerd met authenticatie en authorisatie aan de hand van de Active Directory.
+Dit om vervolgens het responsive design van de webpagina's af te werken.
 
 \section{Vergelijken van de tijd die nodig is om beide vormen van toepassingen te ontwikkelen}
 Wanneer beide vormen van de toepassing ontwikkeld zijn, zal er gekeken worden naar tijd die nodig was om deze tot stand te brengen.
 Dit is overigens een onderzoeksvraag van de casus en zal gebeuren aan de hand van een versiebeheersysteem.
-Hierbij de tijd tussen het verschil tussen de eerste en de laatste 
-commit zal berekend worden.
+Hierbij de tijd tussen het verschil tussen de eerste en de laatste commit zal berekend worden.
 
-\section{Meten van gegevensverbruik bij cross platforme mobiele applicatie}
+\section{Meten van gegevensverbruik}
+Het meten van de verbruikte hoeveelheid gegevens zal gebeuren door te bekijken van de Debugger tijdens het uitvoeren van beide
+applicaties. Dit zal een vooraf vast aantal keer gebeuren, hetzij eerst zonder en erna met caching van informatie.
+Nadien zal dit proces herhaalt worden bij de responsive website. Indien alle nodige gegevens verzamelt zijn, zal er een conclusie
+getrokken worden over welke vorm van applicatie het meest zuinig omgaat met het internetgebruik.
 
-\section{Meten van gegevensverbruik bij responsive webapplicatie}
+\section{Meten van gebruiksvriendelijkheid}
+Nadat het gegevensverbruik gemeten is, zal ook de gebruiksvriendelijkheid gemeten worden aan de hand van enkele vragen.
+
+
+\section{}
