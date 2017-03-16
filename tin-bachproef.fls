@@ -212,6 +212,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ts1-lmss12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT methodologie.tex
 INPUT methodologie.tex
+INPUT frameworkcrossplatformapp.tex
+INPUT frameworkcrossplatformapp.tex
 INPUT conclusie.tex
 INPUT conclusie.tex
 INPUT tin-bachproef.bbl
