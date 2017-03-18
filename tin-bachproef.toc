@@ -22,6 +22,8 @@
 \contentsline {section}{\numberline {3.3}Voordelen van de gekozen architectuur}{12}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Ontwikkeling}{12}{subsection.3.3.1}
 \contentsline {section}{\numberline {3.4}Nadelen van de gekozen architectuur}{12}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Kosten voor testen}{12}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Kosten voor publicatie}{12}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.1}Kosten}{12}{subsection.3.4.1}
+\contentsline {subsubsection}{Kosten voor de ontwikkeling}{12}{section*.3}
+\contentsline {subsubsection}{Kosten voor testen}{12}{section*.4}
+\contentsline {subsubsection}{Kosten voor publicatie}{13}{section*.5}
 \contentsline {chapter}{\numberline {4}Conclusie}{14}{chapter.4}
