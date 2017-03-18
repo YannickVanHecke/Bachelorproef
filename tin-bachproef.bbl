@@ -1,8 +1,16 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{Inc.}{2017}]{apple2017}
-Inc., A. (2017).
+\bibitem[\protect\astroncite{Google}{2017}]{getstartedwithpublishingandroiddevelopers2017}
+Google (2017).
+\newblock Get started with publishing | android developers.
+
+\bibitem[\protect\astroncite{Inc}{2017}]{appledeveloperprograms2017}
+Inc, A. (2017).
 \newblock Apple developer program.
+
+\bibitem[\protect\astroncite{Microsoft}{2017}]{registerasanappdeveloper2017}
+Microsoft (2017).
+\newblock Register as an app developer.
 
 \bibitem[\protect\astroncite{Paulo R. M.~de Andrade}{2015}]{albuquerque2015}
 Paulo R. M.~de Andrade, A. B.~A. (2015).

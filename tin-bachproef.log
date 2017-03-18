@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  18 MAR 2017 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  18 MAR 2017 18:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1320,7 +1320,7 @@ Package babel Info: Redefining dutch shorthand "~
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 10.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 18.
 )
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 86.
@@ -1371,18 +1371,18 @@ Package rerunfilecheck Info: File `tin-bachproef.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 10559 strings out of 493014
- 148011 string characters out of 6133350
- 343747 words of memory out of 5000000
- 13829 multiletter control sequences out of 15000+600000
+ 10567 strings out of 493014
+ 148429 string characters out of 6133350
+ 343799 words of memory out of 5000000
+ 13835 multiletter control sequences out of 15000+600000
  39821 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,11n,43p,970b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso12.pfb>
-Output written on tin-bachproef.pdf (19 pages, 196348 bytes).
+Output written on tin-bachproef.pdf (19 pages, 197795 bytes).
 PDF statistics:
- 250 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 47 named destinations out of 1000 (max. 500000)
+ 257 PDF objects out of 1000 (max. 8388607)
+ 227 compressed objects within 3 object streams
+ 49 named destinations out of 1000 (max. 500000)
  190 words of extra memory for PDF output out of 10000 (max. 10000000)
 
