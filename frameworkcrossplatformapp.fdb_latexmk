@@ -1,10 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1489687868 "frameworkcrossplatformapp.tex" "frameworkcrossplatformapp.pdf" "frameworkcrossplatformapp" 1489687868
+["pdflatex"] 1489858591 "frameworkcrossplatformapp.tex" "frameworkcrossplatformapp.pdf" "frameworkcrossplatformapp" 1489858591
+  "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1476533523 3873398 35fe88e70624a043a250b064776582e9 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
   "frameworkcrossplatformapp.aux" 1489687868 8 a94a2480d3289e625eea47cd1b285758 ""
-  "frameworkcrossplatformapp.tex" 1489687824 114 4e74941ca13fa4ba67b05eb5f8d59def ""
+  "frameworkcrossplatformapp.tex" 1489858587 5181 5e6ab9b634a6bfd52a7959df8c709d35 ""
   (generated)
-  "frameworkcrossplatformapp.pdf"
   "frameworkcrossplatformapp.log"
+  "frameworkcrossplatformapp.pdf"

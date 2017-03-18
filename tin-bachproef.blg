@@ -9,45 +9,54 @@ Warning--entry type for "getstartedwithpublishingandroiddevelopers2017" isn't st
 --line 37 of file tin-bachproef.bib
 Warning--entry type for "registerasanappdeveloper2017" isn't style-file defined
 --line 45 of file tin-bachproef.bib
-You've used 4 entries,
+Warning--entry type for "xcodeindemacappstore2017" isn't style-file defined
+--line 53 of file tin-bachproef.bib
+I was expecting a `,' or a `}'---line 54 of file tin-bachproef.bib
+ :     
+ :     author = "Apple Inc",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in xcodeindemacappstore2017
+Warning--empty year in xcodeindemacappstore2017
+You've used 5 entries,
             1940 wiz_defined-function locations,
-            489 strings with 4108 characters,
-and the built_in function-call counts, 1072 in all, are:
-= -- 105
+            490 strings with 4132 characters,
+and the built_in function-call counts, 1254 in all, are:
+= -- 122
 > -- 28
 < -- 4
 + -- 8
 - -- 8
-* -- 81
-:= -- 207
-add.period$ -- 9
-call.type$ -- 4
-change.case$ -- 24
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 44
-empty$ -- 74
+* -- 96
+:= -- 231
+add.period$ -- 10
+call.type$ -- 5
+change.case$ -- 28
+chr.to.int$ -- 5
+cite$ -- 8
+duplicate$ -- 54
+empty$ -- 92
 format.name$ -- 12
-if$ -- 197
+if$ -- 232
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 20
+newline$ -- 23
 num.names$ -- 12
-pop$ -- 15
+pop$ -- 25
 preamble$ -- 1
-purify$ -- 24
+purify$ -- 29
 quote$ -- 0
-skip$ -- 39
+skip$ -- 45
 stack$ -- 0
-substring$ -- 63
-swap$ -- 5
+substring$ -- 76
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 0
+type$ -- 30
+warning$ -- 2
 while$ -- 9
 width$ -- 0
-write$ -- 45
-(There were 3 warnings)
+write$ -- 51
+(There was 1 error message)

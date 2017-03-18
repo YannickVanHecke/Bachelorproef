@@ -15,6 +15,8 @@ als de code die verantwoordelijk is voor het ophalen van de data uit de REST-ser
 
 \label{sec:voordelenvandegekozenarchitectuur}
 \section{Voordelen van de gekozen architectuur}
+\subsection{Ontwikkeling}
+
 Het grote voordelen van de architectuur van de cross platforme mobiele applicatie, nl. specifieke deelprojecten voor de afzonderlijke
 mobiele besturingssystemen en het gemeenschappelijk stellen van bepaalde delen van de programmacode, heeft als voornaamste voordeel
 voor de ontwikkelaar dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, ervoor gekozen heeft om de structuur voor de
@@ -22,6 +24,18 @@ mobiele applicaties van de deelprojecten over te nemen van de oorspronkelijke st
 
 \label{sec:nadelenvandegekozenarchitectuur}
 \section{Nadelen van de gekozen architectuur}
+\subsection{Kosten voor testen}
+Voor een applicatie in de applicatiewinkel van een mobiel besturingssysteem terecht komt, dient deze eerst uitvoering getest te
+worden. Op deze manier kunnen de mogelijke fouten uit de software gehaald. Fouten in de applicatie kunnen ervoor zorgen dat de applicatie
+onverwacht beeïndigd wordt of vastloopt.
+Dit beeïndigen of vastlopen kan tot gevolg hebben dat de applicatie slechte reviews krijgt in de applicatiewinkels en bijgevolg minder downloads en inkomsten voor de ontwikkelaar opleveren.
+
+Indien men ervoor kiest om voor de drie grote platforme te ontwikkelen, heeft men naast de kost van de licentie voor Visual Studio of een ander ontwikkelomgeving,
+ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd is in combinatie met Xcode, de ontwikkelomgeving van Apple.
+Xcode is een IDE \footnote{Integrated Develop Environment} waarin men applicatie kan ontwikkelen voor iOS, macOS, tvOS en watchOS, de besturingssytemen voor respectievelijk iPhone en iPad,
+iMac en de macbook in alle versie, de Apple TV en de Apple Watch. De ontwikkelomgeving is gratis beschikbaar de App Store in macOS \cite{xcodeindemacappstore2017}. 
+
+\subsection{Kosten voor publicatie}
 De keerzijde van deze keuze is, dat men echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
 kunnen ontwikkelen. Zo moeten er nog steeds 3 applicaties ontwikkeld worden, hetzij wel in een afgeslankte versie.
 Dit in tegenstelling tot de responsive webapplicatie waarbij men maar 1 keer de gebruikersinterface dient te definiëren.
@@ -40,5 +54,3 @@ Aan de hand van de recensies die de gebruikers op de app, kan de ontwikkelaar de
 Indien men de applicatie wenst te publiceren in de 'Microsoft Marcketplaces' van \cite{registerasanappdeveloper2017}
  zoals de Windows Store, Office Store, Azure Marketplaces en nog meer aan te kondigen winkels, dient men voor een individueel account
  eenmalig ongeveer 19 Amerikaarse dollar te betalen aan Microsoft. Voor bedrijfsaccounts komt deze kost neer op +/- 99 dollar.
-
- 
