@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  16 MAR 2017 19:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  18 MAR 2017 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -961,7 +961,7 @@ LaTeX Info: Redefining \nameref on input line 49.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 56.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) <img/HG-beeldmerk-woordmerk.png, id=88, 557.2017pt x 611.4042pt>
+) <img/HG-beeldmerk-woordmerk.png, id=96, 557.2017pt x 611.4042pt>
 File: img/HG-beeldmerk-woordmerk.png Graphic file (type png)
  <use img/HG-beeldmerk-woordmerk.png>
 Package pdftex.def Info: img/HG-beeldmerk-woordmerk.png used on input line 56.
@@ -1270,9 +1270,28 @@ Package babel Info: Redefining dutch shorthand "|
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 3.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 11.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 10.
+(babel)             in language  on input line 11.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 17.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 17.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 22.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 22.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 22.
+[11
+
+]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 24.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 24.
 ) (./conclusie.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -1282,9 +1301,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 5.
- [11
-
-]
+ [12]
 Hoofdstuk 4.
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -1299,11 +1316,11 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 1.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 1.
- [12
+ [13
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 6.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 10.
 )
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 86.
@@ -1313,7 +1330,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 86.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 86.
- [13
+ [14
 
 ] (./tin-bachproef.lof)
 \tf@lof=\write5
@@ -1327,7 +1344,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 87.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 87.
- [14
+ [15
 
 ] (./tin-bachproef.lot)
 \tf@lot=\write6
@@ -1342,7 +1359,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 89.
- [15
+ [16
 
 ]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
@@ -1350,22 +1367,22 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
 Package rerunfilecheck Info: File `tin-bachproef.out' has not changed.
-(rerunfilecheck)             Checksum: 4F2F2507C06168C9D255FBA65C7206C5;1560.
+(rerunfilecheck)             Checksum: 9F86B6E635D6CE3D22F4ABDAF9D7C348;1782.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 10547 strings out of 493014
- 147761 string characters out of 6133350
- 343527 words of memory out of 5000000
- 13821 multiletter control sequences out of 15000+600000
+ 10559 strings out of 493014
+ 148011 string characters out of 6133350
+ 343747 words of memory out of 5000000
+ 13829 multiletter control sequences out of 15000+600000
  39821 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  31i,11n,43p,970b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso12.pfb>
-Output written on tin-bachproef.pdf (18 pages, 192735 bytes).
+Output written on tin-bachproef.pdf (19 pages, 196348 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 43 named destinations out of 1000 (max. 500000)
- 174 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

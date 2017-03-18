@@ -1,10 +1,36 @@
 \chapter{Framework cross platforme mobiele applicatie}
 \label{ch:frameworkcrossplatformapp}
-\section{2 grote categorieën}
+\section{Twee grote categorieën}
 Ter voorbereiding naar het vergelijkende onderzoek tussen enerzijds de cross platforme mobiele applicatie en anderzijds de
 responsive website, is er voor beide mogelijke manier gezocht om deze vormen van applicaties te ontwikkelen. Voor de cross-platforme
 mobiele applicatie zijn deze mogelijke vormen enerzijds een methode die zeer sterk aansluit bij het ontwikkelen van html-website.
 Hierbij wordt de html code in combinatie met css voor de opmaak en JavaScript voor de logica door de compiler omgezet naar een cross-
-plaforme mobiele applicatie. Op deze manier wordt er gedurende dit werk niet verder op ingegaan.
+plaforme mobiele applicatie. Op deze laatste manier wordt er gedurende dit werk niet verder op ingegaan.
 
-\section{}
+\label{sec:architectuurvandecrossplatformemobieleapplicatie}
+\section{Architectuur van de cross platform mobiele applicatie}
+Voor de opbouw van de cross platforme mobiele applicatie is er geopteerd voor een architectuur waarbij men zoveel mogelijk
+code gemeenschappelijk kan hergebruiken. Concreet houdt dit in de men in het Shared-project zowel de definitie van de domeinklassen,
+als de code die verantwoordelijk is voor het ophalen van de data uit de REST-service en de mapping definieërt.
+
+\label{sec:voordelenvandegekozenarchitectuur}
+\section{Voordelen van de gekozen architectuur}
+Het grote voordelen van de architectuur van de cross platforme mobiele applicatie, nl. specifieke deelprojecten voor de afzonderlijke
+mobiele besturingssystemen en het gemeenschappelijk stellen van bepaalde delen van de programmacode, heeft als voornaamste voordeel
+voor de ontwikkelaar dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, ervoor gekozen heeft om de structuur voor de
+mobiele applicaties van de deelprojecten over te nemen van de oorspronkelijke structuur van de Android-, iOS- en windowsphone-applicatie.
+
+\label{sec:nadelenvandegekozenarchitectuur}
+\section{Nadelen van de gekozen architectuur}
+De keerzijde van deze keuze is, dat men echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
+kunnen ontwikkelen. Zo moeten er nog steeds 3 applicaties ontwikkeld worden, hetzij wel in een afgeslankte versie.
+Dit in tegenstelling tot de responsive webapplicatie waarbij men maar 1 keer de gebruikersinterface dient te definiëren.
+
+Verder dient ook men ook de applicatie voor elk mobiel besturingssysteem te publiceren in de appstores van de verschillende
+mobiele besturingssystemen. Zo dient men voor de publicatie in de App Store van Apple zich eerst inschrijven voor het
+Apple Developer Program van \cite{appledeveloperprograms2017} . Deze inschrijving kost 99 Amerikaanse dollar per jaar. Verder kunnen bedrijven of organisaties
+zich hier ook bij aansluiten, om zo meerdere ontwikkelaars aan te laten sluiten op 1 ontwikkelaarsaccount voor de App Store.
+Dit bespaart uiteraard op de kosten.
+
+Voor Android dient men bij de publicatie van de app \cite{getstartedwithpublishingandroiddevelopers2017} eenmalig 25 Amerikaanse dolar betalen voor de inschrijving.
+Overigens zijn er 
