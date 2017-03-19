@@ -15,23 +15,27 @@ als de code die verantwoordelijk is voor het ophalen van de data uit de REST-ser
 
 \label{sec:voordelenvandegekozenarchitectuur}
 \section{Voordelen van de gekozen architectuur}
-\subsection{Ontwikkeling}
-
+\subsection{Ontwikkeling en project structuur}
 Het grote voordelen van de architectuur van de cross platforme mobiele applicatie, nl. specifieke deelprojecten voor de afzonderlijke
 mobiele besturingssystemen en het gemeenschappelijk stellen van bepaalde delen van de programmacode, heeft als voornaamste voordeel
 voor de ontwikkelaar dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, ervoor gekozen heeft om de structuur voor de
 mobiele applicaties van de deelprojecten over te nemen van de oorspronkelijke structuur van de Android-, iOS- en windowsphone-applicatie.
-
+Deze manier van werken vereenvoudigd de overstap van de oorspronkelijke ontwikkeling, Android Studio voor Android en xcode voor iOS, naar Visual Studio.
+Ook de syntax van de code van de deelprojecten werd hierbij overgenomen en vertaald naar C\#.
+\subsection{User Interface}
 \label{sec:nadelenvandegekozenarchitectuur}
 \section{Nadelen van de gekozen architectuur}
-\subsection{Kosten}
+
+\label{sec:Kosten}
+\section{Kosten}
 De ontwikkeling van een cross platforme mobiele applicatie is een project waaraan de nodige kosten verbonden zijn.
 Hieronder volgt een oplijsten van de kosten per fase in het softwareontwikkelingsproces.
-\subsubsection{Kosten voor de ontwikkeling}
-Reeds bij de ontwikkeling van de cross platforme mobiele applicatie zijn er de nodige kosten. Zou dient men een licentie op een ontwikkelomgeving
-aan de schaffen.  
 
-\subsubsection{Kosten voor testen}
+\subsubsection{Kosten voor de ontwikkeling}
+Reeds bij de ontwikkeling van de cross platforme mobiele applicatie zijn mogelijks kosten. Zo dient men een licentie op een ontwikkelomgeving
+aan de schaffen.
+
+\subsection{Kosten voor testen}
 Voor een applicatie in de applicatiewinkel van een mobiel besturingssysteem terecht komt, dient deze eerst uitvoering getest te
 worden. Op deze manier kunnen de mogelijke fouten uit de software gehaald. Fouten in de applicatie kunnen ervoor zorgen dat de applicatie
 onverwacht beeïndigd wordt of vastloopt.
@@ -42,7 +46,7 @@ ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd 
 Xcode is een IDE \footnote{Integrated Develop Environment} waarin men applicatie kan ontwikkelen voor iOS, macOS, tvOS en watchOS, de besturingssytemen voor respectievelijk iPhone en iPad,
 iMac en de macbook in alle versie, de Apple TV en de Apple Watch. De ontwikkelomgeving is gratis beschikbaar de App Store in macOS \cite{xcodeindemacappstore2017}.
 
-\subsubsection{Kosten voor publicatie}
+\subsection{Kosten voor publicatie}
 De keerzijde van deze keuze is, dat men echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
 kunnen ontwikkelen. Zo moeten er nog steeds 3 applicaties ontwikkeld worden, hetzij wel in een afgeslankte versie.
 Dit in tegenstelling tot de responsive webapplicatie waarbij men maar 1 keer de gebruikersinterface dient te definiëren.

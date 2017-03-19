@@ -19,7 +19,17 @@
 \BOOKMARK [1][-]{section.3.1}{Twee grote categorie\353n}{chapter.3}% 19
 \BOOKMARK [1][-]{section.3.2}{Architectuur van de cross platform mobiele applicatie}{chapter.3}% 20
 \BOOKMARK [1][-]{section.3.3}{Voordelen van de gekozen architectuur}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.3.1}{Ontwikkeling}{section.3.3}% 22
-\BOOKMARK [1][-]{section.3.4}{Nadelen van de gekozen architectuur}{chapter.3}% 23
-\BOOKMARK [2][-]{subsection.3.4.1}{Kosten}{section.3.4}% 24
-\BOOKMARK [0][-]{chapter.4}{Conclusie}{}% 25
+\BOOKMARK [2][-]{subsection.3.3.1}{Ontwikkeling en project structuur}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.2}{User Interface}{section.3.3}% 23
+\BOOKMARK [1][-]{section.3.4}{Nadelen van de gekozen architectuur}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.5}{Kosten}{chapter.3}% 25
+\BOOKMARK [2][-]{subsection.3.5.1}{Kosten voor testen}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.2}{Kosten voor publicatie}{section.3.5}% 27
+\BOOKMARK [0][-]{chapter.4}{Ontwikkeling cross platforme mobiele applicatie}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Analyse van het project}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{Ontwikkeling van de ASP.NET MVC Web api}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{Ontwikkeling van de cross platforme mobiele applicatie}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.3.1}{Android}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.2}{iOS}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.3}{windowsphone}{section.4.3}% 34
+\BOOKMARK [0][-]{chapter.5}{Conclusie}{}% 35
