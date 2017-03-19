@@ -34,4 +34,5 @@
 \contentsline {subsection}{\numberline {4.3.1}Android}{15}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}iOS}{15}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}windowsphone}{15}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Conclusie}{16}{chapter.5}
+\contentsline {chapter}{\numberline {5}Framework responsive website}{16}{chapter.5}
+\contentsline {chapter}{\numberline {6}Conclusie}{17}{chapter.6}
