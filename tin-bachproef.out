@@ -23,19 +23,20 @@
 \BOOKMARK [2][-]{subsection.3.3.2}{User Interface}{section.3.3}% 23
 \BOOKMARK [1][-]{section.3.4}{Nadelen van de gekozen architectuur}{chapter.3}% 24
 \BOOKMARK [1][-]{section.3.5}{Kosten}{chapter.3}% 25
-\BOOKMARK [2][-]{subsection.3.5.1}{Kosten voor testen}{section.3.5}% 26
-\BOOKMARK [2][-]{subsection.3.5.2}{Kosten voor publicatie}{section.3.5}% 27
-\BOOKMARK [0][-]{chapter.4}{Ontwikkeling cross platforme mobiele applicatie}{}% 28
-\BOOKMARK [1][-]{section.4.1}{Analyse van het project}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.2}{Ontwikkeling van de ASP.NET MVC Web api}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.3}{Ontwikkeling van de cross platforme mobiele applicatie}{chapter.4}% 31
-\BOOKMARK [2][-]{subsection.4.3.1}{Android}{section.4.3}% 32
-\BOOKMARK [2][-]{subsection.4.3.2}{iOS}{section.4.3}% 33
-\BOOKMARK [2][-]{subsection.4.3.3}{windowsphone}{section.4.3}% 34
-\BOOKMARK [0][-]{chapter.5}{Framework responsive website}{}% 35
-\BOOKMARK [0][-]{chapter.6}{Ontwikkeling responsive website}{}% 36
-\BOOKMARK [1][-]{section.6.1}{De domeinlaag}{chapter.6}% 37
-\BOOKMARK [1][-]{section.6.2}{Opzetten van de database}{chapter.6}% 38
-\BOOKMARK [1][-]{section.6.3}{Controller voor het tonen van de views}{chapter.6}% 39
-\BOOKMARK [1][-]{section.6.4}{Koppeling met Asp Mvc Web api}{chapter.6}% 40
-\BOOKMARK [0][-]{chapter.7}{Conclusie}{}% 41
+\BOOKMARK [2][-]{subsection.3.5.1}{Kosten voor de ontwikkeling}{section.3.5}% 26
+\BOOKMARK [2][-]{subsection.3.5.2}{Kosten voor testen}{section.3.5}% 27
+\BOOKMARK [2][-]{subsection.3.5.3}{Kosten voor publicatie}{section.3.5}% 28
+\BOOKMARK [0][-]{chapter.4}{Ontwikkeling cross platforme mobiele applicatie}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Analyse van het project}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Ontwikkeling van de ASP.NET MVC Web api}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.3}{Ontwikkeling van de cross platforme mobiele applicatie}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.3.1}{Android}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.2}{iOS}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.3}{windowsphone}{section.4.3}% 35
+\BOOKMARK [0][-]{chapter.5}{Framework responsive website}{}% 36
+\BOOKMARK [0][-]{chapter.6}{Ontwikkeling responsive website}{}% 37
+\BOOKMARK [1][-]{section.6.1}{De domeinlaag}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.2}{Opzetten van de database}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.3}{Controller voor het tonen van de views}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.4}{Koppeling met Asp Mvc Web api}{chapter.6}% 41
+\BOOKMARK [0][-]{chapter.7}{Conclusie}{}% 42
