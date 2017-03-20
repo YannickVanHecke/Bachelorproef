@@ -30,10 +30,14 @@
 \contentsline {chapter}{\numberline {4}Ontwikkeling cross platforme mobiele applicatie}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}Analyse van het project}{15}{section.4.1}
 \contentsline {section}{\numberline {4.2}Ontwikkeling van de ASP.NET MVC Web api}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}Ontwikkeling van de cross platforme mobiele applicatie}{15}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Android}{15}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}iOS}{15}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}windowsphone}{15}{subsection.4.3.3}
-\contentsline {chapter}{\numberline {5}Framework responsive website}{16}{chapter.5}
-\contentsline {chapter}{\numberline {6}Ontwikkeling responsive website}{17}{chapter.6}
-\contentsline {chapter}{\numberline {7}Conclusie}{18}{chapter.7}
+\contentsline {section}{\numberline {4.3}Ontwikkeling van de cross platforme mobiele applicatie}{16}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Android}{16}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}iOS}{16}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}windowsphone}{16}{subsection.4.3.3}
+\contentsline {chapter}{\numberline {5}Framework responsive website}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}Ontwikkeling responsive website}{18}{chapter.6}
+\contentsline {section}{\numberline {6.1}De domeinlaag}{18}{section.6.1}
+\contentsline {section}{\numberline {6.2}Opzetten van de database}{18}{section.6.2}
+\contentsline {section}{\numberline {6.3}Controller voor het tonen van de views}{18}{section.6.3}
+\contentsline {section}{\numberline {6.4}Koppeling met Asp Mvc Web api}{18}{section.6.4}
+\contentsline {chapter}{\numberline {7}Conclusie}{19}{chapter.7}

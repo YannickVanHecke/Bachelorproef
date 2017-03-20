@@ -1,2 +1,19 @@
 \chapter{Ontwikkeling responsive website}
 \label{ch:ontwikkelingresponsivewebsite}
+\section{De domeinlaag}
+Als eerste stap in de ontwikkeling van de responsive website, is er geopteerd om het business-logica te implementeren.
+Concreet houdt dit in dat men de entiteiten in de werkelijke wereld omgezet naar klasse in de object-georiënteerd wereld.
+
+\section{Opzetten van de database}
+Entity Framework mapt de velden van deze objecten dan later naar kolommen in de verschillende database-tabellen. Overigens is het
+ook belangrijk te vemelden dat de databank pas wordt aangemaakt op het moment dat de eerste query naar de databank gestuurd wordt.
+
+\section{Controller voor het tonen van de views}
+
+
+\section{Koppeling met Asp Mvc Web api}
+Omdat ook in de responsive website-applicatie authenticatie en authorizatie aan de hand van tokens een vereiste is,
+dient er een koppeling te zijn tussen de responsive website enerzijds en anderzijds de web api, die tevens door de cross-platform
+mobiele applicatie gebruikt wordt.
+
+\

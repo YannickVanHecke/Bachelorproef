@@ -16,47 +16,61 @@ I was expecting a `,' or a `}'---line 54 of file tin-bachproef.bib
  :     author = "Apple Inc",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "inleidingtotjson" isn't style-file defined
+--line 61 of file tin-bachproef.bib
+I was expecting a `,' or a `}'---line 62 of file tin-bachproef.bib
+ :     
+ :     author = "Open source",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 70 of file tin-bachproef.bib
+ :     
+ :     author = "levelnis.co.uk",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in xcodeindemacappstore2017
+Warning--to sort, need author or key in inleidingtotjson
 Warning--empty year in xcodeindemacappstore2017
-You've used 5 entries,
+Warning--empty year in inleidingtotjson
+You've used 6 entries,
             1940 wiz_defined-function locations,
-            490 strings with 4132 characters,
-and the built_in function-call counts, 1254 in all, are:
-= -- 122
+            491 strings with 4148 characters,
+and the built_in function-call counts, 1436 in all, are:
+= -- 139
 > -- 28
 < -- 4
 + -- 8
 - -- 8
-* -- 96
-:= -- 231
-add.period$ -- 10
-call.type$ -- 5
-change.case$ -- 28
-chr.to.int$ -- 5
-cite$ -- 8
-duplicate$ -- 54
-empty$ -- 92
+* -- 111
+:= -- 255
+add.period$ -- 11
+call.type$ -- 6
+change.case$ -- 32
+chr.to.int$ -- 6
+cite$ -- 12
+duplicate$ -- 64
+empty$ -- 110
 format.name$ -- 12
-if$ -- 232
+if$ -- 267
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 23
+newline$ -- 26
 num.names$ -- 12
-pop$ -- 25
+pop$ -- 35
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 34
 quote$ -- 0
-skip$ -- 45
+skip$ -- 51
 stack$ -- 0
-substring$ -- 76
-swap$ -- 6
+substring$ -- 89
+swap$ -- 7
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 30
-warning$ -- 2
+type$ -- 36
+warning$ -- 4
 while$ -- 9
 width$ -- 0
-write$ -- 51
-(There was 1 error message)
+write$ -- 57
+(There were 3 error messages)
