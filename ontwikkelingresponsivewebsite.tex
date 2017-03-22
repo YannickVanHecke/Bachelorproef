@@ -2,18 +2,21 @@
 \label{ch:ontwikkelingresponsivewebsite}
 \section{De domeinlaag}
 Als eerste stap in de ontwikkeling van de responsive website, is er geopteerd om het business-logica te implementeren.
-Concreet houdt dit in dat men de entiteiten in de werkelijke wereld omgezet naar klasse in de object-georiënteerd wereld.
+Dit houdt in dat het opgebouwde domein uit de ASP.NET MVC Web api overgenomen werd in de responsive webapplicatie.
 
-\section{Opzetten van de database}
-Entity Framework mapt de velden van deze objecten dan later naar kolommen in de verschillende database-tabellen. Overigens is het
-ook belangrijk te vemelden dat de databank pas wordt aangemaakt op het moment dat de eerste query naar de databank gestuurd wordt.
+\section{Gebruiken van de bestaande database}
+Eens de ontwikkeling van de responsive webapplicatie afgerond is, word deze gekoppeld aan een reeds bestaande databank van de Gentse Politie.
+Op deze manier is de reeds aanwezige data direct bruikbaar in de ontwikkelde applicatie.
+
+Om dit tot een goed einde te brengen, wordt er in plaats van "Code-First" de ontwikkelstrategie "Database-First" toegepast in het project.
+Zo kan men de webapplicatie en de bestaande database makkelijker op elkaar afstemmen.
 
 \section{Controller voor het tonen van de views}
-
+De controllers hebben een dirigende rol binnen de toepassing, m.a.w. ze verwerken enkel aanvragen vanuit de views en vragen aan onderliggende
+klassen gegevens op uit de databank. Die gegevens worden later doorgegeven in de views, die op hun beurt de gegevens in een layout plaatsen om
+op een aangename manier weer te geven aan de gebruiker van de toepassing.
 
 \section{Koppeling met Asp Mvc Web api}
 Omdat ook in de responsive website-applicatie authenticatie en authorizatie aan de hand van tokens een vereiste is,
 dient er een koppeling te zijn tussen de responsive website enerzijds en anderzijds de web api, die tevens door de cross-platform
 mobiele applicatie gebruikt wordt.
-
-\
