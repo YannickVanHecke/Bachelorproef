@@ -12,13 +12,13 @@ is dat het makkelijk leesbaar/te genereren is voor/door toepassingen.
 \section{Ontwikkeling van de ASP.NET MVC Web api}
 De ASP.NET MVC Web api heeft in deze toepassing 2 functies. Enerzijds wordt de web api gebruikt om gebruikers zich te laten
 authenticeren bij het Active Directory domein van de Gentse Politie, anderzijds levert de web api de gegevens die binnen
-de applicatie nodig zijn voor de gebruikers.
-
-
-
+de applicatie nodig zijn voor de gebruikers. Deze authenticatie gebeurt aan de hand van tokens die een bepaalde tijd geldig zijn
+(in deze casus een week). Nadien moet de gebruiker zich opnieuw authenticeren aan de hand van de inloggegevens. Dit om opnieuw een
+token met geldigheid van 1 week te verkrijgen. De tokens zijn verplicht toe te voegen aan de request. In dit niet gebeurt stuurt
+de server een antwoord dat men geen toegang heeft tot de aangevraagde resources.
 
 \section{Ontwikkeling van de cross platforme mobiele applicatie}
-
-\subsection{Android}
-\subsection{iOS}
-\subsection{windowsphone}
+\subsection{Gedeelde code}
+\subsection{Code specifiek voor Android}
+\subsection{Code specifiek voor iOS}
+\subsection{Code specifiek voor windowsphone}
