@@ -19,4 +19,9 @@ op een aangename manier weer te geven aan de gebruiker van de toepassing.
 \section{Koppeling met Asp Mvc Web api}
 Omdat ook in de responsive website-applicatie authenticatie en authorizatie aan de hand van tokens een vereiste is,
 dient er een koppeling te zijn tussen de responsive website enerzijds en anderzijds de web api, die tevens door de cross-platform
-mobiele applicatie gebruikt wordt.
+mobiele applicatie gebruikt wordt. Deze koppeling is voorzien aan de server-side van de webapplicatie, die een api-request met
+de inloggegevens van de gebruiker verstuurd naar de web api van de mobiele applicatie. De access-token en vervaldatum worden
+opgeslagen door middel van een session. Bij elke request is het de bedoeling dat er wordt nagekeken aan de server-side of
+de token ingevuld is en of het tijdstip waarop de token vervalt niet in het verleden ligt. Indien dit het geval is, wordt
+de gebruiker omgeleid naar de inlogpagina, waar hij zich opnieuw dient te authenticeren aan de hand van de gebruikersnaam en
+wachtwoord uit de active directory.
