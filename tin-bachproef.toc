@@ -32,15 +32,30 @@
 \contentsline {section}{\numberline {4.2}Ontwikkeling van de ASP.NET MVC Web api}{15}{section.4.2}
 \contentsline {section}{\numberline {4.3}Ontwikkeling van de cross platforme mobiele applicatie}{16}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Gedeelde code}{16}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Code specifiek voor Android}{16}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Code specifiek voor iOS}{16}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Code specifiek voor windowsphone}{16}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.2}Platform specifieke code}{16}{subsection.4.3.2}
 \contentsline {chapter}{\numberline {5}Framework responsive website}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Architectuur van de responsive website}{17}{section.5.1}
+\contentsline {section}{\numberline {5.2}Voordelen van de gekozen architectuur}{17}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Ontwikkeling en project structuur}{17}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}User Interface}{17}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Nadelen van de gekozen architectuur}{17}{section.5.3}
+\contentsline {section}{\numberline {5.4}Kosten}{17}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Kosten voor de ontwikkeling}{17}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Kosten voor testen}{17}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Kosten voor publicatie}{17}{subsection.5.4.3}
 \contentsline {chapter}{\numberline {6}Ontwikkeling responsive website}{18}{chapter.6}
 \contentsline {section}{\numberline {6.1}De domeinlaag}{18}{section.6.1}
 \contentsline {section}{\numberline {6.2}Gebruiken van de bestaande database}{18}{section.6.2}
 \contentsline {section}{\numberline {6.3}Controller voor het tonen van de views}{18}{section.6.3}
 \contentsline {section}{\numberline {6.4}Koppeling met Asp Mvc Web api}{19}{section.6.4}
 \contentsline {chapter}{\numberline {7}Resultaten responsive website}{20}{chapter.7}
+\contentsline {section}{\numberline {7.1}Tijd die nodig is om de toepassing te ontwikkelen}{20}{section.7.1}
+\contentsline {section}{\numberline {7.2}Gebruiksvriendelijk van de responsive website}{20}{section.7.2}
+\contentsline {section}{\numberline {7.3}Snelheid van de applicatie}{20}{section.7.3}
+\contentsline {section}{\numberline {7.4}Gegevensverbruik van de responsive website}{20}{section.7.4}
 \contentsline {chapter}{\numberline {8}Resultaten cross platforme mobiele applicatie}{21}{chapter.8}
+\contentsline {section}{\numberline {8.1}Tijd die nodig is om de toepassing te ontwikkelen}{21}{section.8.1}
+\contentsline {section}{\numberline {8.2}Gebruiksvriendelijk van de cross platforme mobiele applicatie}{21}{section.8.2}
+\contentsline {section}{\numberline {8.3}Snelheid van de applicatie}{21}{section.8.3}
+\contentsline {section}{\numberline {8.4}Gegevensverbruik van de cross platforme mobiele applicate}{21}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusie}{22}{chapter.9}
