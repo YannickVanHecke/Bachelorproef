@@ -1,14 +1,22 @@
 \chapter{Framework responsive website}
 \label{ch:frameworkresponsivewebsite}
 \section{Architectuur van de responsive website}
-\label{sec:voordelenvandegekozenwebarchitectuur}
+De architectuur van de responsive webapplicatie is het ASP.NET MVC 5 framework van ~\cite{aspnetmvcoverview}.
+MVC is een combinatie van design patterns waarbij de business-logica, de user interface en de controllers de belangrijkste
+onderdelen zijn. De business-logica bestaat uit domein-objecten die op hun beurt de reële situatie waarbinnen de applicatie
+gebruikt wordt, weerspiegelt. Het voornaamste doel van het MVC-framework is een scheiding voorzien tussen het grafische
+onderdeel van de toepassing (de schermen), de business logica.
 \section{Voordelen van de gekozen architectuur}
-\subsection{Ontwikkeling en project structuur}
-\subsection{User Interface}
-\label{sec:nadelenvandegekozenwebarchitectuur}
+\begin{itemize}
+  \item Het beheren van complexe applicatie wordt, door de opdeling in Model, View en Controller, eenvoudiger.
+  \item Verbeterde ondersteuning voor Test Driven Development \footnote{Test Driven Development is een ontwikkelmethodologie waarbij voorafgaande aan de code eerst de testen geschreven worden. Hierdoor zijn de testen gebaseerd op de oorspronkelijke analyse in plaats van op de geschreven code}
+  \item Gecentraliseerde beheer van requests door middel van Front Controller Pattern.
+  \item Goede werking voor webapplicaties met grote ontwikkelteams, waarbij de controle over het applicatiegedrag een hoge vereiste is.
+\end{itemize}
 \section{Nadelen van de gekozen architectuur}
 
-\label{sec:webkosten}
+
+
 \section{Kosten}
 Ook voor de ontwikkeling voor de responsive website kunnen er kosten opduiken. Hieronder volgt een overzicht van de voornaamste
 kosten per fases in de ontwikkeling van de responsive website.

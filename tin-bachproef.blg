@@ -28,49 +28,51 @@ I was expecting a `,' or a `}'---line 70 of file tin-bachproef.bib
  :     author = "levelnis.co.uk",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "aspnetmvcoverview" isn't style-file defined
+--line 77 of file tin-bachproef.bib
 Warning--to sort, need author or key in xcodeindemacappstore2017
 Warning--to sort, need author or key in inleidingtotjson
 Warning--empty year in xcodeindemacappstore2017
 Warning--empty year in inleidingtotjson
-You've used 6 entries,
+You've used 7 entries,
             1940 wiz_defined-function locations,
-            491 strings with 4148 characters,
-and the built_in function-call counts, 1436 in all, are:
-= -- 139
-> -- 28
-< -- 4
-+ -- 8
-- -- 8
-* -- 111
-:= -- 255
-add.period$ -- 11
-call.type$ -- 6
-change.case$ -- 32
+            493 strings with 4185 characters,
+and the built_in function-call counts, 1675 in all, are:
+= -- 163
+> -- 35
+< -- 5
++ -- 11
+- -- 10
+* -- 128
+:= -- 302
+add.period$ -- 13
+call.type$ -- 7
+change.case$ -- 38
 chr.to.int$ -- 6
-cite$ -- 12
-duplicate$ -- 64
-empty$ -- 110
-format.name$ -- 12
-if$ -- 267
-int.to.chr$ -- 1
+cite$ -- 13
+duplicate$ -- 74
+empty$ -- 125
+format.name$ -- 15
+if$ -- 310
+int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 26
-num.names$ -- 12
-pop$ -- 35
+newline$ -- 30
+num.names$ -- 15
+pop$ -- 39
 preamble$ -- 1
-purify$ -- 34
+purify$ -- 40
 quote$ -- 0
-skip$ -- 51
+skip$ -- 59
 stack$ -- 0
-substring$ -- 89
-swap$ -- 7
+substring$ -- 101
+swap$ -- 8
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 42
 warning$ -- 4
-while$ -- 9
+while$ -- 11
 width$ -- 0
-write$ -- 57
+write$ -- 67
 (There were 3 error messages)
