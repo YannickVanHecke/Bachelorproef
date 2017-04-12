@@ -24,21 +24,29 @@ Deze manier van werken vereenvoudigd de overstap van de oorspronkelijke ontwikke
 Ook de syntax van de code van de deelprojecten werd hierbij overgenomen en vertaald naar C\#.
 
 \subsection{User Interface}
-
+Voor het definiëren van de user interface heeft microsoft besloten om te bestaande manier van werken over te nemen van de oorspronkelijke platformen, nl. Android, iOS en Universal Windows Platform.
+Dit brengt voor de ontwikkelaar zowel een voor- als nadeel met zich mee. Het voordeel hieraan is dat, indien men reeds mobiele applicatie voor Android, iOS en windowsphone kan ontwikkelen, men geen
+nieuwe opmaaktaal voor de user interface dient aan te leren. Het grote nadeel van deze manier is dat men 3 keer een UI moet definiëren,
+dit moet behorende code-behind.
 
 \label{sec:nadelenvandegekozenapparchitectuur}
 \section{Nadelen van de gekozen architectuur}
+\subsection{User Interface}
+Zoals eerder vermeld hierboven, brengt het gebruik van de standaard-methodologie van de 3 mobiele platformen een grotere hoeveelheid
+werk voor de ontwikkelaar met zich mee. Dit omdat Android, iOS en windowsphone elk hun eigen manier van UI te defiiniëren en deze niet hergebruikt kan worden.
 
-\label{sec:apposten}
-\section{Kosten}
+Voor het opvangen van de events van de UI kan men wel opteren om in de architectuur een facade te voorzien, waarnaar de oproepen van events uit de user interface gedelegeerd worden.
+Op deze manier beperkt de code in de klassen die de 
+\label{sec:appkosten}
+\subsection{Kosten}
 De ontwikkeling van een cross-platform mobiele applicatie is een project waaraan de nodige kosten verbonden zijn.
 Hieronder volgt een oplijsten van de kosten per fase in het softwareontwikkelingsproces.
 
-\subsection{Kosten voor de ontwikkeling}
+\subsubsection{Kosten voor de ontwikkeling}
 Reeds bij de ontwikkeling van de cross-platform mobiele applicatie zijn er mogelijks kosten. Zo dient men een licentie op een ontwikkelomgeving
 aan de schaffen. Indien men de ontwikkelomgeving kiest die voor dit onderzoek gebruikt werd, nl. Visual Studio 2015 Entreprise, komt dit momenteel
 
-\subsection{Kosten voor testen}
+\subsubsection{Kosten voor testen}
 Voor een applicatie in de applicatiewinkel van een mobiel besturingssysteem terecht komt, dient deze eerst uitvoering getest te
 worden. Op deze manier kunnen de mogelijke fouten uit de software gehaald. Fouten in de applicatie kunnen ervoor zorgen dat de applicatie
 onverwacht beeïndigd wordt of vastloopt.
@@ -49,7 +57,7 @@ ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd 
 Xcode is een IDE \footnote{Integrated Develop Environment} waarin men applicatie kan ontwikkelen voor iOS, macOS, tvOS en watchOS, de besturingssytemen voor respectievelijk iPhone en iPad,
 iMac en de macbook in alle versie, de Apple TV en de Apple Watch. De ontwikkelomgeving is gratis beschikbaar de App Store in macOS \cite{xcodeindemacappstore2017}.
 
-\subsection{Kosten voor publicatie}
+\subsubsection{Kosten voor publicatie}
 De keerzijde van deze keuze is, dat men echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
 kunnen ontwikkelen. Zo moeten er nog steeds 3 applicaties ontwikkeld worden, hetzij wel in een afgeslankte versie.
 Dit in tegenstelling tot de responsive webapplicatie waarbij men maar 1 keer de gebruikersinterface dient te definiëren.
