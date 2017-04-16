@@ -52,7 +52,6 @@
 \contentsline {section}{\numberline {6.4}Koppeling met Asp Mvc Web api}{22}{section.6.4}
 \contentsline {section}{\numberline {6.5}Vereiste tijd om de toepassing te ontwikkelen}{22}{section.6.5}
 \contentsline {section}{\numberline {6.6}Gegevensverbruik}{22}{section.6.6}
-\contentsline {section}{\numberline {6.7}}{22}{section.6.7}
 \contentsline {chapter}{\numberline {7}Resultaten responsive website}{23}{chapter.7}
 \contentsline {section}{\numberline {7.1}Tijd die nodig is om de toepassing te ontwikkelen}{23}{section.7.1}
 \contentsline {section}{\numberline {7.2}Gebruiksvriendelijk van de responsive website}{23}{section.7.2}
