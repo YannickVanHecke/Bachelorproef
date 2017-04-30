@@ -54,13 +54,12 @@
 \contentsline {section}{\numberline {6.6}Gegevensverbruik}{22}{section.6.6}
 \contentsline {chapter}{\numberline {7}Resultaten responsive website}{23}{chapter.7}
 \contentsline {section}{\numberline {7.1}Tijd die nodig is om de toepassing te ontwikkelen}{23}{section.7.1}
-\contentsline {section}{\numberline {7.2}Gebruiksvriendelijk van de responsive website}{23}{section.7.2}
+\contentsline {section}{\numberline {7.2}Gebruiksvriendelijkheid van de responsive website}{23}{section.7.2}
 \contentsline {section}{\numberline {7.3}Snelheid van de applicatie}{23}{section.7.3}
 \contentsline {section}{\numberline {7.4}Gegevensverbruik van de responsive website}{23}{section.7.4}
 \contentsline {chapter}{\numberline {8}Resultaten cross platforme mobiele applicatie}{24}{chapter.8}
 \contentsline {section}{\numberline {8.1}Tijd die nodig is om de toepassing te ontwikkelen}{24}{section.8.1}
-\contentsline {section}{\numberline {8.2}Gebruiksvriendelijk van de cross platforme mobiele applicatie}{24}{section.8.2}
+\contentsline {section}{\numberline {8.2}Gebruiksvriendelijkheid van de cross platforme mobiele applicatie}{24}{section.8.2}
 \contentsline {section}{\numberline {8.3}Snelheid van de applicatie}{24}{section.8.3}
-\contentsline {section}{\numberline {8.4}Gegevensverbruik van de cross platforme mobiele applicate}{24}{section.8.4}
-\contentsline {section}{\numberline {8.5}}{24}{section.8.5}
+\contentsline {section}{\numberline {8.4}Gegevensverbruik van de cross platforme mobiele applicatie}{24}{section.8.4}
 \contentsline {chapter}{\numberline {9}Conclusie}{25}{chapter.9}
