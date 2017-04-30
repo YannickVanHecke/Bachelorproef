@@ -24,7 +24,7 @@
 \contentsline {subsection}{\numberline {3.3.2}User Interface}{13}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Nadelen van de gekozen architectuur}{13}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}User Interface}{13}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Kosten}{13}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.2}Kosten}{14}{subsection.3.4.2}
 \contentsline {subsubsection}{Kosten voor de ontwikkeling}{14}{section*.3}
 \contentsline {subsubsection}{Kosten voor testen}{14}{section*.4}
 \contentsline {subsubsection}{Kosten voor publicatie}{14}{section*.5}
@@ -62,4 +62,5 @@
 \contentsline {section}{\numberline {8.2}Gebruiksvriendelijk van de cross platforme mobiele applicatie}{24}{section.8.2}
 \contentsline {section}{\numberline {8.3}Snelheid van de applicatie}{24}{section.8.3}
 \contentsline {section}{\numberline {8.4}Gegevensverbruik van de cross platforme mobiele applicate}{24}{section.8.4}
+\contentsline {section}{\numberline {8.5}}{24}{section.8.5}
 \contentsline {chapter}{\numberline {9}Conclusie}{25}{chapter.9}
