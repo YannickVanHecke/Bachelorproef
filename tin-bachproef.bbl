@@ -1,6 +1,6 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\astroncite{xco}{}]{xcodeindemacappstore2017}
+\bibitem[\protect\astroncite{xco}{}]{xcodemacappstore2017}
 
 
 \bibitem[\protect\astroncite{inl}{}]{inleidingtotjson}
@@ -21,8 +21,12 @@ Inc, A. (2017).
 Microsoft (2017a).
 \newblock Asp.net mvc overview.
 
-\bibitem[\protect\astroncite{Microsoft}{2017b}]{registerasanappdeveloper2017}
+\bibitem[\protect\astroncite{Microsoft}{2017b}]{buildappwithnativeuiusingxamarininvisualstudio}
 Microsoft (2017b).
+\newblock Build apps with native ui using xamarin in visual studio.
+
+\bibitem[\protect\astroncite{Microsoft}{2017c}]{registerasanappdeveloper2017}
+Microsoft (2017c).
 \newblock Register as an app developer.
 
 \bibitem[\protect\astroncite{Paulo R. M.~de Andrade}{2015}]{albuquerque2015}
