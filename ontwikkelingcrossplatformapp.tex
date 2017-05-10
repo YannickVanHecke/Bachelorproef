@@ -22,26 +22,93 @@ de server een antwoord dat men geen toegang heeft tot de aangevraagde resources.
 Om de applicaties op een zo efficiënte manier te ontwikkelen, wordt er code gedeeld tussen de deelprojecten van de 3 mobiele
 platformen. Concreet houdt dit in de code die nodig is voor het ophalen van de gegevens uit de webservice gemeenschappelijk
 gesteld wordt voor zowel het Android-, als het iOS- en Windowsphone-project. Ook het domeinmodel wordt gemeenschappelijk
-gedefinieërd voor de drie mobiele applicatie.
+gedefinieërd voor de drie mobiele applicaties.
 
 \subsubsection{Code om data op te halen uit de REST-api}
+
+%% Opdelen in kleinere stukken en deze kleine stukken uitleggen
+
 De code die absolute gedeeld word wegens efficientieredenen is de code om de data op te halen uit de REST-service.
 Hieronder vindt u het voorbeeld dat als basis diende voor de ontwikkeling van de cross platforme mobiele applicatie.
 De volledige code met uitgebereide stappen om dit voorbeeld te ontwikkelen is beschikbaar op \citep{buildappwithnativeuiusingxamarininvisualstudio}.
 
+Ter voorbereiding van de logica om data uit een REST-api op te halen hebben we een klasse nodig die de entiteit uit het
+domein van de toepassing voorziet. In dit geval gaat het om de klasse Persoon met onder andere de velden Voornaam, Familienaam, Geslacht.
+\begin{lstlisting}
+namespace MobileApp
+{
+  public class Persoon
+  {
+    public string Voornaam {get; set;}
+    public string Familienaam {get; set;}
+    public string Geslacht{get; set;}
+  }
+}
+\end{lstlisting}
+\newpage
+Nu de deze domeinklasse gedefinieërd is, kunnen we verdergaan met een klasse aan te maken voor het effictief ophalen van
+gegevens uit de REST-service. Hierbij is het belangrijk om op te merken dat deze code asynchroon op de main-thread van de
+applicatie word uitgevoerd. Voorlopig ziet de klasse er als volgt uit:
 \begin{lstlisting}
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Net.Http;
-
-namespace WeatherApp
+namespace MobileApp
 {
   public class DataService
   {
-    public async Task<dynamic> getData(string queryString)
+    public async Task<string> getData(string queryString)
     {
+
+    }
+  }
+}
+\end{lstlisting}
+Nu we de methode gedefinieërd hebben, kunnen we deze verder implementeren.
+Deze implementatie zal bestaan uit 2 delen. Enerzijds zal de data opgehaald uit de REST-api, anderzijds zal de opgehaald data
+omgevormd worden tot objecten van het type "Persoon". Dit type is hierboven reeds gedefinieërd.
+
+De volgende code die we toevoegen aan de klasse "DataService", is de code om de data als JSON binnen te halen.
+Hiervoor moet er eerst een instantie van de klasse HttpClient (uit de namespace System.Net.Http) aangemaakt worden.
+\begin{lstlisting}
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Net.Http;
+namespace MobileApp
+{
+  public class DataService
+  {
+    public async Task<string> getData(string queryString)
+    {
+      // een instantie van de klasse HttpClient aanmaken
       HttpClient client = new HttpClient();
-      var response = await client.GetAsync(queryString);
+    }
+  }
+}
+\end{lstlisting}
+Nu de instantie van HttpClient geinstanceerd is, kan deze gebruikt worden om data op te halen bij de webservice.
+Het ophalen van de data gebeurt aan de hand van onderstaande code:
+\begin{lstlisting}
+  using System.Threading.Tasks;
+  using Newtonsoft.Json;
+  using System.Net.Http;
+  namespace MobileApp
+  {
+    public class DataService
+    {
+      public async Task<string> getData(string queryString)
+      {
+        // een instantie van de klasse HttpClient aanmaken
+        HttpClient client = new HttpClient();
+
+        // data ophalen uit de webservice
+        Task<HttpResponseMessage> response = await client.GetAsync(queryString);
+      }
+    }
+  }
+\end{lstlisting}
+
+\begin{lstlisting}
 
       dynamic data = null;
       if (response != null)
@@ -50,9 +117,7 @@ namespace WeatherApp
         data = JsonConvert.DeserializeObject(json);
       }
       return data;
-    }
-  }
-}
+
 
 \end{lstlisting}
 \begin{lstlisting}
@@ -106,5 +171,7 @@ namespace WeatherApp
 
 \subsection{Platform specifieke code}
 De deelprojecten voor de drie mobiele applicaties bestaat enerzijds uit de definitie van de schermen voor de mobiele applicaties.
+Deze definitie gebeurt in xml voor Android, xaml voor windowsphone en storyboard voor iOS.
+
 Anderzijds is ook de code die de gebruikersevent van de GUI opvangen. In deze code wordt er vervolgens een request gestuurd naar
 de api voor authenticatie en data.
