@@ -15,7 +15,14 @@ authenticeren bij het Active Directory domein van de Gentse Politie, anderzijds 
 de applicatie nodig zijn voor de gebruikers. Deze authenticatie gebeurt aan de hand van tokens die een bepaalde tijd geldig zijn
 (in deze casus een week). Nadien moet de gebruiker zich opnieuw authenticeren aan de hand van de inloggegevens. Dit om opnieuw een
 token met geldigheid van 1 week te verkrijgen. De tokens zijn verplicht toe te voegen aan de request. In dit niet gebeurt stuurt
-de server een antwoord dat men geen toegang heeft tot de aangevraagde resources.
+de server een antwoord dat men geen toegang heeft tot de aangevraagde resources. De schematische voorstelling van deze techniek,
+kan u terugvinden op de volgende pagina.
+
+\begin{figure}[ht!]
+\centering
+\caption{Token-authenticatie met ASP.NET MVC Web api}
+\includegraphics[width=90mm]{./img/authentication.png}
+\end{figure}
 
 \section{Ontwikkeling van de cross platforme mobiele applicatie}
 \subsection{Gedeelde code}
@@ -45,7 +52,6 @@ namespace MobileApp
   }
 }
 \end{lstlisting}
-\newpage
 Nu de deze domeinklasse gedefinieërd is, kunnen we verdergaan met een klasse aan te maken voor het effictief ophalen van
 gegevens uit de REST-service. Hierbij is het belangrijk om op te merken dat deze code asynchroon op de main-thread van de
 applicatie word uitgevoerd. Voorlopig ziet de klasse er als volgt uit:
@@ -59,7 +65,7 @@ namespace MobileApp
   {
     public async Task<string> getData(string queryString)
     {
-
+      // Implementatie DataService.getData(string queryString)
     }
   }
 }
@@ -71,20 +77,13 @@ omgevormd worden tot objecten van het type "Persoon". Dit type is hierboven reed
 De volgende code die we toevoegen aan de klasse "DataService", is de code om de data als JSON binnen te halen.
 Hiervoor moet er eerst een instantie van de klasse HttpClient (uit de namespace System.Net.Http) aangemaakt worden.
 \begin{lstlisting}
-using System.Threading.Tasks;
-using Newtonsoft.Json;
-using System.Net.Http;
-namespace MobileApp
-{
-  public class DataService
-  {
-    public async Task<string> getData(string queryString)
-    {
+
+// import statements
+
+      // Implementatie DataService.getData(string queryString)
       // een instantie van de klasse HttpClient aanmaken
       HttpClient client = new HttpClient();
-    }
-  }
-}
+
 \end{lstlisting}
 Nu de instantie van HttpClient geinstanceerd is, kan deze gebruikt worden om data op te halen bij de webservice.
 Het ophalen van de data gebeurt aan de hand van onderstaande code:
@@ -101,6 +100,7 @@ Het ophalen van de data gebeurt aan de hand van onderstaande code:
         // een instantie van de klasse HttpClient aanmaken
         HttpClient client = new HttpClient();
 
+        //
         // data ophalen uit de webservice
         Task<HttpResponseMessage> response = await client.GetAsync(queryString);
       }

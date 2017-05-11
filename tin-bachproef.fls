@@ -248,6 +248,9 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT ontwikkelingcrossplatformapp.tex
 INPUT ontwikkelingcrossplatformapp.tex
+INPUT ./img/authentication.png
+INPUT ./img/authentication.png
+INPUT ./img/authentication.png
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/lm/t1lmtt.fd
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm

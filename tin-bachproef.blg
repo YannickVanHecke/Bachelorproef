@@ -32,18 +32,18 @@ Warning--entry type for "aspnetmvcoverview" isn't style-file defined
 --line 77 of file tin-bachproef.bib
 I was expecting a `,' or a `}'---line 86 of file tin-bachproef.bib
  :     
- :     title = "Pricing and Purching Options | Visual Studio",
+ :     author = "Microsoft",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "hasaspnetcorekilledwebforms" isn't style-file defined
---line 92 of file tin-bachproef.bib
-I was expecting a `,' or a `}'---line 93 of file tin-bachproef.bib
+--line 93 of file tin-bachproef.bib
+I was expecting a `,' or a `}'---line 94 of file tin-bachproef.bib
  :     
  :     title = "Has ASP.NET Core Killed Web Forms? - Stormpath User Identity API",
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "buildappwithnativeuiusingxamarininvisualstudio" isn't style-file defined
---line 99 of file tin-bachproef.bib
+--line 100 of file tin-bachproef.bib
 Warning--to sort, need author or key in xcodemacappstore2017
 Warning--to sort, need author or key in inleidingtotjson
 Warning--to sort, need author or key in hasaspnetcorekilledwebforms

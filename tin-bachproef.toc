@@ -52,7 +52,6 @@
 \contentsline {section}{\numberline {6.3}Controller voor het tonen van de views}{25}{section.6.3}
 \contentsline {section}{\numberline {6.4}Koppeling met Asp Mvc Web api}{26}{section.6.4}
 \contentsline {section}{\numberline {6.5}Vereiste tijd om de toepassing te ontwikkelen}{26}{section.6.5}
-\contentsline {section}{\numberline {6.6}Gegevensverbruik}{26}{section.6.6}
 \contentsline {chapter}{\numberline {7}Resultaten responsive website}{27}{chapter.7}
 \contentsline {section}{\numberline {7.1}Tijd die nodig is om de toepassing te ontwikkelen}{27}{section.7.1}
 \contentsline {section}{\numberline {7.2}Gebruiksvriendelijkheid van de responsive website}{27}{section.7.2}
