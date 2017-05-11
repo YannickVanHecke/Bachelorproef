@@ -22,12 +22,12 @@
 \contentsline {section}{\numberline {3.3}Voordelen van de gekozen architectuur}{13}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Ontwikkeling en project structuur}{13}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}User Interface}{13}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Nadelen van de gekozen architectuur}{13}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}User Interface}{13}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.4}Nadelen van de gekozen architectuur}{14}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}User Interface}{14}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Kosten}{14}{subsection.3.4.2}
 \contentsline {subsubsection}{Kosten voor de ontwikkeling}{14}{section*.3}
 \contentsline {subsubsection}{Kosten voor testen}{14}{section*.4}
-\contentsline {subsubsection}{Kosten voor publicatie}{14}{section*.5}
+\contentsline {subsubsection}{Kosten voor publicatie}{15}{section*.5}
 \contentsline {chapter}{\numberline {4}Ontwikkeling cross platforme mobiele applicatie}{16}{chapter.4}
 \contentsline {section}{\numberline {4.1}Analyse van het project}{16}{section.4.1}
 \contentsline {section}{\numberline {4.2}Ontwikkeling van de ASP.NET MVC Web api}{16}{section.4.2}
