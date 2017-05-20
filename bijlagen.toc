@@ -1,2 +1,3 @@
 \select@language {dutch}
-\contentsline {chapter}{\numberline {A}Broncode}{3}{appendix.A}
+\contentsline {chapter}{\numberline {A}Uitgebreide testresultaten voor de mobiele applicatie}{3}{appendix.A}
+\contentsline {subsection}{\numberline {A.0.1}Uitgebreide resultaten voor Android}{3}{subsection.A.0.1}
