@@ -3,6 +3,7 @@
 \contentsline {subsection}{\numberline {A.0.1}Resultaten voor het opstarten}{3}{subsection.A.0.1}
 \contentsline {subsubsection}{Resultaten voor Android}{3}{section*.2}
 \contentsline {subsubsection}{Uitgebereide resultaten voor windowsphone}{4}{section*.3}
-\contentsline {chapter}{\numberline {B}Uitgebreide testresultaten met betrekking tot gegevensverbruik}{5}{appendix.B}
-\contentsline {subsection}{\numberline {B.0.1}Uitgebreide resultaten voor Android}{5}{subsection.B.0.1}
-\contentsline {subsection}{\numberline {B.0.2}Uitgebereide resultaten voor windowsphone}{5}{subsection.B.0.2}
+\contentsline {subsection}{\numberline {A.0.2}Resultaten voor het inloggen}{5}{subsection.A.0.2}
+\contentsline {subsubsection}{Resultaten voor Android}{5}{section*.4}
+\contentsline {subsubsection}{Resultaten voor windowsphone}{5}{section*.5}
+\contentsline {chapter}{\numberline {B}Uitgebreide testresultaten met betrekking tot gegevensverbruik}{6}{appendix.B}
