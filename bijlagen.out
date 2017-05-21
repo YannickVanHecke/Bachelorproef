@@ -1,6 +1,14 @@
 \BOOKMARK [0][-]{appendix.A}{Uitgebreide testresultaten ivm de tijden}{}% 1
-\BOOKMARK [1][-]{subsection.A.0.1}{Resultaten voor het opstarten}{appendix.A}% 2
-\BOOKMARK [2][-]{subsection.A.0.2}{Resultaten voor het inloggen, gegevens ophalen en tonen}{subsection.A.0.1}% 3
-\BOOKMARK [0][-]{appendix.B}{Uitgebreide testresultaten met betrekking tot gegevensverbruik}{}% 4
-\BOOKMARK [1][-]{subsection.B.0.1}{Resultaten voor het inloggen}{appendix.B}% 5
-\BOOKMARK [2][-]{subsection.B.0.2}{Resultaten voor het ophalen en weergeven van de gegevens}{subsection.B.0.1}% 6
+\BOOKMARK [1][-]{section.A.1}{Resultaten voor het opstarten}{appendix.A}% 2
+\BOOKMARK [2][-]{subsection.A.1.1}{Resultaten voor Android}{section.A.1}% 3
+\BOOKMARK [2][-]{subsection.A.1.2}{Resultaten voor windowsphone}{section.A.1}% 4
+\BOOKMARK [1][-]{section.A.2}{Resultaten voor het inloggen, gegevens ophalen en tonen}{appendix.A}% 5
+\BOOKMARK [2][-]{subsection.A.2.1}{Resultaten voor Android}{section.A.2}% 6
+\BOOKMARK [2][-]{subsection.A.2.2}{Resultaten voor windowsphone}{section.A.2}% 7
+\BOOKMARK [0][-]{appendix.B}{Uitgebreide testresultaten met betrekking tot gegevensverbruik}{}% 8
+\BOOKMARK [1][-]{section.B.1}{Resultaten voor het inloggen}{appendix.B}% 9
+\BOOKMARK [2][-]{subsection.B.1.1}{Resultaten voor Android}{section.B.1}% 10
+\BOOKMARK [2][-]{subsection.B.1.2}{Resultaten voor windowsphone}{section.B.1}% 11
+\BOOKMARK [1][-]{section.B.2}{Resultaten voor het ophalen en weergeven van de gegevens}{appendix.B}% 12
+\BOOKMARK [2][-]{subsection.B.2.1}{Resultaten voor Android}{section.B.2}% 13
+\BOOKMARK [2][-]{subsection.B.2.2}{Resultaten voor windowsphone}{section.B.2}% 14
