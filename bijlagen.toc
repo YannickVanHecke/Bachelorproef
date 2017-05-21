@@ -2,8 +2,14 @@
 \contentsline {chapter}{\numberline {A}Uitgebreide testresultaten ivm de tijden}{3}{appendix.A}
 \contentsline {subsection}{\numberline {A.0.1}Resultaten voor het opstarten}{3}{subsection.A.0.1}
 \contentsline {subsubsection}{Resultaten voor Android}{3}{section*.2}
-\contentsline {subsubsection}{Uitgebereide resultaten voor windowsphone}{4}{section*.3}
-\contentsline {subsection}{\numberline {A.0.2}Resultaten voor het inloggen}{5}{subsection.A.0.2}
+\contentsline {subsubsection}{Resultaten voor windowsphone}{4}{section*.3}
+\contentsline {subsection}{\numberline {A.0.2}Resultaten voor het inloggen, gegevens ophalen en tonen}{5}{subsection.A.0.2}
 \contentsline {subsubsection}{Resultaten voor Android}{5}{section*.4}
-\contentsline {subsubsection}{Resultaten voor windowsphone}{5}{section*.5}
-\contentsline {chapter}{\numberline {B}Uitgebreide testresultaten met betrekking tot gegevensverbruik}{6}{appendix.B}
+\contentsline {subsubsection}{Resultaten voor windowsphone}{6}{section*.5}
+\contentsline {chapter}{\numberline {B}Uitgebreide testresultaten met betrekking tot gegevensverbruik}{7}{appendix.B}
+\contentsline {subsection}{\numberline {B.0.1}Resultaten voor het inloggen}{7}{subsection.B.0.1}
+\contentsline {subsubsection}{Resultaten voor Android}{7}{section*.6}
+\contentsline {subsubsection}{Resultaten voor windowsphone}{8}{section*.7}
+\contentsline {subsection}{\numberline {B.0.2}Resultaten voor het ophalen en weergeven van de gegevens}{9}{subsection.B.0.2}
+\contentsline {subsubsection}{Resultaten voor Android}{9}{section*.8}
+\contentsline {subsubsection}{Resultaten voor windowsphone}{10}{section*.9}
