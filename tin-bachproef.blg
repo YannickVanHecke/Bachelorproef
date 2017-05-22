@@ -13,37 +13,41 @@ Warning--entry type for "xcodemacappstore2017" isn't style-file defined
 --line 54 of file tin-bachproef.bib
 I was expecting a `,' or a `}'---line 55 of file tin-bachproef.bib
  :     
- :     author = "Apple Inc",
+ :     author = {Apple Inc},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "inleidingtotjson" isn't style-file defined
 --line 62 of file tin-bachproef.bib
 I was expecting a `,' or a `}'---line 63 of file tin-bachproef.bib
  :     
- :     author = "Open source",
+ :     author = {Open source},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 I was expecting a `,' or a `}'---line 71 of file tin-bachproef.bib
  :     
- :     author = "levelnis.co.uk",
+ :     author = {levelnis.co.uk},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "aspnetmvcoverview" isn't style-file defined
 --line 78 of file tin-bachproef.bib
 I was expecting a `,' or a `}'---line 87 of file tin-bachproef.bib
  :     
- :     author = "Microsoft",
+ :     author = {Microsoft},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "hasaspnetcorekilledwebforms" isn't style-file defined
 --line 94 of file tin-bachproef.bib
 I was expecting a `,' or a `}'---line 95 of file tin-bachproef.bib
  :     
- :     title = "Has ASP.NET Core Killed Web Forms? - Stormpath User Identity API",
+ :     title = {Has ASP.NET Core Killed Web Forms? - Stormpath User Identity API},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "buildappwithnativeuiusingxamarininvisualstudio" isn't style-file defined
 --line 101 of file tin-bachproef.bib
+You're missing a field part---line 126 of file tin-bachproef.bib
+ :     author = 
+ :              (Adobe Systems Inc.},
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in xcodemacappstore2017
 Warning--to sort, need author or key in inleidingtotjson
 Warning--to sort, need author or key in hasaspnetcorekilledwebforms
@@ -91,4 +95,4 @@ warning$ -- 6
 while$ -- 13
 width$ -- 0
 write$ -- 83
-(There were 5 error messages)
+(There were 6 error messages)

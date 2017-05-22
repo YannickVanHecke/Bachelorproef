@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  22 MAY 2017 11:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  22 MAY 2017 13:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1150,38 +1150,38 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 18.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 18.
-LaTeX Font Info:    Try loading font information for TS1+lmss on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 31.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 47.
+(babel)             in language  on input line 45.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 61.
+(babel)             in language  on input line 59.
  [5
 
 ]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 88.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 92.
+(babel)             in language  on input line 88.
  [6]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 89.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 93.
+(babel)             in language  on input line 89.
 ) (./methodologie.tex
 Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 5.
@@ -1318,7 +1318,7 @@ Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 25.
  [12
 
-] <./img/architecture.png, id=366, 405.515pt x 169.63374pt>
+] <./img/architecture.png, id=365, 405.515pt x 169.63374pt>
 File: ./img/architecture.png Graphic file (type png)
  <use ./img/architecture.png>
 Package pdftex.def Info: ./img/architecture.png used on input line 30.
@@ -1388,7 +1388,7 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 12.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 12.
-<./img/authentication.png, id=401, 264.99pt x 111.41624pt>
+<./img/authentication.png, id=400, 264.99pt x 111.41624pt>
 File: ./img/authentication.png Graphic file (type png)
  <use ./img/authentication.png>
 Package pdftex.def Info: ./img/authentication.png used on input line 24.
@@ -1750,10 +1750,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  33i,12n,43p,970b,1828s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtk10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tin-bachproef.pdf (36 pages, 332049 bytes).
+Output written on tin-bachproef.pdf (36 pages, 331956 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 636 compressed objects within 7 object streams
+ 693 PDF objects out of 1000 (max. 8388607)
+ 635 compressed objects within 7 object streams
  224 named destinations out of 1000 (max. 500000)
  472 words of extra memory for PDF output out of 10000 (max. 10000000)
 
