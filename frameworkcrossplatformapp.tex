@@ -20,21 +20,21 @@ De grote voordelen van de architectuur van de cross-platform mobiele applicatie 
 mobiele besturingssystemen en het gemeenschappelijk stellen van bepaalde delen van de programmacode. Dit biedt voor de ontwikkelaar
 als pluspunt dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, dat de oorspronkelijke project-structuur behouden blijft.
 
-Deze manier van werken vereenvoudigt de overstap van de oorspronkelijke ontwikkelingomgeving, nl. Android Studio voor Android en xcode voor iOS, naar Visual Studio.
+Deze manier van werken vereenvoudigt de overstap van de oorspronkelijke ontwikkelingomgevingen, nl. Android Studio voor Android en xcode voor iOS, naar Visual Studio.
 Ook de syntax van de code van de deelprojecten werd hierbij overgenomen en vertaald naar C\#.
 
 De schematische voorstelling van de architectuur van de cross-platform mobiele applicatie ziet er schematisch als volgt uit:
 \begin{figure}[ht!]
 \centering
-\caption{Architectuur van de cross-platforme mobiele applicatie}
+\caption{Architectuur van de cross-platforme mobiele applicatie \cite{joshholmes2017}}
 \includegraphics[width=90mm]{./img/architecture.png}
 \end{figure}
 
 \subsection{User Interface}
-Voor het definiëren van de user interface heeft microsoft besloten om de bestaande manier van werken over te nemen van de oorspronkelijke platformen, nl. Android, iOS en Universal Windows Platform.
+Voor het definiëren van de user interface heeft Microsoft besloten om de bestaande manier van werken over te nemen van de oorspronkelijke platformen, nl. Android, iOS en Universal Windows Platform.
 Dit brengt voor de ontwikkelaar zowel een voor- als nadeel met zich mee. Het heeft als voordeel dat, indien men reeds mobiele applicatie voor Android, iOS en windowsphone kan ontwikkelen, men geen
 nieuwe opmaaktaal voor de user interface dient aan te leren. Het grote nadeel van deze manier is dat men 3 keer een UI moet definiëren,
-dit moet behorende code-behind.
+dit moet behorende code-behind voor het opvangen van de events uit de UI.
 
 \label{sec:nadelenvandegekozenapparchitectuur}
 \section{Nadelen van de gekozen architectuur}
@@ -42,7 +42,8 @@ dit moet behorende code-behind.
 Zoals eerder vermeld, brengt het gebruik van de standaard-methodologie van de 3 mobiele platformen een grotere hoeveelheid
 werk voor de ontwikkelaar met zich mee. Dit omdat Android, iOS en windowsphone elk hun eigen manier van UI te definiëren en deze niet hergebruikt kan worden.
 
-Voor het opvangen van de events van de UI kan men wel opteren om in de architectuur een facade te voorzien, waarnaar de oproepen van events uit de user interface gedelegeerd worden.
+Voor het opvangen van de events van de UI kan men wel opteren om in de architectuur een facade \footnote{Fasade Design Pattern \cite{dofactorycom2017}} te voorzien, waarnaar de oproepen van events uit de user interface gedelegeerd worden naar de facade.
+
 Op deze manier beperkt de code in de klassen die de events van de user interface opvangen tot het strikt noodzakelijke.
 \label{sec:appkosten}
 \subsection{Kosten}
@@ -59,7 +60,7 @@ Voor een applicatie in de applicatiewinkel van een mobiel besturingssysteem tere
 worden. Op deze manier worden de mogelijke fouten uit de software gehaald. Fouten in de applicatie kunnen ervoor zorgen dat de applicatie
 onverwacht beeïndigd wordt of vastloopt.
 Dit beeïndigen of vastlopen kan tot gevolg hebben dat de applicatie slechte reviews krijgt in de applicatiewinkels en bijgevolg minder downloads en inkomsten voor de ontwikkelaar oplevert.
-
+\newpage
 Indien men ervoor kiest om voor de drie grote platformen te ontwikkelen, heeft men naast de kost van de licentie voor Visual Studio of een ander ontwikkelomgeving,
 ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd is in combinatie met Xcode, de ontwikkelomgeving van Apple.
 Xcode is een IDE \footnote{Integrated Develop Environment} waarin men applicatie kan ontwikkelen voor iOS, macOS, tvOS en watchOS, de besturingssytemen voor respectievelijk iPhone en iPad,

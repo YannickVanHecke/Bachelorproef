@@ -260,12 +260,15 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmtk10.tfm
 INPUT frameworkresponsivewebsite.tex
 INPUT frameworkresponsivewebsite.tex
+INPUT ./img/mvc.png
+INPUT ./img/mvc.png
+INPUT ./img/mvc.png
 INPUT ontwikkelingresponsivewebsite.tex
 INPUT ontwikkelingresponsivewebsite.tex
-INPUT resultatenresponsivewebsite.tex
-INPUT resultatenresponsivewebsite.tex
 INPUT resultatencrossplatformapp.tex
 INPUT resultatencrossplatformapp.tex
+INPUT resultatenresponsivewebsite.tex
+INPUT resultatenresponsivewebsite.tex
 INPUT conclusie.tex
 INPUT conclusie.tex
 INPUT tin-bachproef.bbl

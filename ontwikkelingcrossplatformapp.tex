@@ -1,17 +1,16 @@
 \chapter{Ontwikkeling cross platforme mobiele applicatie}
 \label{ch:ontwikkelingcrossplatformapp}
 \section{Analyse van het project}
-Als start van het project werd er een analyse gemaakt van de co-promotor
-een analyse gemaakt van de functionele requirements.
+Als start van het project werd er een analyse gemaakt door de co-promotor van de functionele requirements.
 
-De analyse bestaat uit het sturen van een query naar de databank die draait in een webservice.
-Op deze manier worden de gegevens omgezet naar JSON \footnote{JavaScript Object Notation}, een gegevensformaat dat makkelijk
-leesbaar is voor toepassingen en vaak gebruikt wordt in webservice.  Het grote voordeel van JSON \citep{inleidingtotjson}
+Deze analyse bestaat uit het sturen van een query naar de databank die draait in een webservice.
+Op deze manier worden de gegevens omgezet naar JSON \footnote{De afkorting staat \cite{inleidingtotjson} staat voor JavaScript Object Notation}, een makkelijk genereerbaar gegevensformaat
+dat eenvoudig te lezen is voor toepassingen en vaak gebruikt wordt in webservice.  Het grote voordeel van JSON
 is dat het makkelijk leesbaar/te genereren is voor/door toepassingen.
 
 \section{Ontwikkeling van de ASP.NET MVC Web api}
-De ASP.NET MVC Web api heeft in deze toepassing 2 functies. Enerzijds wordt de web api gebruikt om gebruikers zich te laten
-authenticeren bij het Active Directory domein van de Gentse Politie, anderzijds levert de web api de gegevens die binnen
+De ASP.NET MVC Web api heeft in deze toepassing 2 functies. De REST API heeft als functie gebruikers zich te laten
+authenticeren bij het Active Directory domein van de Gentse Politie. Nadien levert de REST API de gegevens die binnen
 de applicatie nodig zijn voor de gebruikers. Deze authenticatie gebeurt aan de hand van tokens die een bepaalde tijd geldig zijn
 (in deze casus een week). Nadien moet de gebruiker zich opnieuw authenticeren aan de hand van de inloggegevens. Dit om opnieuw een
 token met geldigheid van 1 week te verkrijgen. De tokens zijn verplicht toe te voegen aan de request. Indien dit niet gebeurt, stuurt
@@ -29,18 +28,17 @@ kan u terugvinden op de volgende pagina.
 Om de applicaties zo efficiënt mogelijk te ontwikkelen, wordt er code gedeeld tussen de deelprojecten van de 3 mobiele
 platformen. Concreet gaat dit over de code die nodig is voor het ophalen van de gegevens uit de webservice gemeenschappelijk
 gesteld wordt voor zowel het Android-, als het iOS- en Windowsphone-project. Ook het domeinmodel wordt gemeenschappelijk
-gedefinieërd voor de drie mobiele applicaties.
+gedefinieërd voor de drie mobiele applicaties. In het project gebeurd dit door in ieder deelproject een referentie toe te voegen
+naar het gemeenschappelijke project.
 
 \subsubsection{Code om data op te halen uit de REST-api}
-
-%% Opdelen in kleinere stukken en deze kleine stukken uitleggen
-
 De code die absoluut gedeeld wordt wegens efficientiëredenen, is de code om de data op te halen uit de REST-service.
 Hieronder vindt u het voorbeeld dat als basis diende voor de ontwikkeling van de cross platforme mobiele applicatie.
 De volledige code met uitgebereide stappen om dit voorbeeld te ontwikkelen is beschikbaar op \citep{buildappwithnativeuiusingxamarininvisualstudio}.
 
 Ter voorbereiding van de logica om data uit een REST-api op te halen hebben we een klasse nodig die de entiteit uit het
 domein van de toepassing voorziet. In dit geval gaat het om de klasse Persoon met onder andere de velden Voornaam, Familienaam, Geslacht.
+\newpage
 \begin{lstlisting}
 namespace MobileApp
 {
@@ -48,7 +46,7 @@ namespace MobileApp
   {
     public string Voornaam {get; set;}
     public string Familienaam {get; set;}
-    public string Geslacht{get; set;}
+    public string Geslacht {get; set;}
   }
 }
 \end{lstlisting}
@@ -74,18 +72,12 @@ Nu we de methode gedefinieërd hebben, kunnen we deze verder implementeren.
 Deze implementatie zal bestaan uit 2 delen. In eerste instantie wordt de data opgehaald uit de REST-api, nadien zal de opgehaald data
 omgevormd worden tot objecten van het type "Persoon". Dit type is hierboven reeds gedefinieërd.
 
-De volgende code die we toevoegen aan de klasse "DataService", is de code om de data als JSON binnen te halen.
+De volgende code die we toevoegen aan de klasse "DataService" onder "// Implementatie DataService.getData(string queryString)", is de code om de data als JSON binnen te halen.
 Hiervoor moet er eerst een instantie van de klasse HttpClient (uit de namespace System.Net.Http) aangemaakt worden.
 \begin{lstlisting}
-
-// import statements
-
-      // Begin implementatie DataService.getData(string queryString)
-      // een instantie van de klasse HttpClient aanmaken
-      HttpClient client = new HttpClient();
-      // Eind implementatie DataService.getData(string queryString)
-
+  HttpClient client = new HttpClient();
 \end{lstlisting}
+\newpage
 Nu de instantie van HttpClient geïnstanceerd is, kan deze gebruikt worden om data op te halen bij de webservice.
 Het ophalen van de data gebeurt aan de hand van onderstaande code:
 \begin{lstlisting}

@@ -31,45 +31,50 @@ Hierbij wordt er gebruik gemaakt van een apart deelproject binnen de applicatie 
 de 3 platform-specifieke applicaties. Op deze manier kan men code hergebruiken, waardoor de efficiëntie van de geschreven code stijgt.
 
 \section{Framework kiezen voor responsive webapplicatie}
-Het framework, dat voor de responsive webapplicatie gebruikt werd, is het MVC-framework van Microsoft.
+Het framework, dat voor de responsive webapplicatie gebruikt werd, is het ASP MVC 5-framework van Microsoft.
 Hierdoor kan de ontwikkeling van de webapplicatie ook in Visual Studio gebeuren, hetgeen voor de vergelijking van de ontwikkeltijd
-een eerlijker resultaat opleverde, dan wanneer men zich nog dient in te werken in nieuwe materie.
+een eerlijker resultaat opleverde, dan wanneer men zich nog dient in te werken in een nieuwe technologie en ontwikkelomgeving.
 
-\section{Opzetten REST api}
-Het opzetten van de REST api was de volgende stap in het onderzoeksproces. Aanvankelijk werd ervoor gekozen om eerst de basisfunctionaliteiten te implementeren en
-pas nadien werd de authenticatie toegevoegd. Dit zorgt ervoor dat de data niet ongeoorloofd beschikbaar is voor derden.
+\section{Opzetten REST API}
+Het opzetten van de REST API was de volgende stap in het onderzoeksproces. Aanvankelijk werd ervoor gekozen om eerst de basisfunctionaliteiten te implementeren en
+pas nadien de authenticatie toe te voegen. Dit zorgt ervoor dat de data niet ongeoorloofd beschikbaar is voor derden.
 Hierbij dient men zich eerst te authenticeren aan de hand van de gebruikersnaam en het wachtwoord van het gebruikersaccount binnen de Politiezone Gent.
-Indien men zich succesvol geauthenticeerd heeft bij het domein aan de hand van de Active Directory, krijgt men van de REST api een token terug. De geldigheid van deze token kan men vrij kiezen.
+Indien men zich succesvol geauthenticeerd heeft bij het domein aan de hand van de Active Directory, krijgt men van de REST API een token terug. De geldigheid van deze token kan men vrij kiezen.
 Deze token is verplicht bij te voegen bij alle requests die verstuurd worden naar de server.
-Het testen van de REST api zal eerst gebeuren aan POSTMAN, een REST-client. Zo is men zeker dat de REST-api correct werkt, alvorens over te gaan te het ontwikkelen van de mobiele applicatie.
+Het testen van de REST API zal eerst gebeuren aan POSTMAN, een REST-client. Zo is men zeker dat de REST API correct werkt, alvorens over te gaan te het ontwikkelen van de mobiele applicatie.
 
 \section{De ontwikkeling van een cross platforme mobiele applicatie}
-Nadat het testen van de REST api voltooid is, begint de ontwikkeling van de cross platforme applicatie.
+Nadat het testen van de REST API voltooid is, begint de ontwikkeling van de cross platforme applicatie.
 Hierbij is het de bedoeling om de code die gemeenschappelijk is voor de 3 deelprojecten,
 nl. het ophalen van gegevens uit de webservice en deze op te slaan in een lokale databank, alsook het mappen naar objecten van deze gegevens
  af te zonderen van de platform-specifieke deelprojecten in een gemeenschappelijk deelproject.
- Op deze manier wordt de ontwikkeltijd gereduceerd ten opzichte van het ontwikkelen van 3 afzonderlijke applicaties.
-Het weergeven van de opgehaalde data wordt, samen met de ontwerp van de schermen voor de platforme-specifiek user interfaces,
-in de platform-specifieke projecten gecodeerd. Dit omdat er geen uniforme manier bestaat om de user interfaces te voorzien binnen
+ Op deze manier wordt de ontwikkeltijd gereduceerd ten opzichte van het ontwikkelen van 3 afzonderlijke mobiele applicaties.
+Het weergeven van de opgehaalde data wordt, samen met het ontwerp van de schermen voor de platforme-specifieke user interfaces,
+ staat in de platform-specifieke projecten gecodeerd. Dit omdat er geen uniforme manier bestaat om de data weer te geven voor de 3 besturingssystemen binnen
 de gekozen ontwikkelomgeving.
 
 \section{De Ontwikkeling van een responsive webapplicatie}
 De volgende stap in deze vergelijkende studie tussen een cross platforme mobiele applicatie en responsive webapplicatie, is het
 ontwikkelen van de responsive webapplicatie. Hierbij wordt dezelfde databank gebruikt van de webservice van de cross platforme
 mobiele applicatie. Verder wordt ook het domeinmodel van de webservice en de mobiele applicatie overgenomen. Hierna worden de controllers
-geïmplementeerd met authenticatie en authorisatie aan de hand van de Active Directory.
+geïmplementeerd met authenticatie en authorisatie aan de hand van de REST API.
 Dit om vervolgens het responsive design van de webpagina's af te werken.
 
 \section{Vergelijken van de tijd die nodig is om beide vormen van toepassingen te ontwikkelen}
 Wanneer beide vormen van de toepassing ontwikkeld zijn, zal er gekeken worden naar tijd die nodig was om deze tot stand te brengen.
 Dit is overigens een onderzoeksvraag van de casus en zal gebeuren aan de hand van een versiebeheersysteem.
-Hierbij zal de tijd tussen het verschil tussen de eerste en de laatste commit berekend worden.
+Hierbij zal de tijd tussen het verschil tussen de eerste en de laatste commit van ieder project berekend worden.
 
-\section{Meten van gegevensverbruik}
+\section{Meten van het gegevensverbruik}
 De verbruikte hoeveelheid gegevens wordt gemeten door het opvragen van de grootte van het antwoord dat de toepassing binnenkrijgt van de webservice tijdens het uitvoeren van beide
 applicaties. Vooraf wordt bepaald hoeveel keer dit gebeurt.
 Nadien wordt dit proces herhaald bij de responsive website. Indien alle nodige gegevens verzameld zijn, wordt een conclusie
 getrokken over welke vorm van applicatie het meest zuinig omgaat met het internetgebruik.
+
+\section{Meten van de snelheid}
+De snelheid van beide vormen van applicatie is een criterium waarop men beoordeelt tussen de keuze tussen de app en de website.
+Men wil namelijk zo snel mogelijk de gevraagde gegevens ter beschikking hebben. Met de ingebouwde stopwatch in het .NET-framework wordt
+dit gemeten. Nadien worden deze resultaten meegenomen in de besluitvorming.
 
 \section{Extra kosten bij de realisatie en publicatie}
 Om te kiezen voor de cross-platforme mobiele applicatie of de responsive website, dient rekening gehouden te worden met de kosten die nodig zijn voor de realisatie en publicatie.

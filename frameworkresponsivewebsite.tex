@@ -2,10 +2,16 @@
 \label{ch:frameworkresponsivewebsite}
 \section{Architectuur van de responsive website}
 De architectuur van de responsive webapplicatie is het ASP.NET MVC 5 framework van ~\cite{aspnetmvcoverview}.
-MVC is een combinatie van design patterns waarbij de business-logica, de user interface en de controllers de belangrijkste
+MVC \footnote{Model View Controller} is een combinatie van design patterns waarbij de business-logica, de user interface en de controllers de belangrijkste
 onderdelen zijn. De business-logica bestaat uit domein-objecten die op hun beurt de reële situatie waarbinnen de applicatie
 gebruikt wordt, weerspiegelt. Het voornaamste doel van het MVC-framework is een scheiding voorzien tussen het grafische
-onderdeel van de toepassing (de schermen), de business logica.
+onderdeel van de toepassing (de schermen), de business logica of model en de controllers die instaan voor het delegeren van gegevens
+tussen de views en het model. Schematisch ziet het MVC-framework er als volgt uit:
+\begin{figure}[ht!]
+\centering
+\caption{Schematische voorstelling van het MVC-framework \cite{crossplatformmobiledevelopmentinvisualstudio}}
+\includegraphics[width=90mm]{./img/mvc.png}
+\end{figure}
 \section{Voordelen van de gekozen architectuur}
 Het ASP.NET MVC 5 framework van ~\cite{aspnetmvcoverview} werd gekozen vanwege volgende voordelen:
 \begin{itemize}
@@ -16,12 +22,11 @@ Het ASP.NET MVC 5 framework van ~\cite{aspnetmvcoverview} werd gekozen vanwege v
 \end{itemize}
 
 \section{Nadelen van de gekozen architectuur}
-De nadelen van de ASP.NET MVC 5 zijn volgens ~\cite{hasaspnetcorekilledwebforms} de volgende:
+De grootste nadelen van de ASP.NET MVC 5 architectuur zijn volgens ~\cite{hasaspnetcorekilledwebforms} de volgende:
 \begin{itemize}
-  \item Moeilijker om te debuggen in vergelijking met applicatie die event-driven.
+  \item Het moeilijk debuggen van de toepassing in vergelijking met een event-driven variant.
+  \item Url's van een ASP.NET MVC 5 applicatie zijn eenvoudiger te begrijpen voor een zoek-robot.
 \end{itemize}
-
-
 
 \section{Kosten}
 Hieronder volgt een overzicht van de voornaamstekosten per fase in de ontwikkeling van de responsive website.
@@ -56,4 +61,4 @@ Dit omdat er verder geen kosten zijn voor de hosting van de webserver.
 
 \subsubsection{Kosten bij hosting op externe webserver}
 Naast de mogelijkheid om een website zelf te hosten, kan dit ook uitbesteed worden naar een externe service.
-Hiervoor worden mogelijks wel kosten voor aangerekend.
+Hiervoor worden mogelijks wel kosten voor aangerekend. Bij wijze van voorbeeld vindt u de prijsberekening voor Azure hieronder
