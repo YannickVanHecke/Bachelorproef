@@ -12,21 +12,21 @@
 %% onderzoeksvraag.
 
 \section{Literatuuronderzoek}
-Ter voorbereiding van deze vergelijkende studie werd er een literatuuronderzoek verricht.
-Dit hield in dat er op internet gezocht werd naar verschillende wetenschappelijke artikelen over voorgaande vergelijkende studies
+Ter voorbereiding van deze vergelijkende studie is er een literatuuronderzoek verricht.
+Hierbij in dat er op internet gezocht werd naar verschillende wetenschappelijke artikelen over voorgaande vergelijkende studies
 tussen cross platforme mobiele applicatie en responsive website. Dit literatuuronderzoek heeft al voornaamste reden het geven van
-een stand van zaken in het ontwikkelen van cross-platforme mobiele applicaties en responsive webapplicatie.
+een stand van zaken in het ontwikkelen van cross-platforme mobiele applicaties en responsive webapplicaties.
 
 \section{Vastleggen casus}
 De eerste stap in het onderzoek naar de vergelijkende studie tussen een cross-platforme mobiele applicatie en een
-responsive website, was het vastleggen van de de casus. Dit bepaalde de functionele requirements van beide applicaties en
-gebeurde in overleg met de co-promotor. De casus omvatte een toepassing rond personeelsgegevens binnen de gentse politie,
+responsive website, was het vastleggen van de casus. Dit bepaalde de functionele requirements van beide applicaties en
+gebeurde in overleg met de co-promotor. De casus omvatte een toepassing rond personeelsgegevens binnen de Gentse Politie,
 waarbij de gegevens momenteel enkel intern beschikbaar zijn. Het doel van de casus is om deze, mits de nodige beveiliging, beschikbaar
-te stellen van het personeel dat niet altijd met het intern netwerk verbonden is. Hierbij word er vooral gedacht aan mensen op het terrein.
+te stellen van het personeel dat niet altijd met het intern netwerk verbonden is. Hierbij wordt er vooral gedacht aan operationele mensen.
 
 \section{Framework kiezen voor cross platform mobiele applicatie}
 Omdat vanuit de stage reeds gekozen werd voor de ontwikkelomgeving van Microsoft en dit hierdoor reeds een vertrouwde
-manier van werken was, heb ik gekozen om de cross platform mobiele applicatie te ontwikkelen met Visual Studio 2015.
+manier van werken was, was de keuze om de cross platform mobiele applicatie te ontwikkelen met Visual Studio 2015 een evidentie.
 Hierbij wordt er gebruik gemaakt van een apart deelproject binnen de applicatie waarin code gemeenschappelijk wordt gemaakt voor
 de 3 platform-specifieke applicaties. Op deze manier kan men code hergebruiken, waardoor de efficiëntie van de geschreven code stijgt.
 
@@ -36,7 +36,7 @@ Hierdoor kan de ontwikkeling van de webapplicatie ook in Visual Studio gebeuren,
 een eerlijker resultaat opleverde, dan wanneer men zich nog dient in te werken in nieuwe materie.
 
 \section{Opzetten REST api}
-Het opzetten van de REST api was de volgende stap in het onderzoeksproces. Aanvankelijk werd er gekozen om eerst de basisfunctionaliteiten te implementeren en
+Het opzetten van de REST api was de volgende stap in het onderzoeksproces. Aanvankelijk werd ervoor gekozen om eerst de basisfunctionaliteiten te implementeren en
 pas nadien werd de authenticatie toegevoegd. Dit zorgt ervoor dat de data niet ongeoorloofd beschikbaar is voor derden.
 Hierbij dient men zich eerst te authenticeren aan de hand van de gebruikersnaam en het wachtwoord van het gebruikersaccount binnen de Politiezone Gent.
 Indien men zich succesvol geauthenticeerd heeft bij het domein aan de hand van de Active Directory, krijgt men van de REST api een token terug. De geldigheid van deze token kan men vrij kiezen.
@@ -53,9 +53,9 @@ Het weergeven van de opgehaalde data wordt, samen met de ontwerp van de schermen
 in de platform-specifieke projecten gecodeerd. Dit omdat er geen uniforme manier bestaat om de user interfaces te voorzien binnen
 de gekozen ontwikkelomgeving.
 
-\section{Ontwikkelen responsive webapplicatie}
-De volgende stap in deze vergelijkende studie tussen een cross platforme mobiele applicatie en responsive webapplicatie is het
-ontwikkelen van de responsive webapplicatie. Hierbij wordt dezelfde databank gebruikt die de webservice van de cross platforme
+\section{De Ontwikkeling van een responsive webapplicatie}
+De volgende stap in deze vergelijkende studie tussen een cross platforme mobiele applicatie en responsive webapplicatie, is het
+ontwikkelen van de responsive webapplicatie. Hierbij wordt dezelfde databank gebruikt van de webservice van de cross platforme
 mobiele applicatie. Verder wordt ook het domeinmodel van de webservice en de mobiele applicatie overgenomen. Hierna worden de controllers
 geïmplementeerd met authenticatie en authorisatie aan de hand van de Active Directory.
 Dit om vervolgens het responsive design van de webpagina's af te werken.
@@ -63,25 +63,20 @@ Dit om vervolgens het responsive design van de webpagina's af te werken.
 \section{Vergelijken van de tijd die nodig is om beide vormen van toepassingen te ontwikkelen}
 Wanneer beide vormen van de toepassing ontwikkeld zijn, zal er gekeken worden naar tijd die nodig was om deze tot stand te brengen.
 Dit is overigens een onderzoeksvraag van de casus en zal gebeuren aan de hand van een versiebeheersysteem.
-Hierbij de tijd tussen het verschil tussen de eerste en de laatste commit zal berekend worden.
+Hierbij zal de tijd tussen het verschil tussen de eerste en de laatste commit berekend worden.
 
 \section{Meten van gegevensverbruik}
-Het meten van de verbruikte hoeveelheid gegevens zal gebeuren door te bekijken van de Debugger tijdens het uitvoeren van beide
-applicaties. Dit zal een vooraf vast aantal keer gebeuren.
-Nadien zal dit proces herhaalt worden bij de responsive website. Indien alle nodige gegevens verzamelt zijn, zal er een conclusie
-getrokken worden over welke vorm van applicatie het meest zuinig omgaat met het internetgebruik.
-
-\section{Meten van gebruiksvriendelijkheid}
-Nadat het gegevensverbruik gemeten is, zal ook de gebruiksvriendelijkheid gemeten worden aan de hand van enkele vragen.
-Zo zal er gevraagd worden welke vorm van applicatie er het meest gebruiksvriendelijk is en waarom dit het geval.
+De verbruikte hoeveelheid gegevens wordt gemeten door het opvragen van de grootte van het antwoord dat de toepassing binnenkrijgt van de webservice tijdens het uitvoeren van beide
+applicaties. Vooraf wordt bepaald hoeveel keer dit gebeurt.
+Nadien wordt dit proces herhaald bij de responsive website. Indien alle nodige gegevens verzameld zijn, wordt een conclusie
+getrokken over welke vorm van applicatie het meest zuinig omgaat met het internetgebruik.
 
 \section{Extra kosten bij de realisatie en publicatie}
-De kosten die nodig zijn voor de realisatie en publicatie van beide applicaties zijn ook een factor die meetelt in de vergelijking
-van enerzijds de cross-platforme mobiele applicatie en anderzijds de responsive website. Hierbij wordt hoofdzakelijk gedacht aan
-de kosten die de publicatie in de app stores met zich meebrengt, alsook de kosten voor de hosting van enerzijds de webservice en
-anderzijds de webapplicatie. Deze kosten worden opgezocht op het internet.
+Om te kiezen voor de cross-platforme mobiele applicatie of de responsive website, dient rekening gehouden te worden met de kosten die nodig zijn voor de realisatie en publicatie.
+Hierbij wordt hoofdzakelijk gedacht aan de kosten die de publicatie in de app stores met zich meebrengt, alsook de kosten voor de hosting van enerzijds de webservice en
+anderzijds de webapplicatie. Deze kosten zijn online beschikbaar.
 
 \section{Besluitvorming}
-Eens alle bovenvermelde gegevens bekend zijn, zullen met elkaar vergeleken worden om zo tot een gefundeerde lijst van argumenten
+Eens alle bovenvermelde gegevens bekend zijn, worden deze met elkaar vergeleken om zo tot een gefundeerde lijst van argumenten
 te komen. Deze lijst zal vermelden in welke gevallen de cross-platforme mobiele applicatie de betere oplossing voor de klant is.
-Overigens wordt er ook een lijst met karakteristieken voor de responsive webapplicatie bekend gemaakt.
+Overigens wordt er een lijst met karakteristieken voor de responsive webapplicatie bekend gemaakt.

@@ -1,26 +1,26 @@
 \chapter{Framework cross-platform mobiele applicatie}
 \label{ch:frameworkcrossplatformapp}
 \section{Twee grote categorieën}
-Ter voorbereiding van het vergelijkende onderzoek tussen enerzijds de cross-platform mobiele applicatie en anderzijds de
+Ter voorbereiding van het vergelijkende onderzoek tussen de cross-platform mobiele applicatie en de
 responsive website, is er voor beide mogelijke manier gezocht om deze vormen van applicaties te ontwikkelen. Voor de cross-platforme
-mobiele applicatie zijn deze mogelijke vormen enerzijds een methode die zeer sterk aansluit bij het ontwikkelen van html-website.
+mobiele applicatie zijn deze mogelijke vormen een methode die zeer sterk aansluit bij het ontwikkelen van html-website.
 Hierbij wordt de html code in combinatie met css voor de opmaak en JavaScript voor de logica door de compiler omgezet naar een cross-
 plaforme mobiele applicatie. Op deze laatste manier wordt er gedurende dit werk niet verder op ingegaan.
 
 \label{sec:architectuurvandecrossplatformemobieleapplicatie}
 \section{Architectuur van de cross-platform mobiele applicatie}
-Voor de opbouw van de cross-platform mobiele applicatie is er geopteerd voor een architectuur waarbij men zoveel mogelijk
+Voor de opbouw van de cross-platform mobiele applicatie is geopteerd om te kiezen voor een architectuur waarbij men zoveel mogelijk
 code gemeenschappelijk kan hergebruiken. Concreet houdt dit in de men in het Shared-project zowel de definitie van de domeinklassen,
 als de code die verantwoordelijk is voor het ophalen van de data uit de REST-service en de mapping definieërt.
 
 \label{sec:voordelenvandegekozenapparchitectuur}
 \section{Voordelen van de gekozen architectuur}
 \subsection{Ontwikkeling en project structuur}
-Het grote voordelen van de architectuur van de cross-platform mobiele applicatie, nl. specifieke deelprojecten voor de afzonderlijke
-mobiele besturingssystemen en het gemeenschappelijk stellen van bepaalde delen van de programmacode, heeft als voornaamste voordeel
-voor de ontwikkelaar dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, ervoor gekozen heeft om de structuur voor de
-mobiele applicaties van de deelprojecten over te nemen van de oorspronkelijke structuur van de Android-, iOS- en windowsphone-applicatie.
-Deze manier van werken vereenvoudigd de overstap van de oorspronkelijke ontwikkeling, Android Studio voor Android en xcode voor iOS, naar Visual Studio.
+De grote voordelen van de architectuur van de cross-platform mobiele applicatie zijn: Specifieke deelprojecten voor de afzonderlijke
+mobiele besturingssystemen en het gemeenschappelijk stellen van bepaalde delen van de programmacode. Dit biedt voor de ontwikkelaar
+als pluspunt dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, dat de oorspronkelijke project-structuur behouden blijft.
+
+Deze manier van werken vereenvoudigt de overstap van de oorspronkelijke ontwikkelingomgeving, nl. Android Studio voor Android en xcode voor iOS, naar Visual Studio.
 Ook de syntax van de code van de deelprojecten werd hierbij overgenomen en vertaald naar C\#.
 
 De schematische voorstelling van de architectuur van de cross-platform mobiele applicatie ziet er schematisch als volgt uit:
@@ -31,16 +31,16 @@ De schematische voorstelling van de architectuur van de cross-platform mobiele a
 \end{figure}
 
 \subsection{User Interface}
-Voor het definiëren van de user interface heeft microsoft besloten om te bestaande manier van werken over te nemen van de oorspronkelijke platformen, nl. Android, iOS en Universal Windows Platform.
-Dit brengt voor de ontwikkelaar zowel een voor- als nadeel met zich mee. Het voordeel hieraan is dat, indien men reeds mobiele applicatie voor Android, iOS en windowsphone kan ontwikkelen, men geen
+Voor het definiëren van de user interface heeft microsoft besloten om de bestaande manier van werken over te nemen van de oorspronkelijke platformen, nl. Android, iOS en Universal Windows Platform.
+Dit brengt voor de ontwikkelaar zowel een voor- als nadeel met zich mee. Het heeft als voordeel dat, indien men reeds mobiele applicatie voor Android, iOS en windowsphone kan ontwikkelen, men geen
 nieuwe opmaaktaal voor de user interface dient aan te leren. Het grote nadeel van deze manier is dat men 3 keer een UI moet definiëren,
 dit moet behorende code-behind.
 
 \label{sec:nadelenvandegekozenapparchitectuur}
 \section{Nadelen van de gekozen architectuur}
 \subsection{User Interface}
-Zoals eerder vermeld hierboven, brengt het gebruik van de standaard-methodologie van de 3 mobiele platformen een grotere hoeveelheid
-werk voor de ontwikkelaar met zich mee. Dit omdat Android, iOS en windowsphone elk hun eigen manier van UI te defiiniëren en deze niet hergebruikt kan worden.
+Zoals eerder vermeld, brengt het gebruik van de standaard-methodologie van de 3 mobiele platformen een grotere hoeveelheid
+werk voor de ontwikkelaar met zich mee. Dit omdat Android, iOS en windowsphone elk hun eigen manier van UI te definiëren en deze niet hergebruikt kan worden.
 
 Voor het opvangen van de events van de UI kan men wel opteren om in de architectuur een facade te voorzien, waarnaar de oproepen van events uit de user interface gedelegeerd worden.
 Op deze manier beperkt de code in de klassen die de events van de user interface opvangen tot het strikt noodzakelijke.
@@ -54,10 +54,10 @@ Reeds bij de ontwikkeling van de cross-platform mobiele applicatie zijn er mogel
 aan de schaffen. Indien men de ontwikkelomgeving kiest die voor dit onderzoek gebruikt werd, nl. Visual Studio 2015 Entreprise, komt dit momenteel
 
 \subsubsection{Kosten voor testen}
-Voor een applicatie in de applicatiewinkel van een mobiel besturingssysteem terecht komt, dient deze eerst uitvoering getest te
-worden. Op deze manier kunnen de mogelijke fouten uit de software gehaald. Fouten in de applicatie kunnen ervoor zorgen dat de applicatie
+Voor een applicatie in de applicatiewinkel van een mobiel besturingssysteem terecht komt, dient deze eerst uitvoerig getest te
+worden. Op deze manier worden de mogelijke fouten uit de software gehaald. Fouten in de applicatie kunnen ervoor zorgen dat de applicatie
 onverwacht beeïndigd wordt of vastloopt.
-Dit beeïndigen of vastlopen kan tot gevolg hebben dat de applicatie slechte reviews krijgt in de applicatiewinkels en bijgevolg minder downloads en inkomsten voor de ontwikkelaar opleveren.
+Dit beeïndigen of vastlopen kan tot gevolg hebben dat de applicatie slechte reviews krijgt in de applicatiewinkels en bijgevolg minder downloads en inkomsten voor de ontwikkelaar oplevert.
 
 Indien men ervoor kiest om voor de drie grote platformen te ontwikkelen, heeft men naast de kost van de licentie voor Visual Studio of een ander ontwikkelomgeving,
 ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd is in combinatie met Xcode, de ontwikkelomgeving van Apple.
@@ -65,18 +65,17 @@ Xcode is een IDE \footnote{Integrated Develop Environment} waarin men applicatie
 iMac en de macbook in alle versie, de Apple TV en de Apple Watch. De ontwikkelomgeving is gratis beschikbaar de App Store in macOS \citep{xcodemacappstore2017}.
 
 \subsubsection{Kosten voor publicatie}
-De keerzijde van deze keuze is, dat men echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
+Men heeft echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
 kunnen ontwikkelen. Zo moeten er nog steeds 3 applicaties ontwikkeld worden, hetzij wel in een afgeslankte versie.
-Dit in tegenstelling tot de responsive webapplicatie waarbij men maar 1 keer de gebruikersinterface dient te definiëren.
+Dit in tegenstelling tot de responsive webapplicatie waarbij men slechts 1 keer de gebruikersinterface dient te definiëren.
 
-Verder dient ook men ook de applicatie voor elk mobiel besturingssysteem te publiceren in de appstores van de verschillende
-mobiele besturingssystemen. Hieraan zijn ook ofwel eenmalige ofwel jaarlijkse kosten aan verbonden. Zo dient men voor de publicatie in de App Store van Apple zich eerst inschrijven voor het
+Verder dient ook men de applicatie voor elk mobiel besturingssysteem te publiceren in de appstores van de verschillende
+mobiele besturingssystemen. Hieraan zijn  eenmalige of jaarlijkse kosten aan verbonden. Zo dient men voor de publicatie in de App Store van Apple zich eerst inschrijven voor het
 Apple Developer Program \citep{appledeveloperprograms2017} . Deze inschrijving kost 99 Amerikaanse dollar per jaar. Verder kunnen bedrijven of organisaties
 zich hier ook bij aansluiten, om zo meerdere ontwikkelaars aan te laten sluiten op 1 ontwikkelaarsaccount voor de App Store.
-Dit bespaart uiteraard op de kosten.
+Dit verlaagd de kosten.
 
 Voor Android dient men bij de publicatie van de app \citep{getstartedwithpublishingandroiddevelopers2017} eenmalig 25 Amerikaanse dollar betalen voor de inschrijving.
-Overigens zijn er voor de publicatie van de Android-app geen kosten gevonden op de ontwikkelaarswebsite van Android.
 Verder kan men aan de hand van Developer Console het aantal downloads van de app, het aantal gerapporteerde crashes en de gemiddelde rating die de gebruikers gaven bekijken.
 Aan de hand van de recensies die de gebruikers op de app, kan de ontwikkelaar de feedback met eventuele verbeterpunten bekijken.
 
