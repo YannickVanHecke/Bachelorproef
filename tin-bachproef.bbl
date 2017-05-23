@@ -6,9 +6,6 @@
 \bibitem[\protect\astroncite{inl}{}]{inleidingtotjson}
 
 
-\bibitem[\protect\astroncite{has}{}]{hasaspnetcorekilledwebforms}
-
-
 \bibitem[\protect\astroncite{Adobe}{2017}]{adobesystemsinc.2017}
 Adobe (2017).
 \newblock Get started.
@@ -38,5 +35,9 @@ Paulo R. M.~de Andrade, A. B.~A. (2015).
 \newblock Cross platform app a comparative study.
 \newblock {\em International Journal of Computer Science \& Information
   Technology (IJCSIT)}, 7(1):33--40.
+
+\bibitem[\protect\astroncite{Stormpath}{2017}]{hasaspnetcorekilledwebforms}
+Stormpath (2017).
+\newblock Has asp.net core killed web forms? - stormpath user identity api.
 
 \end{thebibliography}

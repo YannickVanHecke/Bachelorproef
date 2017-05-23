@@ -53,9 +53,9 @@
 \contentsline {section}{\numberline {6.5}Vereiste tijd om de toepassing te ontwikkelen}{24}{section.6.5}
 \contentsline {chapter}{\numberline {7}Resultaten responsive website}{25}{chapter.7}
 \contentsline {section}{\numberline {7.1}Tijd die nodig is om de toepassing te ontwikkelen}{25}{section.7.1}
-\contentsline {section}{\numberline {7.2}Gebruiksvriendelijkheid van de responsive website}{25}{section.7.2}
-\contentsline {section}{\numberline {7.3}Snelheid van de applicatie}{25}{section.7.3}
-\contentsline {section}{\numberline {7.4}Gegevensverbruik van de responsive website}{25}{section.7.4}
+\contentsline {section}{\numberline {7.2}Snelheid van de applicatie}{25}{section.7.2}
+\contentsline {section}{\numberline {7.3}Gegevensverbruik van de responsive website}{25}{section.7.3}
+\contentsline {section}{\numberline {7.4}Mogelijke problemen van de responsive website}{25}{section.7.4}
 \contentsline {chapter}{\numberline {8}Resultaten cross platforme mobiele applicatie}{26}{chapter.8}
 \contentsline {section}{\numberline {8.1}Tijd die nodig is om de toepassing te ontwikkelen}{26}{section.8.1}
 \contentsline {section}{\numberline {8.2}Snelheid van de applicatie}{27}{section.8.2}

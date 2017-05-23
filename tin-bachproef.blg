@@ -37,64 +37,57 @@ I was expecting a `,' or a `}'---line 87 of file tin-bachproef.bib
 I'm skipping whatever remains of this entry
 Warning--entry type for "hasaspnetcorekilledwebforms" isn't style-file defined
 --line 94 of file tin-bachproef.bib
-I was expecting a `,' or a `}'---line 95 of file tin-bachproef.bib
- :     
- :     title = {Has ASP.NET Core Killed Web Forms? - Stormpath User Identity API},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
 Warning--entry type for "buildappwithnativeuiusingxamarininvisualstudio" isn't style-file defined
---line 101 of file tin-bachproef.bib
-"{" immediately follows a field part---line 122 of file tin-bachproef.bib
+--line 102 of file tin-bachproef.bib
+"{" immediately follows a field part---line 123 of file tin-bachproef.bib
  :     url    = \url
  :                  {https://msdn.microsoft.com/en-us/library/system.diagnostics.stopwatch.start(v=vs.110).aspx}
 I'm skipping whatever remains of this entry
 Warning--entry type for "adobesystemsinc.2017" isn't style-file defined
---line 125 of file tin-bachproef.bib
+--line 126 of file tin-bachproef.bib
 Warning--to sort, need author or key in xcodemacappstore2017
 Warning--to sort, need author or key in inleidingtotjson
-Warning--to sort, need author or key in hasaspnetcorekilledwebforms
 Warning--empty year in xcodemacappstore2017
 Warning--empty year in inleidingtotjson
-Warning--empty year in hasaspnetcorekilledwebforms
 You've used 10 entries,
             1940 wiz_defined-function locations,
-            499 strings with 4346 characters,
-and the built_in function-call counts, 2335 in all, are:
-= -- 228
-> -- 49
-< -- 7
-+ -- 16
-- -- 14
-* -- 177
-:= -- 419
-add.period$ -- 18
+            501 strings with 4419 characters,
+and the built_in function-call counts, 2392 in all, are:
+= -- 235
+> -- 56
+< -- 8
++ -- 18
+- -- 16
+* -- 179
+:= -- 442
+add.period$ -- 19
 call.type$ -- 10
-change.case$ -- 54
+change.case$ -- 56
 chr.to.int$ -- 8
-cite$ -- 19
+cite$ -- 16
 duplicate$ -- 104
-empty$ -- 173
-format.name$ -- 21
-if$ -- 431
+empty$ -- 170
+format.name$ -- 24
+if$ -- 439
 int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 41
-num.names$ -- 21
-pop$ -- 57
+newline$ -- 42
+num.names$ -- 24
+pop$ -- 51
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 58
 quote$ -- 0
-skip$ -- 83
+skip$ -- 86
 stack$ -- 0
-substring$ -- 138
+substring$ -- 137
 swap$ -- 11
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 60
-warning$ -- 6
-while$ -- 15
+warning$ -- 4
+while$ -- 17
 width$ -- 0
-write$ -- 93
-(There were 6 error messages)
+write$ -- 97
+(There were 5 error messages)
