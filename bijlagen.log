@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  22 MAY 2017 15:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  24 MAY 2017 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1276,21 +1276,22 @@ Package babel Info: Redefining dutch shorthand "|
 (babel)             in language  on input line 219.
 Package babel Info: Redefining dutch shorthand "~
 (babel)             in language  on input line 219.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 267.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 267.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 267.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 267.
-[8
+(babel)             in language  on input line 270.
+ [8
 
 ]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 268.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 268.
+Overfull \vbox (18.8359pt too high) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1299,22 +1300,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 270.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 316.
+(babel)             in language  on input line 270.
 [9]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 317.
+(babel)             in language  on input line 272.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 317.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 318.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 318.
+(babel)             in language  on input line 272.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1323,18 +1320,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 366.
+(babel)             in language  on input line 324.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 366.
+(babel)             in language  on input line 324.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 366.
+(babel)             in language  on input line 324.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 366.
+(babel)             in language  on input line 324.
 [10]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 367.
+(babel)             in language  on input line 325.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 367.
+(babel)             in language  on input line 325.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 326.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 326.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1343,42 +1344,63 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 378.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 378.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 378.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 378.
 [11]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 379.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 379.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 431.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 431.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 431.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 431.
+[12]
 B"ylage D.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 431.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 431.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 432.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 417.
+(babel)             in language  on input line 432.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 418.
+(babel)             in language  on input line 433.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 418.
+(babel)             in language  on input line 433.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 466.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 466.
-[12
+(babel)             in language  on input line 484.
+ [13
 
 ]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 467.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 467.
+Overfull \vbox (18.8359pt too high) has occurred while \output is active []
+
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1387,43 +1409,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 515.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 515.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 515.
+(babel)             in language  on input line 484.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 515.
-[13]
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 516.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 516.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 517.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 517.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 27.18303pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 565.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 565.
-Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 565.
-Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 565.
+(babel)             in language  on input line 484.
 [14]
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 566.
+(babel)             in language  on input line 486.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 566.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 614.
+(babel)             in language  on input line 486.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1432,25 +1429,70 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 614.
+(babel)             in language  on input line 538.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 614.
+(babel)             in language  on input line 538.
 Package babel Info: Redefining dutch shorthand "|
-(babel)             in language  on input line 614.
+(babel)             in language  on input line 538.
 Package babel Info: Redefining dutch shorthand "~
-(babel)             in language  on input line 614.
+(babel)             in language  on input line 538.
 [15]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 614.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 539.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 539.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 540.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 540.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18303pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 592.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 592.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 592.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 592.
+[16]
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 593.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 593.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 645.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 27.18303pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 645.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 645.
+Package babel Info: Redefining dutch shorthand "|
+(babel)             in language  on input line 645.
+Package babel Info: Redefining dutch shorthand "~
+(babel)             in language  on input line 645.
+[17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 645.
  (./bijlagen.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 614.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 614.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 645.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 645.
 Package rerunfilecheck Info: File `bijlagen.out' has not changed.
 (rerunfilecheck)             Checksum: 4FC0828F62C2A4B4B1E7885211260B9F;1321.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 614.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 645.
  ) 
 Here is how much of TeX's memory you used:
- 11303 strings out of 493014
- 158991 string characters out of 6133350
+ 11305 strings out of 493014
+ 159005 string characters out of 6133350
  361486 words of memory out of 5000000
  14595 multiletter control sequences out of 15000+600000
  65336 words of font info for 60 fonts, out of 8000000 for 9000
@@ -1459,10 +1501,10 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmsso12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on bijlagen.pdf (17 pages, 822508 bytes).
+Output written on bijlagen.pdf (19 pages, 824495 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 251 PDF objects out of 1000 (max. 8388607)
+ 203 compressed objects within 3 object streams
+ 36 named destinations out of 1000 (max. 500000)
  184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

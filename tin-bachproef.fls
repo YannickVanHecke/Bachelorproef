@@ -141,10 +141,6 @@ INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
 INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/lipsum/lipsum.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/makecell/makecell.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
-INPUT /usr/local/texlive/2016/texmf-dist/tex/latex/tools/array.sty
 INPUT tin-bachproef.aux
 INPUT tin-bachproef.aux
 OUTPUT tin-bachproef.aux
