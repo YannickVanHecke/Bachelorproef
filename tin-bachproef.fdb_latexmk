@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex tin-bachproef"] 1495618068 "tin-bachproef.aux" "tin-bachproef.bbl" "tin-bachproef" 1495623483
+["bibtex tin-bachproef"] 1495618068 "tin-bachproef.aux" "tin-bachproef.bbl" "tin-bachproef" 1495624533
   "/usr/local/texlive/2016/texmf-dist/bibtex/bst/beebe/apa.bst" 1136766823 23582 e3c8338eb1efb7432441aa8861285f53 ""
-  "tin-bachproef.aux" 1495621403 12022 4079ed41a4e942ed53e49486298cd418 ""
+  "tin-bachproef.aux" 1495624504 12022 4079ed41a4e942ed53e49486298cd418 ""
   "tin-bachproef.bcf" 0 -1 0 ""
   "tin-bachproef.bib" 1495556828 4944 8513c328761db83cd725567ec6c99d91 ""
   (generated)
   "tin-bachproef.bbl"
   "tin-bachproef.blg"
-["pdflatex"] 1495621402 "tin-bachproef.tex" "tin-bachproef.pdf" "tin-bachproef" 1495623483
+["pdflatex"] 1495624503 "tin-bachproef.tex" "tin-bachproef.pdf" "tin-bachproef" 1495624533
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc" 1254269338 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -142,7 +142,7 @@
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
   "conclusie.tex" 1495362393 931 dfcfce7fef04530a7c145f16d132bdc7 ""
   "frameworkcrossplatformapp.tex" 1495556846 7373 3a50c85e1a033d96abc99e04d0d61481 ""
-  "frameworkresponsivewebsite.tex" 1495618763 5387 80529a2cb1f15f7449f6b315b2e31435 ""
+  "frameworkresponsivewebsite.tex" 1495624497 5401 1331896fb5e2810a7701eab6fc1953fc ""
   "img/HG-beeldmerk-woordmerk.png" 1485964287 73476 d57572b629d98d9d9a07b600df745731 ""
   "img/architecture.png" 1494508305 2650 28588432a90ad98af7917e85a3429cd8 ""
   "img/authentication.png" 1494506218 9868 94150e77fafbefc9aa1567b88f803a90 ""
@@ -155,19 +155,19 @@
   "resultatenresponsivewebsite.tex" 1495527569 288 47bb4efd669c8f533b4ffb6697315fc4 ""
   "samenvatting.tex" 1488622523 1457 8be3b95492008420bef0a2bdc83c3ae1 ""
   "structure.tex" 1495565005 5274 1a84d45c021f0e0d0be70b8ebd4bfe7d ""
-  "tin-bachproef.aux" 1495621403 12022 4079ed41a4e942ed53e49486298cd418 ""
+  "tin-bachproef.aux" 1495624504 12022 4079ed41a4e942ed53e49486298cd418 ""
   "tin-bachproef.bbl" 1495618069 1921 66f1a3c4e78dc1b158859b67249d845c "bibtex tin-bachproef"
-  "tin-bachproef.lof" 1495621403 647 f7aed28d7987ae5505f51e84c28ff13a ""
-  "tin-bachproef.lot" 1495621403 205 15a82e305d68b61c8a300161b01cc4ff ""
-  "tin-bachproef.out" 1495621403 4468 a1940d93cd484f8603c0875e8e9f8dce ""
+  "tin-bachproef.lof" 1495624504 647 f7aed28d7987ae5505f51e84c28ff13a ""
+  "tin-bachproef.lot" 1495624504 205 15a82e305d68b61c8a300161b01cc4ff ""
+  "tin-bachproef.out" 1495624504 4468 a1940d93cd484f8603c0875e8e9f8dce ""
   "tin-bachproef.tex" 1495554903 3146 9f5661e6281085d84c473c6fbe987acc ""
-  "tin-bachproef.toc" 1495621403 5887 57e6a6d739631a026f83360540a75172 ""
+  "tin-bachproef.toc" 1495624504 5887 57e6a6d739631a026f83360540a75172 ""
   "voorwoord.tex" 1485964287 485 961437d259d24dbb9612f2025f8e430e ""
   (generated)
+  "tin-bachproef.out"
   "tin-bachproef.log"
-  "tin-bachproef.lot"
   "tin-bachproef.toc"
+  "tin-bachproef.lot"
+  "tin-bachproef.lof"
   "tin-bachproef.aux"
   "tin-bachproef.pdf"
-  "tin-bachproef.lof"
-  "tin-bachproef.out"
