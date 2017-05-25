@@ -60,6 +60,6 @@
 \contentsline {chapter}{\numberline {8}Resultaten responsive website}{28}{chapter.8}
 \contentsline {section}{\numberline {8.1}Tijd die nodig is om de toepassing te ontwikkelen}{28}{section.8.1}
 \contentsline {section}{\numberline {8.2}Snelheid van de applicatie}{28}{section.8.2}
-\contentsline {section}{\numberline {8.3}Gegevensverbruik van de responsive website}{28}{section.8.3}
-\contentsline {section}{\numberline {8.4}Mogelijke problemen van de responsive website}{28}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusie}{29}{chapter.9}
+\contentsline {section}{\numberline {8.3}Gegevensverbruik van de responsive website}{29}{section.8.3}
+\contentsline {section}{\numberline {8.4}Mogelijke problemen van de responsive website}{29}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusie}{30}{chapter.9}

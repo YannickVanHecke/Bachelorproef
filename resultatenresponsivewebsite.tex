@@ -7,10 +7,33 @@ Ook hierbij rekent ook de tijd voor de ontwikkeling van de REST api mee. Deze on
 
 Na de ontwikkeling van de REST api ging de ontwikkeling van de responsive webapplicatie van start.
 Dit duurde 7 dagen, wat de totale ontwikkelingstijd van de responsive website samen met de koppeling tussen de responsive webapplicatie
-en de REST api op 15 dagen brengt.
+en de REST api op 15 dagen brengt. De voornaamste redenen dat de ontwikkeling van de responsive webapplicatie sneller verliep in vergelijking met de cross platforme mobiele zijn de volgende:
+\begin{itemize}
+  \item Betere kennis van en meer ervaring met ASP.NET MVC Webapplicatie.
+  \item De uniforme manier van definiëren van de user interface.
+\end{itemize}
 
 \section{Snelheid van de applicatie}
+Zoals reeds in de methodologie aangegeven, wordt de snelheid van de applicatie gemeten aan de hand van een stopwatch ingebouwd in C\#.
+Deze stopwatch wordt gestart wanneer de aanvraag in de juiste controller en wordt gestopt wanneer men de html en css terugstuurt naar de browser.
+
+Om een betere vergelijking te kunnen maken tussen de mobiele applicatie en de responsive webapplicatie, worden beide resultaten vermeld.
+
+\begin{center}
+\addcontentsline{lot}{table}{Gemiddelde tijden voor inloggen, gegevens ophalen en tonen op Android}
+\begin{tabular}{| l | l | l | }
+  \hline
+  Statistieken & Mobile app (ms) & Webapp (ms) \\ \hline
+  Gemiddelde & 6.552,9562 & 4816 \\ \hline
+  Standaardafwijking & 2.657,2925 & 1136,5386 \\
+  \hline
+\end{tabular}
+\end{center}
 
 \section{Gegevensverbruik van de responsive website}
 
 \section{Mogelijke problemen van de responsive website}
+De ontwikkeling van de responsive website verliep over het algemeen vlotter dan de ontwikkeling van de cross platforme mobiele applicatie.
+Dit is te verklaren door de betere kennis en meer ervaring in het ontwikkelen van responsive website.
+Verder werd er eerst zonder de REST api gewerkt, hetgeen de tijd die nodig is om de ontwikkeling te voltooien laat stijgen.
+Overigens zijn er geen noemenswaardige problemen tijdens de ontwikkeling van de responsive website opgedoken.
