@@ -38,11 +38,12 @@ De gemiddelde resultaten van de testen op een Android-toestel kan u hieronder te
 \end{tabular}
 \end{center}
 
-
 \section{Gegevensverbruik van de cross platforme mobiele applicatie}
 %% Tabel met datagegevens invoegen
 Uit de metingen van het gegevensverbruik \footnote{De uitgebereide testresultaten van het gegevensverbruik zijn per fase en per besturingssysteem in de toepassing raadpleegbaar in Bijlage C}
-blijkt dat de webapplicatie gemiddeld sneller is, in het opstarten.
+blijkt dat de mobiele applicatie minder gegevens verbruikt in vergelijking met de responsive webapplicatie. Mogelijk is dit te verklaren door dat
+de mobiele applicatie enkel de data die weergegeven wordt, wordt opgehaald. Dit in tegenstelling tot de responsive webapplicatie, waarbij er ook nog html en css opgehaald wordt.
+
 \addcontentsline{lot}{table}{Gemiddeld gegevensverbruik bij het inloggen, gegevens ophalen en tonen in de browser}
 \begin{center}
   \begin{tabular}{| l | l | l |}
@@ -54,8 +55,6 @@ blijkt dat de webapplicatie gemiddeld sneller is, in het opstarten.
   \end{tabular}
 \end{center}
 
-Uit bovenstaande tabel is het grote verschil tussen beide vormen opmerkelijk. Dit komt omdat de webapplicatie naast de eigenlijke gegevens,
-ook nog de html en css moet ophalen van de server. Dit verklaart het opmerkelijke verschil tussen de mobiele applicatie en de website.
 \section{Mogelijke problemen bij de ontwikkeling}
 Tijdens de ontwikkeling van de cross platforme mobiele applicatie doken er af en toe ook enkele problemen op.
 Deze worden ook besproken omdat deze van belang zijn in de keuze tussen de mobiele applicatie en de webapplicatie.

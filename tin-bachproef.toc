@@ -57,9 +57,9 @@
 \contentsline {section}{\numberline {7.2}Snelheid van de applicatie}{27}{section.7.2}
 \contentsline {section}{\numberline {7.3}Gegevensverbruik van de cross platforme mobiele applicatie}{27}{section.7.3}
 \contentsline {section}{\numberline {7.4}Mogelijke problemen bij de ontwikkeling}{27}{section.7.4}
-\contentsline {chapter}{\numberline {8}Resultaten responsive website}{29}{chapter.8}
-\contentsline {section}{\numberline {8.1}Tijd die nodig is om de toepassing te ontwikkelen}{29}{section.8.1}
-\contentsline {section}{\numberline {8.2}Snelheid van de applicatie}{29}{section.8.2}
-\contentsline {section}{\numberline {8.3}Gegevensverbruik van de responsive website}{30}{section.8.3}
-\contentsline {section}{\numberline {8.4}Mogelijke problemen van de responsive website}{30}{section.8.4}
-\contentsline {chapter}{\numberline {9}Conclusie}{31}{chapter.9}
+\contentsline {chapter}{\numberline {8}Resultaten responsive website}{28}{chapter.8}
+\contentsline {section}{\numberline {8.1}Tijd die nodig is om de toepassing te ontwikkelen}{28}{section.8.1}
+\contentsline {section}{\numberline {8.2}Snelheid van de applicatie}{28}{section.8.2}
+\contentsline {section}{\numberline {8.3}Gegevensverbruik van de responsive website}{29}{section.8.3}
+\contentsline {section}{\numberline {8.4}Mogelijke problemen van de responsive website}{29}{section.8.4}
+\contentsline {chapter}{\numberline {9}Conclusie}{30}{chapter.9}

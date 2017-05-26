@@ -81,11 +81,10 @@ Hiervoor moet er eerst een instantie van de klasse HttpClient (uit de namespace 
 Nu de instantie van HttpClient geïnstanceerd is, kan deze gebruikt worden om data op te halen bij de webservice.
 Het ophalen van de data gebeurt aan de hand van onderstaande code:
 \begin{lstlisting}
-  using System.Threading.Tasks;
-  using Newtonsoft.Json;
-  using System.Net.Http;
   namespace MobileApp
   {
+    // Imports statements
+
     public class DataService
     {
       public async List<Person> getData(string queryString)
@@ -98,6 +97,9 @@ Het ophalen van de data gebeurt aan de hand van onderstaande code:
 
         // data converteren naar persoon-objecten
         List<Person> personen = JsonConvert.DeserializeObject<List<Person>>(response);
+
+        // persoon-objecten teruggeven
+        return personen;
       }
     }
   }
