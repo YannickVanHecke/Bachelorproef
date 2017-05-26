@@ -28,31 +28,27 @@ Hieronder volgt een samenvatting van de testresultaten. Overigens kan u de uitge
 
 De gemiddelde resultaten van de testen op een Android-toestel kan u hieronder terugvinden.
 \begin{center}
-\addcontentsline{lot}{table}{Gemiddelde tijden voor inloggen, gegevens ophalen en tonen op Android}
-\begin{tabular}{| l | l | l | }
+\addcontentsline{lot}{table}{Gemiddelde tijden voor inloggen, gegevens ophalen en tonen}
+\begin{tabular}{| l | l | l | | l | l }
   \hline
-  Statistieken & Mobile app (ms) & Webapp (ms) \\ \hline
-  Gemiddelde & 6.552,9562 & 4816 \\ \hline
-  Standaardafwijking & 2.657,2925 & 1136,5386 \\
+  Statistieken & Android & windowsphone \\ \hline
+  Gemiddelde & 6.552,9562 & 2361,3135 \\ \hline
+  Standaardafwijking & 2.657,2925 & 407,9001 \\
   \hline
 \end{tabular}
 \end{center}
 
 \section{Gegevensverbruik van de cross platforme mobiele applicatie}
 %% Tabel met datagegevens invoegen
-Uit de metingen van het gegevensverbruik \footnote{De uitgebereide testresultaten van het gegevensverbruik zijn per fase en per besturingssysteem in de toepassing raadpleegbaar in Bijlage C}
-blijkt dat de mobiele applicatie minder gegevens verbruikt in vergelijking met de responsive webapplicatie. Mogelijk is dit te verklaren door dat
-de mobiele applicatie enkel de data die weergegeven wordt, wordt opgehaald. Dit in tegenstelling tot de responsive webapplicatie, waarbij er ook nog html en css opgehaald wordt.
 
-\addcontentsline{lot}{table}{Gemiddeld gegevensverbruik bij het inloggen, gegevens ophalen en tonen in de browser}
 \begin{center}
-  \begin{tabular}{| l | l | l |}
-    \hline
-    Statistieken & Mobile app (Bytes) & Webapp (Bytes) \\ \hline
-    Gemiddelde & 190,00 & 596,85 \\ \hline
-    Standaardafwijking & 0,00 & 19,2826 \\
-    \hline
-  \end{tabular}
+\addcontentsline{lot}{table}{Gemiddeld gegevensverbruik voor inloggen, gegevens ophalen en tonen}
+\begin{tabular}{| l | l | l |}
+  \hline
+  Statistieken & Android & windowsphone\\ \hline
+  Gemiddelde & 190,00 & 207,00 \\ \hline
+  Standaarafwijking 0,00 & 0,00 \\ \hline
+\end{tabular}
 \end{center}
 
 \section{Mogelijke problemen bij de ontwikkeling}
@@ -60,7 +56,7 @@ Tijdens de ontwikkeling van de cross platforme mobiele applicatie doken er af en
 Deze worden ook besproken omdat deze van belang zijn in de keuze tussen de mobiele applicatie en de webapplicatie.
 
 Een eerste zaak die uit het onderzoek naar voor kwam, is dat men bij de ontwikkeling van een iOS-applicatie op windows moet beschikken
-over een verbinding tussen een windows-pc en een macOS-toestel. Deze verbinding is noodzakelijk voor enerzijds het kunnen weergeven van
-het storyboard of de user interface en anderzijds om de applicatie te kunnen debuggen. Naast het feit dat de structuur van de applicatie
+over een verbinding tussen een windows-pc en een macOS-toestel. Deze verbinding is noodzakelijk voor het kunnen weergeven van
+het storyboard of de user interface in de ontwikkelomgeving en om de applicatie te kunnen debuggen. Naast het feit dat de structuur van de applicatie
 soms moeilijk te begrijpen is in vergelijking met de andere mobiele platformen (Android en Windowsphone), viel ook de verbinding soms weg.
 Dit maakt het uiteraard niet eenvoudig om de iOS-applicatie te ontwikkelen.
