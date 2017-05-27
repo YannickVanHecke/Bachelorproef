@@ -36,7 +36,7 @@ en de toepassing onderzocht. Hierbij kwamen volgende onderzoeksvragen aan bod:
   \item{Welke optie is het efficiënst?}
   \begin{itemize}
     \item{Welke optie verbruikt de meeste hoeveelheid gegevens?}
-    \item{Welke optie geeft de eindgebruiker het snelst de gevraagd informatie?}
+    \item{Welke optie geeft de eindgebruiker het snelst de gevraagde informatie?}
   \end{itemize}
   \item{Welke optie kan het snelst ontwikkeld worden?}
 \end{itemize}
@@ -49,4 +49,13 @@ een afgeslankte mobiele toepassing te ontwikkelen. Dit doet de ontwikkeltijd opl
 Over de efficientie van de mobiele applicatie en de responsive webapplicatie is er wel een duidelijk voordeel voor de mobiele applicatie.
 Dit komt omdat het gegevensverbruik en de snelheid bij de mobiele applicatie lager ligt. Dit is te verklaren omdat er bij de mobiele applicatie
 enkel de weer te geven data moet gedownload worden, in tegenstelling tot de responsive website, waarbij er naast de weer te geven data, ook nog html
-en css gedownload moet worden om de data op een geschikte manier weer te geven.
+en css gedownload moet worden om de data op een geschikte manier weer te geven. Het resultaat van de mobiele applicatie kan mogelijk nog verder geoptimaliseerd worden,
+mits in deze casus het effect op het resultaat van cachen of lokaal opslaan van gegevens niet onderzocht is. Omdat het lokaal opslaan van data optimaal te laten functioneren,
+dient de REST api aangepast te worden.
+
+Op de vraag welke optie de eindgebruiker het snelst de gevraagde gegevens blijt er geen eenduidige voorkeur uit het onderzoek voort de vloeien.
+Dit omdat uit de testresultaten bij Android de respsonive webapplicatie beter functioneert. Dit in tegenstelling tot windowsphone, waar de mobiele applicatie betere
+resultaten behaald. Verder dient men ook rekening te houden dat er voor iOS slechts een minimale applicatie ontwikkeld werd.
+
+Om in de toekomst een meer accuraat antwoord te geven op deze onderzoeksvragen, moet het caching van data in de mobiele applicatie voorzien worden.
+Dit is momenteel nog niet geïmplementeerd wegens tijdsgebrek.

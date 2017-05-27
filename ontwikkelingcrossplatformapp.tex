@@ -4,15 +4,14 @@
 Als start van het project werd er een analyse gemaakt door de co-promotor van de functionele requirements.
 
 Deze analyse bestaat uit het sturen van een query naar de databank die draait in een webservice.
-Op deze manier worden de gegevens omgezet naar JSON \footnote{De afkorting staat \cite{inleidingtotjson} staat voor
+Op deze manier worden de gegevens omgezet naar JSON \footnote{De afkorting staat \citep{inleidingtotjson2017} staat voor
 JavaScript Object Notation}, een makkelijk genereerbaar gegevensformaat dat eenvoudig te lezen is voor toepassingen en vaak gebruikt wordt in webservice.  Het grote voordeel van JSON
 is dat het makkelijk leesbaar/te genereren is voor/door toepassingen.
 
 \section{Ontwikkeling van de ASP.NET MVC Web api}
 De ASP.NET MVC Web api heeft in deze toepassing 2 functies. De REST API heeft als functie gebruikers zich te laten
 authenticeren bij het Active Directory domein van de Gentse Politie. Nadien levert de REST API de gegevens die binnen
-de applicatie nodig zijn voor de gebruikers. Deze authenticatie gebeurt aan de hand van tokens die een bepaalde tijd geldig zijn
-(in deze casus een week). Nadien moet de gebruiker zich opnieuw authenticeren aan de hand van de inloggegevens. Dit om opnieuw een
+de applicatie nodig zijn voor de gebruikers. Deze authenticatie gebeurt aan de hand van tokens die een bepaalde tijd geldig zijn (in deze casus een week) \citep{authenticatemvcapplication2017}. Nadien moet de gebruiker zich opnieuw authenticeren aan de hand van de inloggegevens. Dit om opnieuw een
 token met geldigheid van 1 week te verkrijgen. De tokens zijn verplicht toe te voegen aan de request. Indien dit niet gebeurt, stuurt
 de server een antwoord dat men geen toegang heeft tot de aangevraagde resources. De schematische voorstelling van deze techniek,
 kan u terugvinden op de volgende pagina.
@@ -34,7 +33,7 @@ naar het gemeenschappelijke project.
 \subsubsection{Code om data op te halen uit de REST-api}
 De code die absoluut gedeeld wordt wegens efficientiëredenen, is de code om de data op te halen uit de REST-service.
 Hieronder vindt u het voorbeeld dat als basis diende voor de ontwikkeling van de cross platforme mobiele applicatie.
-De volledige code met uitgebereide stappen om dit voorbeeld te ontwikkelen is beschikbaar op \citep{buildappwithnativeuiusingxamarininvisualstudio}.
+De volledige code met uitgebereide stappen om dit voorbeeld te ontwikkelen is beschikbaar op \citep{buildappwithnativeuiusingxamarininvisualstudio2017}.
 
 Ter voorbereiding van de logica om data uit een REST-api op te halen hebben we een klasse nodig die de entiteit uit het
 domein van de toepassing voorziet. In dit geval gaat het om de klasse Persoon met onder andere de velden Voornaam, Familienaam, Geslacht.

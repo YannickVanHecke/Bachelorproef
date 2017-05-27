@@ -1,12 +1,15 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{aut}{}]{authenticatemvcapplication2017}
+
+
 \bibitem[\protect\astroncite{xco}{}]{xcodemacappstore2017}
 
 
-\bibitem[\protect\astroncite{inl}{}]{inleidingtotjson}
+\bibitem[\protect\astroncite{inl}{}]{inleidingtotjson2017}
 
 
-\bibitem[\protect\astroncite{Adobe}{2017}]{adobesystemsinc.2017}
+\bibitem[\protect\astroncite{Adobe}{2017}]{adobesystemsinc2017}
 Adobe (2017).
 \newblock Get started.
 
@@ -26,15 +29,15 @@ Holmes, J. (2017).
 Inc, A. (2017).
 \newblock Apple developer program.
 
-\bibitem[\protect\astroncite{Microsoft}{2017a}]{aspnetmvcoverview}
+\bibitem[\protect\astroncite{Microsoft}{2017a}]{aspnetmvcoverview2017}
 Microsoft (2017a).
 \newblock Asp.net mvc overview.
 
-\bibitem[\protect\astroncite{Microsoft}{2017b}]{buildappwithnativeuiusingxamarininvisualstudio}
+\bibitem[\protect\astroncite{Microsoft}{2017b}]{buildappwithnativeuiusingxamarininvisualstudio2017}
 Microsoft (2017b).
 \newblock Build apps with native ui using xamarin in visual studio.
 
-\bibitem[\protect\astroncite{Microsoft}{2017c}]{crossplatformmobiledevelopmentinvisualstudio}
+\bibitem[\protect\astroncite{Microsoft}{2017c}]{crossplatformmobiledevelopmentinvisualstudio2017}
 Microsoft (2017c).
 \newblock Cross-platform mobile development in visual studio.
 
@@ -48,7 +51,7 @@ Paulo R. M.~de Andrade, A. B.~A. (2015).
 \newblock {\em International Journal of Computer Science \& Information
   Technology (IJCSIT)}, 7(1):33--40.
 
-\bibitem[\protect\astroncite{Stormpath}{}]{hasaspnetcorekilledwebforms}
+\bibitem[\protect\astroncite{Stormpath}{}]{hasaspnetcorekilledwebforms2017}
 Stormpath.
 \newblock Has asp.net core killed web forms? - stormpath user identity api.
 

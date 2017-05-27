@@ -13,6 +13,19 @@ Voor de opbouw van de cross-platform mobiele applicatie is geopteerd om te kieze
 code gemeenschappelijk kan hergebruiken. Concreet houdt dit in de men in het Shared-project zowel de definitie van de domeinklassen,
 als de code die verantwoordelijk is voor het ophalen van de data uit de REST-service en de mapping definieërt.
 
+De schematische voorstelling van de architectuur van de cross-platform mobiele applicatie ziet er schematisch als volgt uit:
+\begin{figure}[ht!]
+\centering
+\caption{Architectuur van de cross-platforme mobiele applicatie \cite{joshholmes2017}}
+\includegraphics[width=90mm]{./img/architecture.png}
+\end{figure}
+
+Voor deze authenticatie in te implementeren, werd er volgend voorbeeld van \cite{authenticatemvcapplication2017} gevolgd.
+Eerst werd het voorbeeld aangepast om authenticatie aan de hand van Active Directory te voorzien, maar dit is later terug verwijderd.
+Dit omdat het op een externe locatie niet mogelijk is om verbinding te maken met het netwerk waarop deze Active Directory zich bevindt.
+De REST-service is dus zodanig opgebouwd dat de gebruikersgegevens niet worden gevalideerd, maar er wel een token teruggegeven wordt door de REST-service.
+Verder is deze token wel verplicht toe te voegen aan elke request die gestuurd wordt om data op te vragen.
+
 \label{sec:voordelenvandegekozenapparchitectuur}
 \section{Voordelen van de gekozen architectuur}
 \subsection{Ontwikkeling en project structuur}
@@ -23,12 +36,8 @@ als pluspunt dat binnen de gekozen ontwikkelomgeving, nl. Visual Studio, dat de 
 Deze manier van werken vereenvoudigt de overstap van de oorspronkelijke ontwikkelingomgevingen, nl. Android Studio voor Android en xcode voor iOS, naar Visual Studio.
 Ook de syntax van de code van de deelprojecten werd hierbij overgenomen en vertaald naar C\#.
 
-De schematische voorstelling van de architectuur van de cross-platform mobiele applicatie ziet er schematisch als volgt uit:
-\begin{figure}[ht!]
-\centering
-\caption{Architectuur van de cross-platforme mobiele applicatie \cite{joshholmes2017}}
-\includegraphics[width=90mm]{./img/architecture.png}
-\end{figure}
+
+
 
 \subsection{User Interface}
 Voor het definiëren van de user interface heeft Microsoft besloten om de bestaande manier van werken over te nemen van de oorspronkelijke platformen, nl. Android, iOS en Universal Windows Platform.
@@ -62,9 +71,9 @@ onverwacht beeïndigd wordt of vastloopt.
 Dit beeïndigen of vastlopen kan tot gevolg hebben dat de applicatie slechte reviews krijgt in de applicatiewinkels en bijgevolg minder downloads en inkomsten voor de ontwikkelaar oplevert.
 \newpage
 Indien men ervoor kiest om voor de drie grote platformen te ontwikkelen, heeft men naast de kost van de licentie voor Visual Studio of een ander ontwikkelomgeving,
-ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd is in combinatie met Xcode, de ontwikkelomgeving van Apple.
+ook de kost van een computer waar het besturingssysteem macOS op geïnstalleerd is in combinatie met Xcode, de ontwikkelomgeving van \cite{xcodemacappstore2017}.
 Xcode is een IDE \footnote{Integrated Develop Environment} waarin men applicatie kan ontwikkelen voor iOS, macOS, tvOS en watchOS, de besturingssytemen voor respectievelijk iPhone en iPad,
-iMac en de macbook in alle versie, de Apple TV en de Apple Watch. De ontwikkelomgeving is gratis beschikbaar de App Store in macOS \citep{xcodemacappstore2017}.
+iMac en de macbook in alle versie, de Apple TV en de Apple Watch. De ontwikkelomgeving is gratis beschikbaar de App Store in macOS .
 
 \subsubsection{Kosten voor publicatie}
 Men heeft echter wel nog kennis nodig heeft van Android, iOS en windowsphone om deze applicatie te
