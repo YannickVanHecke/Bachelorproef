@@ -1,0 +1,6 @@
+PWD /Users/yannickvanhecke/Documents/TI/16-17/Semester 2/Bachelorproef/Bachelorproef
+INPUT /usr/local/texlive/2016/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT voorwoord.tex
+OUTPUT voorwoord.log
