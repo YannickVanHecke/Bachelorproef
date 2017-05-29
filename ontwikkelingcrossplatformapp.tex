@@ -5,7 +5,7 @@ Als start van het project werd er een analyse gemaakt door de co-promotor van de
 
 Deze analyse bestaat uit het sturen van een query naar de databank die draait in een webservice.
 Op deze manier worden de gegevens omgezet naar JSON \footnote{De afkorting staat voor
-JavaScript Object Notation} \citet{inleidingtotjson2017}, een makkelijk genereerbaar gegevensformaat dat eenvoudig te lezen is voor toepassingen en vaak gebruikt wordt in webservice.  Het grote voordeel van JSON
+JavaScript Object Notation \cite{inleidingtotjson2017}}, een makkelijk genereerbaar gegevensformaat dat eenvoudig te lezen is voor toepassingen en vaak gebruikt wordt in webservice.  Het grote voordeel van JSON
 is dat het makkelijk leesbaar/te genereren is voor/door toepassingen.
 
 \section{Ontwikkeling van de ASP.NET MVC Web api}
@@ -31,7 +31,7 @@ gedefinieërd voor de drie mobiele applicaties. In het project gebeurd dit door 
 naar het gemeenschappelijke project.
 
 \subsubsection{Code om data op te halen uit de REST-api}
-De code die absoluut gedeeld wordt wegens efficientiëredenen, is de code om de data op te halen uit de REST-service.
+De code die volledig gedeeld wordt omwille van de efficientië, is de code om de data op te halen uit de REST-service.
 Hieronder vindt u het voorbeeld dat als basis diende voor de ontwikkeling van de cross platforme mobiele applicatie.
 De volledige code met uitgebereide stappen om dit voorbeeld te ontwikkelen is beschikbaar op \citet{buildappwithnativeuiusingxamarininvisualstudio2017}.
 
@@ -69,9 +69,9 @@ namespace MobileApp
 \end{lstlisting}
 Nu we de methode gedefinieërd hebben, kunnen we deze verder implementeren.
 Deze implementatie zal bestaan uit 2 delen. In eerste instantie wordt de data opgehaald uit de REST-api, nadien zal de opgehaald data
-omgevormd worden tot objecten van het type "Persoon". Dit type is hierboven reeds gedefinieërd.
+omgevormd worden tot objecten van het type ''Persoon''. Dit type is hierboven reeds gedefinieërd.
 
-De volgende code die we toevoegen aan de klasse "DataService" onder "// Implementatie DataService.getData(string queryString)", is de code om de data als JSON binnen te halen.
+De volgende code die we toevoegen aan de klasse ''DataService'' onder ''// Implementatie DataService.getData(string queryString)", is de code om de data als JSON binnen te halen.
 Hiervoor moet er eerst een instantie van de klasse HttpClient (uit de namespace System.Net.Http) aangemaakt worden.
 \begin{lstlisting}
   HttpClient client = new HttpClient();
