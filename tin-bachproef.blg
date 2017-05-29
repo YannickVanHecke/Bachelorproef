@@ -87,6 +87,8 @@ Warning--entry type for "adobesystemsinc2017" isn't style-file defined
  :     url    = \url
  :                  {http://phonegap.com/getstarted/}
 I'm skipping whatever remains of this entry
+Warning--entry type for "pricingcalculormicrosoftazure2017" isn't style-file defined
+--line 141 of file tin-bachproef.bib
 "{" immediately follows a field part---line 146 of file tin-bachproef.bib
  :     url    = \url
  :                  {https://azure.microsoft.com/en-gb/pricing/calculator/}
@@ -102,45 +104,45 @@ I'm skipping whatever remains of this entry
  :                  {http://finance.yahoo.com/currency-converter"}
 I'm skipping whatever remains of this entry
 Warning--empty year in hasaspnetcorekilledwebforms2017
-You've used 14 entries,
+You've used 15 entries,
             1940 wiz_defined-function locations,
-            516 strings with 4868 characters,
-and the built_in function-call counts, 3460 in all, are:
-= -- 345
-> -- 98
-< -- 14
-+ -- 31
-- -- 28
-* -- 249
-:= -- 674
-add.period$ -- 29
-call.type$ -- 14
-change.case$ -- 84
+            518 strings with 4937 characters,
+and the built_in function-call counts, 3699 in all, are:
+= -- 369
+> -- 105
+< -- 15
++ -- 34
+- -- 30
+* -- 266
+:= -- 720
+add.period$ -- 31
+call.type$ -- 15
+change.case$ -- 90
 chr.to.int$ -- 11
-cite$ -- 15
-duplicate$ -- 144
-empty$ -- 224
-format.name$ -- 42
-if$ -- 627
-int.to.chr$ -- 4
+cite$ -- 16
+duplicate$ -- 154
+empty$ -- 239
+format.name$ -- 45
+if$ -- 670
+int.to.chr$ -- 5
 int.to.str$ -- 0
 missing$ -- 1
-newline$ -- 60
-num.names$ -- 42
-pop$ -- 57
+newline$ -- 64
+num.names$ -- 45
+pop$ -- 61
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 90
 quote$ -- 0
-skip$ -- 126
+skip$ -- 135
 stack$ -- 0
-substring$ -- 183
-swap$ -- 15
+substring$ -- 195
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 84
+type$ -- 90
 warning$ -- 1
-while$ -- 29
+while$ -- 31
 width$ -- 0
-write$ -- 144
+write$ -- 154
 (There were 18 error messages)

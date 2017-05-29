@@ -2,7 +2,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{Uitgewerkte prijsberekening voor hosting van een REST api op Azure}{15}{section*.5}
+\contentsline {table}{Uitgewerkte prijsberekening voor hosting van een REST api op Azure \citep {pricingcalculormicrosoftazure2017}}{15}{section*.5}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{Uitgewerkte prijsberekening voor hosting van een web app met REST api op Azure}{24}{section*.9}
