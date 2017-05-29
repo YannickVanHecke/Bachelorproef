@@ -1,0 +1,61 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\astroncite{Adobe}{2017}]{adobesystemsinc2017}
+Adobe (2017).
+\newblock Get started.
+
+\bibitem[\protect\astroncite{Apple}{2017}]{xcodemacappstore2017}
+Apple (2017).
+\newblock Xcode in de mac app store.
+
+\bibitem[\protect\astroncite{dofactory.com}{2017}]{dofactorycom2017}
+dofactory.com (2017).
+\newblock Facade .net design pattern in c\# and vb - dofactory.com.
+
+\bibitem[\protect\astroncite{Google}{2017}]{getstartedwithpublishingandroiddevelopers2017}
+Google (2017).
+\newblock Get started with publishing | android developers.
+
+\bibitem[\protect\astroncite{Holmes}{2017}]{joshholmes2017}
+Holmes, J. (2017).
+\newblock Building a simple photo gallery in asp.net mvc framework.
+
+\bibitem[\protect\astroncite{Inc}{2017}]{appledeveloperprograms2017}
+Inc, A. (2017).
+\newblock Apple developer program.
+
+\bibitem[\protect\astroncite{levelnis.co.uk}{2017}]{authenticatemvcapplication2017}
+levelnis.co.uk (2017).
+\newblock How can you use webapi to authenicate users of your mvc application.
+
+\bibitem[\protect\astroncite{Microsoft}{2017a}]{aspnetmvcoverview2017}
+Microsoft (2017a).
+\newblock Asp.net mvc overview.
+
+\bibitem[\protect\astroncite{Microsoft}{2017b}]{buildappwithnativeuiusingxamarininvisualstudio2017}
+Microsoft (2017b).
+\newblock Build apps with native ui using xamarin in visual studio.
+
+\bibitem[\protect\astroncite{Microsoft}{2017c}]{crossplatformmobiledevelopmentinvisualstudio2017}
+Microsoft (2017c).
+\newblock Cross-platform mobile development in visual studio.
+
+\bibitem[\protect\astroncite{Microsoft}{2017d}]{registerasanappdeveloper2017}
+Microsoft (2017d).
+\newblock Register as an app developer.
+
+\bibitem[\protect\astroncite{Paulo R. M.~de Andrade}{2015}]{albuquerque2015}
+Paulo R. M.~de Andrade, A. B.~A. (2015).
+\newblock Cross platform app a comparative study.
+\newblock {\em International Journal of Computer Science \& Information
+  Technology (IJCSIT)}, 7(1):33--40.
+
+\bibitem[\protect\astroncite{source}{2017}]{inleidingtotjson2017}
+source, O. (2017).
+\newblock Inleiding tot json.
+
+\bibitem[\protect\astroncite{Stormpath}{}]{hasaspnetcorekilledwebforms2017}
+Stormpath.
+\newblock Has asp.net core killed web forms? - stormpath user identity api.
+
+\end{thebibliography}

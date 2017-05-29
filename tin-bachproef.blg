@@ -1,0 +1,146 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: tin-bachproef.aux
+The style file: apa.bst
+Database file #1: tin-bachproef.bib
+"{" immediately follows a field part---line 26 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {http://stackoverflow.com/questions/17674790/how-do-i-programmatically-show-data-usage-of-all-applications},
+I'm skipping whatever remains of this entry
+Warning--entry type for "appledeveloperprograms2017" isn't style-file defined
+--line 30 of file tin-bachproef.bib
+"{" immediately follows a field part---line 35 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://developer.apple.com/programs/how-it-works/}
+I'm skipping whatever remains of this entry
+Warning--entry type for "getstartedwithpublishingandroiddevelopers2017" isn't style-file defined
+--line 38 of file tin-bachproef.bib
+"{" immediately follows a field part---line 43 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://developer.android.com/distribute/google-play/start.html}
+I'm skipping whatever remains of this entry
+Warning--entry type for "registerasanappdeveloper2017" isn't style-file defined
+--line 46 of file tin-bachproef.bib
+"{" immediately follows a field part---line 51 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://developer.microsoft.com/en-us/store/register}
+I'm skipping whatever remains of this entry
+Warning--entry type for "xcodemacappstore2017" isn't style-file defined
+--line 54 of file tin-bachproef.bib
+"{" immediately follows a field part---line 59 of file tin-bachproef.bib
+ :     url = \url
+ :               {https://itunes.apple.com/nl/app/xcode/id497799835?mt=12}
+I'm skipping whatever remains of this entry
+Warning--entry type for "inleidingtotjson2017" isn't style-file defined
+--line 62 of file tin-bachproef.bib
+"{" immediately follows a field part---line 67 of file tin-bachproef.bib
+ :     url = \url
+ :               {http://www.json.org/json-nl.html}
+I'm skipping whatever remains of this entry
+Warning--entry type for "authenticatemvcapplication2017" isn't style-file defined
+--line 70 of file tin-bachproef.bib
+"{" immediately follows a field part---line 75 of file tin-bachproef.bib
+ :     url = \url
+ :               {https://levelnis.co.uk/blog/how-can-you-use-webapi-to-authenticate-users-of-your-mvc-application}
+I'm skipping whatever remains of this entry
+Warning--entry type for "aspnetmvcoverview2017" isn't style-file defined
+--line 78 of file tin-bachproef.bib
+"{" immediately follows a field part---line 83 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://msdn.microsoft.com/en-us/library/dd381412(v=vs108).aspx}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 91 of file tin-bachproef.bib
+ :     url = \url
+ :               {https://www.visualstudio.com/vs/pricing/}
+I'm skipping whatever remains of this entry
+Warning--entry type for "hasaspnetcorekilledwebforms2017" isn't style-file defined
+--line 94 of file tin-bachproef.bib
+"{" immediately follows a field part---line 97 of file tin-bachproef.bib
+ :     url = \url
+ :               {https://stormpath.com/blog/dotnet-core-killed-web-forms},
+I'm skipping whatever remains of this entry
+Warning--entry type for "buildappwithnativeuiusingxamarininvisualstudio2017" isn't style-file defined
+--line 102 of file tin-bachproef.bib
+"{" immediately follows a field part---line 107 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://msdn.microsoft.com/en-us/library/dn879698.aspx}
+I'm skipping whatever remains of this entry
+Warning--entry type for "dofactorycom2017" isn't style-file defined
+--line 110 of file tin-bachproef.bib
+"{" immediately follows a field part---line 115 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {http://www.dofactory.com/net/facade-design-pattern}
+I'm skipping whatever remains of this entry
+Warning--entry type for "crossplatformmobiledevelopmentinvisualstudio2017" isn't style-file defined
+--line 117 of file tin-bachproef.bib
+"{" immediately follows a field part---line 122 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://msdn.microsoft.com/en-us/library/dn771552.aspx}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 130 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://msdn.microsoft.com/en-us/library/system.diagnostics.stopwatch.start(v=vs.110).aspx}
+I'm skipping whatever remains of this entry
+Warning--entry type for "adobesystemsinc2017" isn't style-file defined
+--line 133 of file tin-bachproef.bib
+"{" immediately follows a field part---line 138 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {http://phonegap.com/getstarted/}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 146 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {https://azure.microsoft.com/en-gb/pricing/calculator/}
+I'm skipping whatever remains of this entry
+Warning--entry type for "joshholmes2017" isn't style-file defined
+--line 149 of file tin-bachproef.bib
+"{" immediately follows a field part---line 154 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {http://www.joshholmes.com/blog/2009/01/27/buildingasimplephotogalleryinaspnetmvcframework/}
+I'm skipping whatever remains of this entry
+"{" immediately follows a field part---line 162 of file tin-bachproef.bib
+ :     url    = \url
+ :                  {http://finance.yahoo.com/currency-converter"}
+I'm skipping whatever remains of this entry
+Warning--empty year in hasaspnetcorekilledwebforms2017
+You've used 14 entries,
+            1940 wiz_defined-function locations,
+            516 strings with 4868 characters,
+and the built_in function-call counts, 3460 in all, are:
+= -- 345
+> -- 98
+< -- 14
++ -- 31
+- -- 28
+* -- 249
+:= -- 674
+add.period$ -- 29
+call.type$ -- 14
+change.case$ -- 84
+chr.to.int$ -- 11
+cite$ -- 15
+duplicate$ -- 144
+empty$ -- 224
+format.name$ -- 42
+if$ -- 627
+int.to.chr$ -- 4
+int.to.str$ -- 0
+missing$ -- 1
+newline$ -- 60
+num.names$ -- 42
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 84
+quote$ -- 0
+skip$ -- 126
+stack$ -- 0
+substring$ -- 183
+swap$ -- 15
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 84
+warning$ -- 1
+while$ -- 29
+width$ -- 0
+write$ -- 144
+(There were 18 error messages)
