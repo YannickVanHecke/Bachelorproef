@@ -71,8 +71,6 @@ Warning--entry type for "dofactorycom2017" isn't style-file defined
  :     url    = \url
  :                  {http://www.dofactory.com/net/facade-design-pattern}
 I'm skipping whatever remains of this entry
-Warning--entry type for "crossplatformmobiledevelopmentinvisualstudio2017" isn't style-file defined
---line 117 of file tin-bachproef.bib
 "{" immediately follows a field part---line 122 of file tin-bachproef.bib
  :     url    = \url
  :                  {https://msdn.microsoft.com/en-us/library/dn771552.aspx}
@@ -103,10 +101,12 @@ I'm skipping whatever remains of this entry
  :     url    = \url
  :                  {http://finance.yahoo.com/currency-converter"}
 I'm skipping whatever remains of this entry
+Warning--entry type for "securewebapi2017" isn't style-file defined
+--line 165 of file tin-bachproef.bib
 Warning--empty year in hasaspnetcorekilledwebforms2017
 You've used 15 entries,
             1940 wiz_defined-function locations,
-            518 strings with 4934 characters,
+            518 strings with 4932 characters,
 and the built_in function-call counts, 3699 in all, are:
 = -- 369
 > -- 105
