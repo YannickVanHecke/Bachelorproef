@@ -104,45 +104,45 @@ I'm skipping whatever remains of this entry
 Warning--entry type for "securewebapi2017" isn't style-file defined
 --line 165 of file tin-bachproef.bib
 Warning--empty year in hasaspnetcorekilledwebforms2017
-You've used 15 entries,
+You've used 16 entries,
             1940 wiz_defined-function locations,
-            518 strings with 4932 characters,
-and the built_in function-call counts, 3699 in all, are:
-= -- 369
-> -- 105
-< -- 15
-+ -- 34
-- -- 30
-* -- 266
-:= -- 720
-add.period$ -- 31
-call.type$ -- 15
-change.case$ -- 90
-chr.to.int$ -- 11
-cite$ -- 16
-duplicate$ -- 154
-empty$ -- 239
-format.name$ -- 45
-if$ -- 670
+            523 strings with 5083 characters,
+and the built_in function-call counts, 4052 in all, are:
+= -- 403
+> -- 118
+< -- 16
++ -- 38
+- -- 34
+* -- 297
+:= -- 783
+add.period$ -- 34
+call.type$ -- 16
+change.case$ -- 97
+chr.to.int$ -- 12
+cite$ -- 17
+duplicate$ -- 168
+empty$ -- 264
+format.name$ -- 52
+if$ -- 738
 int.to.chr$ -- 5
 int.to.str$ -- 0
-missing$ -- 1
-newline$ -- 64
-num.names$ -- 45
-pop$ -- 61
+missing$ -- 2
+newline$ -- 69
+num.names$ -- 48
+pop$ -- 65
 preamble$ -- 1
-purify$ -- 90
+purify$ -- 97
 quote$ -- 0
-skip$ -- 135
+skip$ -- 146
 stack$ -- 0
-substring$ -- 195
-swap$ -- 16
+substring$ -- 216
+swap$ -- 18
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 96
 warning$ -- 1
-while$ -- 31
+while$ -- 34
 width$ -- 0
-write$ -- 154
+write$ -- 167
 (There were 18 error messages)
