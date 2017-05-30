@@ -4,8 +4,12 @@
 Adobe (2017).
 \newblock Get started.
 
-\bibitem[\protect\astroncite{Apple}{2017}]{xcodemacappstore2017}
-Apple (2017).
+\bibitem[\protect\astroncite{Apple}{2017a}]{appledeveloperprograms2017}
+Apple (2017a).
+\newblock Apple developer program.
+
+\bibitem[\protect\astroncite{Apple}{2017b}]{xcodemacappstore2017}
+Apple (2017b).
 \newblock Xcode in de mac app store.
 
 \bibitem[\protect\astroncite{David Chek Ling~Ngo and
@@ -25,10 +29,6 @@ Google (2017).
 \bibitem[\protect\astroncite{Holmes}{2017}]{joshholmes2017}
 Holmes, J. (2017).
 \newblock Building a simple photo gallery in asp.net mvc framework.
-
-\bibitem[\protect\astroncite{Inc}{2017}]{appledeveloperprograms2017}
-Inc, A. (2017).
-\newblock Apple developer program.
 
 \bibitem[\protect\astroncite{json.org}{2017}]{inleidingtotjson2017}
 json.org (2017).
