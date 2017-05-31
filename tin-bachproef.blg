@@ -49,6 +49,8 @@ Warning--entry type for "aspnetmvcoverview2017" isn't style-file defined
  :     url    = \url
  :                  {https://msdn.microsoft.com/en-us/library/dd381412(v=vs108).aspx}
 I'm skipping whatever remains of this entry
+Warning--entry type for "pricingandpurchingoptionsvisualstudio2017" isn't style-file defined
+--line 86 of file tin-bachproef.bib
 "{" immediately follows a field part---line 91 of file tin-bachproef.bib
  :     url = \url
  :               {https://www.visualstudio.com/vs/pricing/}
@@ -104,45 +106,45 @@ I'm skipping whatever remains of this entry
 Warning--entry type for "securewebapi2017" isn't style-file defined
 --line 165 of file tin-bachproef.bib
 Warning--empty year in hasaspnetcorekilledwebforms2017
-You've used 16 entries,
+You've used 17 entries,
             1940 wiz_defined-function locations,
-            522 strings with 5074 characters,
-and the built_in function-call counts, 4052 in all, are:
-= -- 403
-> -- 118
-< -- 16
-+ -- 39
-- -- 34
-* -- 297
-:= -- 783
-add.period$ -- 34
-call.type$ -- 16
-change.case$ -- 97
+            524 strings with 5159 characters,
+and the built_in function-call counts, 4291 in all, are:
+= -- 427
+> -- 125
+< -- 17
++ -- 42
+- -- 36
+* -- 314
+:= -- 829
+add.period$ -- 36
+call.type$ -- 17
+change.case$ -- 103
 chr.to.int$ -- 11
-cite$ -- 17
-duplicate$ -- 168
-empty$ -- 264
-format.name$ -- 52
-if$ -- 738
-int.to.chr$ -- 6
+cite$ -- 18
+duplicate$ -- 178
+empty$ -- 279
+format.name$ -- 55
+if$ -- 781
+int.to.chr$ -- 7
 int.to.str$ -- 0
 missing$ -- 2
-newline$ -- 69
-num.names$ -- 48
-pop$ -- 65
+newline$ -- 73
+num.names$ -- 51
+pop$ -- 69
 preamble$ -- 1
-purify$ -- 97
+purify$ -- 103
 quote$ -- 0
-skip$ -- 145
+skip$ -- 154
 stack$ -- 0
-substring$ -- 216
-swap$ -- 18
+substring$ -- 228
+swap$ -- 19
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 96
+type$ -- 102
 warning$ -- 1
-while$ -- 34
+while$ -- 36
 width$ -- 0
-write$ -- 167
+write$ -- 177
 (There were 18 error messages)

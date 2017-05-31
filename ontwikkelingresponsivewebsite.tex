@@ -5,22 +5,22 @@ Als eerste stap in de ontwikkeling van de responsive website, is ervoor geopteer
 Dit houdt in dat het opgebouwde domein uit de ASP.NET MVC Web api overgenomen werd in de responsive webapplicatie.
 
 \section{Gebruiken van de bestaande database}
-Eens de ontwikkeling van de responsive webapplicatie afgerond is, word deze gekoppeld aan een reeds bestaande databank van de Gentse Politie.
+Eens de ontwikkeling van de responsive webapplicatie afgerond is, wordt deze gekoppeld aan een reeds bestaande databank van de Gentse politie.
 Op deze manier is de reeds aanwezige data direct bruikbaar in de ontwikkelde applicatie.
 
-Om dit tot een goed einde te brengen, wordt er in plaats van "Code-First" de ontwikkelstrategie "Database-First" toegepast in het project.
+Om dit tot een goed einde te brengen, wordt er in plaats van ''Code-First'' de ontwikkelstrategie ''Database-First'' toegepast in het project.
 Zo kan men de webapplicatie en de bestaande database makkelijker op elkaar afstemmen.
 
 \section{Controller voor het tonen van de views}
-De controllers hebben een dirigende rol binnen de toepassing, m.a.w. ze verwerken enkel aanvragen vanuit de views en vragen aan onderliggende
-klassen gegevens op uit de databank. Die gegevens worden later doorgegeven in de views, die op hun beurt de gegevens in een layout plaatsen om
-op een aangename manier weer te geven aan de gebruiker van de toepassing.
+De controllers hebben een dirigende rol binnen de toepassing. Ze verwerken met andere woorden enkel aanvragen vanuit de views en vragen aan onderliggende
+klassen gegevens op uit de databank. Deze gegevens worden later doorgegeven naar de views. Deze views plaatsen op hun beurt de gegevens in een layout om
+dit op een aangename manier weer te geven aan de gebruiker van de toepassing.
 
 \section{Koppeling met Asp Mvc Web api}
-Omdat ook in de responsive webapplicatie authenticatie en authorizatie aan de hand van tokens een vereiste is,
-dient er een koppeling te zijn tussen de responsive website enerzijds en anderzijds de web api, die tevens door de cross-platform
-mobiele applicatie gebruikt wordt. Deze koppeling is voorzien aan de server-side van de webapplicatie, die een api-request met
-de inloggegevens van de gebruiker verstuurd naar de web api van de mobiele applicatie. De access-token en vervaldatum worden
+Omdat in de responsive webapplicatie authenticatie en authorizatie aan de hand van tokens een vereiste is,
+dient er een koppeling te zijn tussen de responsive website enerzijds en anderzijds de web api. De web api wordt tevens door de cross-platform
+mobiele applicatie gebruikt. Deze koppeling is voorzien aan de server-side van de webapplicatie. Deze applicatie verstuurt een api-request met
+de inloggegevens van de gebruiker naar de web api van de mobiele applicatie. Als antwoord ontvangt de toepassing een access-token. Deze access-token en vervaldatum worden
 opgeslagen door middel van een session. Bij elke request is het de bedoeling dat er wordt nagekeken aan de server-side of
 de token ingevuld is en of het tijdstip waarop de token vervalt niet in het verleden ligt. Indien dit het geval is, wordt
 de gebruiker omgeleid naar de inlogpagina, waar hij zich opnieuw dient te authenticeren aan de hand van de gebruikersnaam en
@@ -29,5 +29,5 @@ wachtwoord uit de active directory.
 \section{Vereiste tijd om de toepassing te ontwikkelen}
 De ontwikkeling van de webapplicatie wordt berekend aan de hand van de tijd tussen de eerste en de laatste commit op het
 versiebeheersysteem. In dit geval gebeurde de eerste commit op 15 maart 2017. De laatste commit gebeurde op 23 maart 2017.
-De ontwikkeling van deze webapplicatie heeft 6 dagen in beslag genomen. Het uitgebereide overzicht van hoelang de ontwikkeling
+De ontwikkeling van deze webapplicatie heeft 6 dagen in beslag genomen. Een uitgebereider overzicht van hoelang de ontwikkeling
 van elke feature in beslag nam, vindt u terug in bijlage B.

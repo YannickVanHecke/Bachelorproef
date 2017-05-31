@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  26 MAY 2017 09:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.10.15)  31 MAY 2017 20:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -100,9 +100,11 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -337,8 +339,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 ./ontwikkelingcrossplatformapp.tex:8: Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.8 JavaScript Object Notation}
-                               , een makkelijk genereerbaar gegevensformaat ...
+l.8 ...ject Notation \cite{inleidingtotjson2017}.}
+                                                  . JSON is een makkelijk ge...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -348,20 +350,20 @@ and I'll forget about whatever was undefined.
 ./ontwikkelingcrossplatformapp.tex:8: Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.8 JavaScript Object Notation}
-                               , een makkelijk genereerbaar gegevensformaat ...
+l.8 ...ject Notation \cite{inleidingtotjson2017}.}
+                                                  . JSON is een makkelijk ge...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-\citation{inleidingtotjson}
+\citation{inleidingtotjson2017}
 ./ontwikkelingcrossplatformapp.tex:8: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.8 JavaScript Object Notation}
-                               , een makkelijk genereerbaar gegevensformaat ...
+l.8 ...ject Notation \cite{inleidingtotjson2017}.}
+                                                  . JSON is een makkelijk ge...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -369,7 +371,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `inleidingtotjson' on page  undefined on input line 8.
+LaTeX Warning: Citation `inleidingtotjson2017' on page  undefined on input line 8.
 
 
 Overfull \hbox (12.08334pt too wide) in paragraph at lines 8--8
@@ -389,16 +391,6 @@ Overfull \hbox (11.1389pt too wide) in paragraph at lines 8--8
 
 Overfull \hbox (13.33337pt too wide) in paragraph at lines 8--8
 \OT1/cmr/m/n/10 ing
- []
-
-
-Overfull \hbox (21.72227pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10 staat
- []
-
-
-Overfull \hbox (10.9861pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10 [[]]
  []
 
 
@@ -438,10 +430,21 @@ Overfull \hbox (12.22224pt too wide) in paragraph at lines 8--8
 
 
 Overfull \hbox (17.22227pt too wide) in paragraph at lines 8--8
-\OT1/cmr/m/n/10 tion| 
+\OT1/cmr/m/n/10 tion
  []
 
-Missing character: There is no , in font nullfont!
+
+Overfull \hbox (13.76389pt too wide) in paragraph at lines 8--8
+\OT1/cmr/m/n/10 [[]].| 
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
@@ -550,102 +553,18 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no H in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no J in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no m in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no j in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no v in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no s in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 6--10
+Overfull \hbox (20.0pt too wide) in paragraph at lines 6--9
 []
  []
 
 
-Overfull \hbox (4.48613pt too wide) in paragraph at lines 6--10
+Overfull \hbox (4.48613pt too wide) in paragraph at lines 6--9
 []
  []
 
-./ontwikkelingcrossplatformapp.tex:11: Undefined control sequence.
-l.11 \section
+./ontwikkelingcrossplatformapp.tex:10: Undefined control sequence.
+l.10 \section
              {Ontwikkeling van de ASP.NET MVC Web api}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -654,13 +573,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./ontwikkelingcrossplatformapp.tex:11: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:10: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 \section{O
+l.10 \section{O
                ntwikkeling van de ASP.NET MVC Web api}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -843,7 +762,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no P in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -999,7 +918,51 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no j in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no ( in font nullfont!
+./ontwikkelingcrossplatformapp.tex:13: Undefined control sequence.
+l.13 ...s die een bepaalde tijd geldig zijn \citep
+                                                  {authenticatemvcapplicatio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -1018,7 +981,6 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no k in font nullfont!
-Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no a in font nullfont!
@@ -1364,31 +1326,31 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 11--19
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--17
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:20: LaTeX Error: Environment figure undefined.
+./ontwikkelingcrossplatformapp.tex:18: LaTeX Error: Environment figure undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \begin{figure}
+l.18 \begin{figure}
                    [ht!]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./ontwikkelingcrossplatformapp.tex:20: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:18: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \begin{figure}[
+l.18 \begin{figure}[
                     ht!]
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1399,14 +1361,14 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no ! in font nullfont!
 Missing character: There is no ] in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:22: LaTeX Error: \caption outside float.
+./ontwikkelingcrossplatformapp.tex:20: LaTeX Error: \caption outside float.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \caption
-             {Token-authenticatie met ASP.NET MVC Web api}
+l.20 \caption
+             {Token-authenticatie met ASP.NET MVC Web api \cite{securewebapi...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1448,8 +1410,25 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no i in font nullfont!
-./ontwikkelingcrossplatformapp.tex:23: Undefined control sequence.
-l.23 \includegraphics
+Missing character: There is no [ in font nullfont!
+\citation{securewebapi2017}
+./ontwikkelingcrossplatformapp.tex:20: Undefined control sequence.
+<write> ...: Citation `\@citeb ' on page \thepage 
+                                                  \space undefined\on@line .
+l.20 ...SP.NET MVC Web api \cite{securewebapi2017}
+                                                  }
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `securewebapi2017' on page  undefined on input line 20.
+
+Missing character: There is no ] in font nullfont!
+./ontwikkelingcrossplatformapp.tex:21: Undefined control sequence.
+l.21 \includegraphics
                      [width=90mm]{./img/authentication.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1494,25 +1473,30 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:24: LaTeX Error: \begin{document} ended by \end{figure}.
+./ontwikkelingcrossplatformapp.tex:22: LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 \end{figure}
+l.22 \end{figure}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 20--25
+Overfull \hbox (20.0pt too wide) in paragraph at lines 18--23
 []
  []
 
-./ontwikkelingcrossplatformapp.tex:26: Undefined control sequence.
-l.26 \section
+
+Overfull \hbox (5.43053pt too wide) in paragraph at lines 18--23
+[]
+ []
+
+./ontwikkelingcrossplatformapp.tex:24: Undefined control sequence.
+l.24 \section
              {Ontwikkeling van de cross platforme mobiele applicatie}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1521,13 +1505,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./ontwikkelingcrossplatformapp.tex:26: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:24: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \section{O
+l.24 \section{O
                ntwikkeling van de cross platforme mobiele applicatie}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1580,8 +1564,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-./ontwikkelingcrossplatformapp.tex:27: Undefined control sequence.
-l.27 \subsection
+./ontwikkelingcrossplatformapp.tex:25: Undefined control sequence.
+l.25 \subsection
                 {Gedeelde code}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1790,6 +1774,18 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -1814,11 +1810,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -1873,9 +1864,20 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no O in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no k in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -1890,11 +1892,6 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no t in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -1972,7 +1969,7 @@ Missing character: There is no b in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -2056,12 +2053,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--33
+Overfull \hbox (20.0pt too wide) in paragraph at lines 24--31
 []
  []
 
-./ontwikkelingcrossplatformapp.tex:34: Undefined control sequence.
-l.34 \subsubsection
+./ontwikkelingcrossplatformapp.tex:32: Undefined control sequence.
+l.32 \subsubsection
                    {Code om data op te halen uit de REST-api}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2070,13 +2067,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./ontwikkelingcrossplatformapp.tex:34: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:32: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \subsubsection{C
+l.32 \subsubsection{C
                      ode om data op te halen uit de REST-api}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2122,14 +2119,14 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no v in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -2142,12 +2139,18 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
 Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no s in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no f in font nullfont!
@@ -2160,13 +2163,6 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no Ã in font nullfont!
 Missing character: There is no « in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no n in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2389,8 +2385,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no p in font nullfont!
-./ontwikkelingcrossplatformapp.tex:37: Undefined control sequence.
-l.37 ...ld te ontwikkelen is beschikbaar op \citep
+./ontwikkelingcrossplatformapp.tex:35: Undefined control sequence.
+l.35 ...ld te ontwikkelen is beschikbaar op \citet
                                                   {buildappwithnativeuiusing...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2444,20 +2440,24 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 34--38
+Overfull \hbox (20.0pt too wide) in paragraph at lines 32--36
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:39: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:37: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 T
+l.37 T
       er voorbereiding van de logica om data uit een REST-api op te halen he...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2616,6 +2616,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -2623,6 +2624,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -2645,6 +2647,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no V in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
@@ -2653,7 +2656,9 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no , in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no F in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
@@ -2665,7 +2670,9 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no m in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no , in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no G in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -2674,31 +2681,32 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 39--41
+Overfull \hbox (20.0pt too wide) in paragraph at lines 37--39
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:41: LaTeX Error: The font size command \normalsize is not defined:
+./ontwikkelingcrossplatformapp.tex:39: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.41 \newpage
+l.39 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [1
-./ontwikkelingcrossplatformapp.tex:41: Undefined control sequence.
+./ontwikkelingcrossplatformapp.tex:39: Undefined control sequence.
 <write> ...wikkelingcrossplatformapp}{{}{\thepage 
                                                   }}
-l.41 \newpage
+l.39 \newpage
              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2709,26 +2717,26 @@ and I'll forget about whatever was undefined.
 \newlabel{ch:ontwikkelingcrossplatformapp}{{}{}}
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-./ontwikkelingcrossplatformapp.tex:42: LaTeX Error: Environment lstlisting undefined.
+./ontwikkelingcrossplatformapp.tex:40: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \begin{lstlisting}
+l.40 \begin{lstlisting}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./ontwikkelingcrossplatformapp.tex:43: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:41: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.43 n
+l.41 n
       amespace MobileApp
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2857,13 +2865,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:52: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./ontwikkelingcrossplatformapp.tex:50: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 \end{lstlisting}
+l.50 \end{lstlisting}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3132,13 +3140,13 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no : in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:56: LaTeX Error: Environment lstlisting undefined.
+./ontwikkelingcrossplatformapp.tex:54: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.56 \begin{lstlisting}
+l.54 \begin{lstlisting}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3357,13 +3365,13 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no ) in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:70: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./ontwikkelingcrossplatformapp.tex:68: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.70 \end{lstlisting}
+l.68 \end{lstlisting}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3521,8 +3529,8 @@ Missing character: There is no - in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no i in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no N in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -3542,6 +3550,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -3582,7 +3591,8 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no y in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no P in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -3590,7 +3600,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no i in font nullfont!
@@ -3630,19 +3641,19 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 43--74
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--72
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:75: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:73: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 D
-      e volgende code die we toevoegen aan de klasse "DataService" onder "//...
+l.73 D
+      e volgende code die we toevoegen aan de klasse ''DataService'' onder '...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3685,7 +3696,8 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no D in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -3697,13 +3709,15 @@ Missing character: There is no v in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no / in font nullfont!
 Missing character: There is no I in font nullfont!
@@ -3757,7 +3771,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no ) in font nullfont!
-Missing character: There is no " in font nullfont!
+Missing character: There is no ' in font nullfont!
+Missing character: There is no ' in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3897,13 +3912,13 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:77: LaTeX Error: Environment lstlisting undefined.
+./ontwikkelingcrossplatformapp.tex:75: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \begin{lstlisting}
+l.75 \begin{lstlisting}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3943,32 +3958,32 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:79: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./ontwikkelingcrossplatformapp.tex:77: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 \end{lstlisting}
+l.77 \end{lstlisting}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 75--80
+Overfull \hbox (20.0pt too wide) in paragraph at lines 73--78
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:80: LaTeX Error: The font size command \normalsize is not defined:
+./ontwikkelingcrossplatformapp.tex:78: LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \newpage
+l.78 \newpage
              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3976,13 +3991,13 @@ or  <return>  to continue without it.
 
 [2]
 
-./ontwikkelingcrossplatformapp.tex:81: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:79: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 N
+l.79 N
       u de instantie van HttpClient geÃ¯nstanceerd is, kan deze gebruikt wor...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4138,13 +4153,13 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:83: LaTeX Error: Environment lstlisting undefined.
+./ontwikkelingcrossplatformapp.tex:81: LaTeX Error: Environment lstlisting undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 \begin{lstlisting}
+l.81 \begin{lstlisting}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4188,18 +4203,18 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 81--87
+Overfull \hbox (20.0pt too wide) in paragraph at lines 79--85
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:88: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:86: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88     p
+l.86     p
           ublic class DataService
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4352,18 +4367,18 @@ Missing character: There is no ( in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 88--94
+Overfull \hbox (20.0pt too wide) in paragraph at lines 86--92
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:95: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:93: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95         /
+l.93         /
               / data ophalen uit de webservice
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4459,18 +4474,18 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 95--97
+Overfull \hbox (20.0pt too wide) in paragraph at lines 93--95
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:98: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:96: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98         /
+l.96         /
               / data converteren naar persoon-objecten
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4588,19 +4603,19 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 98--100
+Overfull \hbox (20.0pt too wide) in paragraph at lines 96--98
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:101: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:99: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101         /
-               / persoon-objecten teruggeven
+l.99         /
+              / persoon-objecten teruggeven
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4648,25 +4663,25 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-./ontwikkelingcrossplatformapp.tex:106: LaTeX Error: \begin{document} ended by \end{lstlisting}.
+./ontwikkelingcrossplatformapp.tex:104: LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.106 \end{lstlisting}
+l.104 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 101--107
+Overfull \hbox (20.0pt too wide) in paragraph at lines 99--105
 []
  []
 
-./ontwikkelingcrossplatformapp.tex:110: Undefined control sequence.
-l.110 \subsection
+./ontwikkelingcrossplatformapp.tex:108: Undefined control sequence.
+l.108 \subsection
                  {Platform specifieke code}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4675,13 +4690,13 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./ontwikkelingcrossplatformapp.tex:110: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:108: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.110 \subsection{P
+l.108 \subsection{P
                    latform specifieke code}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4757,7 +4772,7 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -4897,19 +4912,19 @@ Missing character: There is no O in font nullfont!
 Missing character: There is no S in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 110--113
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--111
 []
  []
 
 
-./ontwikkelingcrossplatformapp.tex:114: LaTeX Error: Missing \begin{document}.
+./ontwikkelingcrossplatformapp.tex:112: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 A
-       nderzijds is ook de code die de gebruikersevent van de GUI opvangen. ...
+l.112 A
+       nderzijds is er ook de code die de gebruikersevent van de GUI opvange...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -4925,6 +4940,8 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no k in font nullfont!
@@ -5057,11 +5074,11 @@ Missing character: There is no . in font nullfont!
 
  
 Here is how much of TeX's memory you used:
- 17 strings out of 493014
- 362 string characters out of 6133350
+ 18 strings out of 493014
+ 384 string characters out of 6133350
  54601 words of memory out of 5000000
- 3657 multiletter control sequences out of 15000+600000
+ 3658 multiletter control sequences out of 15000+600000
  3948 words of font info for 15 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 24i,5n,22p,236b,152s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 24i,5n,22p,340b,152s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -39,10 +39,10 @@
 \contentsline {chapter}{\numberline {5}Framework responsive website}{22}{chapter.5}
 \contentsline {section}{\numberline {5.1}Architectuur van de responsive website}{22}{section.5.1}
 \contentsline {section}{\numberline {5.2}Voordelen van de gekozen architectuur}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Nadelen van de gekozen architectuur}{23}{section.5.3}
+\contentsline {section}{\numberline {5.3}Nadeel van de gekozen architectuur}{23}{section.5.3}
 \contentsline {section}{\numberline {5.4}Kosten}{23}{section.5.4}
 \contentsline {subsection}{\numberline {5.4.1}Kosten voor de ontwikkeling}{23}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Kosten voor testen}{24}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.2}Kosten voor testen}{23}{subsection.5.4.2}
 \contentsline {subsection}{\numberline {5.4.3}Kosten voor publicatie}{24}{subsection.5.4.3}
 \contentsline {subsubsection}{Kosten bij hosting op lokale computer}{24}{section*.7}
 \contentsline {subsubsection}{Kosten bij hosting op eigen webserver}{25}{section*.8}

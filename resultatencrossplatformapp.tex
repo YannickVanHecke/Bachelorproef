@@ -1,39 +1,39 @@
 \chapter{Resultaten cross platforme mobiele applicatie}
 \label{ch:resultatencrossplatformapp}
-In dit hoofdstuk worden de resultaten van het onderzoek besproken, waarbij er 2 belangrijke
+In dit hoofdstuk worden de resultaten van het onderzoek besproken, waarbij er twee belangrijke
 aspecten besproken worden.
 Enerzijds wordt de performantie in verband met gegevensgebruik en  snelheid besproken.
 Wegens de beperkte functionaliteit van de applicatie, waarbij enkel data wordt opgehaald en weergegven, wordt hier hoofdzakelijk de
-belasting op het netwerk en de belasting op het toestel voor windowsphone \footnote{Voor windowsphone werd er getest op een Nokia Lumia 532} en voor Android \footnote{Voor Android werd er getest op een Samsung Galaxy Core 2} van de applicatie getest. 
+belasting op het netwerk en de belasting op het toestel voor Windows Phone \footnote{Voor Windows Phone werd er getest op een Nokia Lumia 532} en voor Android \footnote{Voor Android werd er getest op een Samsung Galaxy Core 2} van de applicatie getest.
 Tevens komen ook de tijd die nodig is om de toepassingen te ontwikkelen en de mogelijke
 problemen tijdens de ontwikkeling aan bod in de hoofdstuk.
-Deze resultaten dienen overigens als basis om later een besluit onder welke
-voorwaarden wanneer men best kiest voor de
-cross-platforme mobiele applicatie en onder welke voorwaarden men beter kiest voor de responsive website.
+Deze resultaten dienen overigens als basis om later een besluit te vormen.
+Het besluit wordt gevormd door enerzijds de voorwaarden om te kiezen voor de
+cross-platforme mobiele applicatie en anderzijds de voorwaarden om te kiezen voor de responsive website.
 
 \section{Tijd die nodig is om de toepassing te ontwikkelen}
 Het eerste gegeven dat in de keuze tussen een cross platforme mobiele
 applicatie en responsive webapplicatie van belang is,
 is de tijd die nodig is om deze toepassing tot stand te brengen.
 Deze tijd wordt samengerekend met de tijd die nodig is om de
-REST-api te ontwikkelen. Dit aangezien de REST dient als basis voor de mobiele applicatie.
+REST-api te ontwikkelen. Dit aangezien de REST als basis dient voor de mobiele applicatie.
 
 De eerste stap, in de ontwikkeling van de cross platforme mobiele applicatie, was het opzetten van REST-api.
-Deze REST-api heeft een twee-ledige functie, zoals reeds in het Hoofdstuk "Ontwikkeling cross platforme mobiele applicatie" vermeld staat.
+Deze REST-api heeft een tweeledige functie, zoals reeds in het hoofdstuk ''Ontwikkeling cross platforme mobiele applicatie'' vermeld staat.
 Hierbij werd eerst het beschikbaar maken van de data uit een achterliggende databank gerealiseerd. Nadien is de beveiliging aan de hand
-van authenticatie-token toegevoegd. De ontwikkeling van deze REST-api heeft 7 dagen in beslag genomen. De ontwikkeltijd van elk onderdeel
+van authenticatie-token toegevoegd. De ontwikkeling van deze REST-api heeft zeven dagen in beslag genomen. De ontwikkeltijd van elk onderdeel
 in de toepassing kan u terugvinden in bijlage B.
 
 \section{Snelheid van de applicatie}
 De snelheid van de mobiele applicatie wordt gemeten aan de hand van een ingebouwde stopwatch.
-Hieronder volgt een samenvatting van de testresultaten. Overigens kan u de uitgebereide testresultaten terugvinden in Bijlage A.
+Hieronder volgt een samenvatting van de testresultaten. Overigens kan u de uitgebereide testresultaten terugvinden in ''Bijlage A''.
 
 De gemiddelde resultaten van de testen op een Android-toestel kan u hieronder terugvinden.
 \begin{center}
 \addcontentsline{lot}{table}{Gemiddelde tijden van de mobiele applicatie voor inloggen, gegevens ophalen en tonen}
 \begin{tabular}{| l | l | l | }
   \hline
-  Statistieken & Android & windowsphone \\ \hline
+  Statistieken & Android & Windows Phone \\ \hline
   Gemiddelde & 6.552,9562 & 2361,3135 \\ \hline
   Standaardafwijking & 2.657,2925 & 407,9001 \\
   \hline
@@ -46,17 +46,17 @@ De gemiddelde resultaten van de testen op een Android-toestel kan u hieronder te
 \addcontentsline{lot}{table}{Gemiddeld gegevensverbruik van de mobiele applicatie voor inloggen, gegevens ophalen en tonen}
 \begin{tabular}{| l | l | l |}
   \hline
-  Statistieken & Android & windowsphone \\ \hline
+  Statistieken & Android & Windows Phone \\ \hline
   Gemiddelde & 190,00 & 207,00 \\ \hline
   Standaarafwijking & 0,00 & 0,00 \\ \hline
 \end{tabular}
 \end{center}
 
 \section{Mogelijke problemen bij de ontwikkeling}
-Tijdens de ontwikkeling van de cross platforme mobiele applicatie doken er af en toe ook enkele problemen op.
+Tijdens de ontwikkeling van de cross platforme mobiele applicatie doken er af en toe enkele problemen op.
 Deze worden ook besproken omdat deze van belang zijn in de keuze tussen de mobiele applicatie en de webapplicatie.
 
-Een eerste zaak die uit het onderzoek naar voor kwam, is dat men bij de ontwikkeling van een iOS-applicatie op windows moet beschikken
+Een eerste probleem dat uit het onderzoek naar voor kwam, is dat men bij de ontwikkeling van een iOS-applicatie op Windows moet beschikken
 over een verbinding tussen een windows-pc en een macOS-toestel. Deze verbinding is noodzakelijk voor het kunnen weergeven van
 het storyboard of de user interface in de ontwikkelomgeving en om de applicatie te kunnen debuggen. Naast het feit dat de structuur van de applicatie
 soms moeilijk te begrijpen is in vergelijking met de andere mobiele platformen (Android en Windowsphone), viel ook de verbinding soms weg.

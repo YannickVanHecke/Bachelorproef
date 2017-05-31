@@ -3,9 +3,9 @@
 \section{Architectuur van de responsive website}
 De architectuur van de responsive webapplicatie is het ASP.NET MVC 5 framework van ~\cite{aspnetmvcoverview2017}.
 MVC \footnote{Model View Controller} is een combinatie van design patterns waarbij de business-logica, de user interface en de controllers de belangrijkste
-onderdelen zijn. De business-logica bestaat uit domein-objecten die op hun beurt de reële situatie waarbinnen de applicatie
-gebruikt wordt, weerspiegelt. Het voornaamste doel van het MVC-framework is een scheiding voorzien tussen het grafische
-onderdeel van de toepassing (de schermen), de business logica of model en de controllers die instaan voor het delegeren van gegevens
+onderdelen zijn. De business-logica bestaat uit domein-objecten die op hun beurt de reële situatie, waarbinnen de applicatie
+gebruikt wordt, weerspiegelt. Het voornaamste doel van het MVC-framework is dat het een scheiding voorziet tussen het grafische
+onderdeel van de toepassing (de schermen), de business logica (model) en de controllers die instaan voor het delegeren van gegevens
 tussen de views en het model. Schematisch ziet het MVC-framework er als volgt uit:
 \begin{figure}[ht!]
 \centering
@@ -15,29 +15,26 @@ tussen de views en het model. Schematisch ziet het MVC-framework er als volgt ui
 \section{Voordelen van de gekozen architectuur}
 Het ASP.NET MVC 5 framework van ~\cite{aspnetmvcoverview2017} werd gekozen vanwege volgende voordelen:
 \begin{itemize}
-  \item Het beheren van complexe applicatie wordt, door de opdeling in Model, View en Controller, eenvoudiger.
-  \item Verbeterde ondersteuning voor Test Driven Development \footnote{Test Driven Development is een ontwikkelmethodologie waarbij voorafgaande aan de code eerst de testen geschreven worden. Hierdoor zijn de testen gebaseerd op de oorspronkelijke analyse in plaats van op de geschreven code}
-  \item Gecentraliseerde beheer van requests door middel van Front Controller Pattern.
-  \item Goede werking voor webapplicaties met grote ontwikkelteams, waarbij de controle over het applicatiegedrag een hoge vereiste is.
-  \item Url's van een ASP.NET MVC 5 applicatie zijn eenvoudiger te begrijpen voor een zoek-robot.
+  \item De opdeling in Model, View, Controller zorgt ervoor dat het beheren van complexe applicatie wordt.
+  \item Er is een verbeterde ondersteuning voor Test Driven Development \footnote{Test Driven Development is een ontwikkelmethodologie waarbij voorafgaand aan de code eerst de testen geschreven worden. Hierdoor zijn de testen gebaseerd op de oorspronkelijke analyse in plaats van op de geschreven code.}
+  \item Er is een gecentraliseerde beheer van requests door middel van Front Controller Pattern.
+  \item Er is een goede werking voor webapplicaties met grote ontwikkelteams, waarbij de controle over het applicatiegedrag een hoge vereiste is.
+  \item De url's van een ASP.NET MVC 5 applicatie zijn eenvoudiger te begrijpen voor een zoekmachine.
 \end{itemize}
 
-\section{Nadelen van de gekozen architectuur}
-Het grootste nadeel van de ASP.NET MVC 5 architectuur is volgens ~\cite{hasaspnetcorekilledwebforms2017} het volgende:
-\begin{itemize}
-  \item Het moeilijk debuggen van de toepassing in vergelijking met een event-driven variant.
-\end{itemize}
+\section{Nadeel van de gekozen architectuur}
+Het grootste nadeel van de ASP.NET MVC 5 architectuur is volgens ~\cite{hasaspnetcorekilledwebforms2017} het moeilijk debuggen van de toepassing in vergelijking met een event-driven variant.
 
 \section{Kosten}
-Hieronder volgt een overzicht van de voornaamstekosten per fase in de ontwikkeling van de responsive website.
+Hieronder volgt een overzicht van de voornaamste kosten per fase in de ontwikkeling van de responsive website.
 \subsection{Kosten voor de ontwikkeling}
-De ontwikkeling van de responsive website is een proces dat niet kostenloos verloopt. Zo moet er een licentie op de ontwikkelomgeving (in dit geval Visual Studio) gekocht worden.
-De kosten van deze licentie is afhankelijk van de gekozen. Zo kost een enkele licentie op Visual Studio Professional 2017 499 dollar.
+De ontwikkeling van de responsive website is een proces dat niet kosteloos verloopt. Zo moet er een licentie op de ontwikkelomgeving (in dit geval Visual Studio) gekocht worden.
+De kosten van deze licentie is afhankelijk van de gekozen versie \citep{pricingandpurchingoptionsvisualstudio2017}. Zo kost een enkele licentie op Visual Studio Professional 2017 499 dollar.
 
 \subsection{Kosten voor testen}
-In de testfase zijn er geen kosten verbonden aan de responsive website, aangezien Visual Studio zelf een lokale webserver opzet
+In de testfase zijn er geen kosten verbonden aan de responsive website. Dit aangezien Visual Studio zelf een lokale webserver opzet
 voor de hosting van de website. Deze lokale webserver is te bereiken via http://localhost:poortnummer met als poortnummer een
-5-cijferig nummer dat vast gekozen is door de ontwikkelomgeving voor de toepassing.
+vijfcijferig nummer dat vast gekozen is door de ontwikkelomgeving voor de toepassing.
 \subsection{Kosten voor publicatie}
 Voor de publicatie van de responsive website zijn er volgende optie voor handen:
 \begin{itemize}
@@ -46,7 +43,7 @@ Voor de publicatie van de responsive website zijn er volgende optie voor handen:
   \item Men kan een externe webserver gebruiken zoals Microsoft Azure.
 \end{itemize}
 In volgende subsecties worden de kosten zoals electriciteit en koeling van de server buiten beschouwing gelaten omdat deze
-mogelijks te grote verschillen opleveren om objectief te kunnen oordelen over de drie publicatiemethoden. Tevens wordt er vanuit
+mogelijks te grote verschillen opleveren om objectief te kunnen oordelen over de drie publicatiemethoden. Tevens wordt ervan uit
 gegaan dat de kosten voor publicatie van de Web api en responsive website gelijk zijn.
 %%
 \subsubsection{Kosten bij hosting op lokale computer}

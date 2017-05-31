@@ -46,16 +46,20 @@ Microsoft (2017a).
 Microsoft (2017b).
 \newblock Build apps with native ui using xamarin in visual studio.
 
-\bibitem[\protect\astroncite{Microsoft}{2017c}]{pricingcalculormicrosoftazure2017}
+\bibitem[\protect\astroncite{Microsoft}{2017c}]{pricingandpurchingoptionsvisualstudio2017}
 Microsoft (2017c).
+\newblock Pricing and purching options | visual studio.
+
+\bibitem[\protect\astroncite{Microsoft}{2017d}]{pricingcalculormicrosoftazure2017}
+Microsoft (2017d).
 \newblock Pricing calculator | microsoft azure.
 
-\bibitem[\protect\astroncite{Microsoft}{2017d}]{registerasanappdeveloper2017}
-Microsoft (2017d).
+\bibitem[\protect\astroncite{Microsoft}{2017e}]{registerasanappdeveloper2017}
+Microsoft (2017e).
 \newblock Register as an app developer.
 
-\bibitem[\protect\astroncite{Microsoft}{2017e}]{securewebapi2017}
-Microsoft (2017e).
+\bibitem[\protect\astroncite{Microsoft}{2017f}]{securewebapi2017}
+Microsoft (2017f).
 \newblock Secure a web api with individual accounts and local login in asp.net
   web api 2.2.
 
