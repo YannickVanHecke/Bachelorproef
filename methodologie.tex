@@ -13,14 +13,14 @@
 
 \section{Literatuuronderzoek}
 Ter voorbereiding van deze vergelijkende studie is er een literatuuronderzoek verricht.
-Hierbij in dat er op internet gezocht werd naar verschillende wetenschappelijke artikelen over voorgaande vergelijkende studies
-tussen cross platforme mobiele applicatie en responsive website. Dit literatuuronderzoek heeft al voornaamste reden het geven van
+Hierbij werd internet gezocht naar verschillende wetenschappelijke artikelen over voorgaande vergelijkende studies
+tussen cross platforme mobiele applicatie en responsive website. Dit literatuuronderzoek biedt
 een stand van zaken in het ontwikkelen van cross-platforme mobiele applicaties en responsive webapplicaties.
 
 \section{Vastleggen casus}
 De eerste stap in het onderzoek naar de vergelijkende studie tussen een cross-platforme mobiele applicatie en een
 responsive website, was het vastleggen van de casus in overleg met de co-promotor. Hierdoor werden de functionele requirements van beide applicaties duidelijk.
-De casus omvatte een toepassing rond personeelsgegevens binnen de Gentse Politie,
+De casus omvatte een toepassing rond personeelsgegevens binnen de Gentse politie,
 waarbij de gegevens momenteel enkel intern beschikbaar zijn. Het doel van de casus is om deze, mits de nodige beveiliging, beschikbaar
 te stellen van het personeel dat niet altijd met het intern netwerk verbonden is. Hierbij wordt er vooral gedacht aan operationele mensen.
 
@@ -32,7 +32,7 @@ de 3 platform-specifieke applicaties. Op deze manier kan men code hergebruiken, 
 
 \section{Framework kiezen voor responsive webapplicatie}
 Het framework, dat voor de responsive webapplicatie gebruikt werd, is het ASP MVC 5-framework van Microsoft.
-Hierdoor kan de ontwikkeling van de webapplicatie ook in Visual Studio gebeuren, hetgeen voor de vergelijking van de ontwikkeltijd
+Hierdoor kan de ontwikkeling van de webapplicatie ook in Visual Studio gebeuren. Dit zorgt voor een eerlijker resultaathetgeen voor de vergelijking van de ontwikkeltijd
 een eerlijker resultaat opleverde, dan wanneer men zich nog dient in te werken in een nieuwe technologie en ontwikkelomgeving.
 
 \section{Opzetten REST API}
@@ -45,17 +45,17 @@ Het testen van de REST API zal eerst gebeuren aan POSTMAN, een REST-client. Zo i
 
 \section{De ontwikkeling van een cross platforme mobiele applicatie}
 Nadat het testen van de REST API voltooid is, begint de ontwikkeling van de cross platforme applicatie.
-Hierbij is het de bedoeling om de code die gemeenschappelijk is voor de 3 deelprojecten,
-nl. het ophalen van gegevens uit de webservice en deze op te slaan in een lokale databank, alsook het mappen naar objecten van deze gegevens
- af te zonderen van de platform-specifieke deelprojecten in een gemeenschappelijk deelproject.
+Hierbij is het de bedoeling om de code die gemeenschappelijk is voor de 3 deelprojecten, af te zonderen van de platform-specifieke deelprojecten in een gemeenschappelijk deelproject.
+Voorbeelden hiervan zijn de code voor het ophalen van gegevens uit de webservice, de code om opgehaalde gegevens te mappen naar objecten en de code om opgehaalde gegevens op te slaan in een lokale databank.
+
  Op deze manier wordt de ontwikkeltijd gereduceerd ten opzichte van het ontwikkelen van 3 afzonderlijke mobiele applicaties.
-Het weergeven van de opgehaalde data wordt, samen met het ontwerp van de schermen voor de platforme-specifieke user interfaces,
- staat in de platform-specifieke projecten gecodeerd. Dit omdat er geen uniforme manier bestaat om de data weer te geven voor de 3 besturingssystemen binnen
+Het weergeven van de opgehaalde data staat, samen met het ontwerp van de schermen voor de platforme-specifieke user interfaces,
+ gecodeerd in de platform-specifieke projecten. Dit omdat er geen uniforme manier bestaat om de data weer te geven voor de 3 besturingssystemen binnen
 de gekozen ontwikkelomgeving.
 
-\section{De Ontwikkeling van een responsive webapplicatie}
-De volgende stap in deze vergelijkende studie tussen een cross platforme mobiele applicatie en responsive webapplicatie, is het
-ontwikkelen van de responsive webapplicatie. Hierbij wordt dezelfde databank gebruikt van de webservice van de cross platforme
+\section{De ontwikkeling van een responsive webapplicatie}
+De volgende stap is het ontwikkelen van de responsive webapplicatie.
+Hierbij wordt dezelfde databank gebruikt van de webservice van de cross platforme
 mobiele applicatie. Verder wordt ook het domeinmodel van de webservice en de mobiele applicatie overgenomen. Hierna worden de controllers
 geïmplementeerd met authenticatie en authorisatie aan de hand van de REST API.
 Dit om vervolgens het responsive design van de webpagina's af te werken.
@@ -63,18 +63,18 @@ Dit om vervolgens het responsive design van de webpagina's af te werken.
 \section{Vergelijken van de tijd die nodig is om beide vormen van toepassingen te ontwikkelen}
 Wanneer beide vormen van de toepassing ontwikkeld zijn, zal er gekeken worden naar tijd die nodig was om deze tot stand te brengen.
 Dit is overigens een onderzoeksvraag van de casus en zal gebeuren aan de hand van een versiebeheersysteem.
-Hierbij zal de tijd tussen het verschil tussen de eerste en de laatste commit van ieder project berekend worden.
+Hierbij zal het verschil in tijd tussen de eerste en de laatste commit van ieder project berekend worden.
 
 \section{Meten van het gegevensverbruik}
-De verbruikte hoeveelheid gegevens wordt gemeten door het opvragen van de grootte van het antwoord dat de toepassing binnenkrijgt van de webservice tijdens het uitvoeren van beide
-applicaties. Vooraf wordt bepaald hoeveel keer dit gebeurt.
+De verbruikte hoeveelheid gegevens wordt gemeten door de grootte van het HttpResponse-object uit te lezen.
+Dit HttpResponse-object is het antwoord op de aanvraag voor gegevens bij de REST API. Vooraf wordt bepaald hoeveel keer dit gebeurt.
 Nadien wordt dit proces herhaald bij de responsive website. Indien alle nodige gegevens verzameld zijn, wordt een conclusie
 getrokken over welke vorm van applicatie het meest zuinig omgaat met het internetgebruik.
 
 \section{Meten van de snelheid}
 De snelheid van beide vormen van applicatie is een criterium waarop men beoordeelt tussen de keuze tussen de app en de website.
-Men wil namelijk zo snel mogelijk de gevraagde gegevens ter beschikking hebben. Met de ingebouwde stopwatch in het .NET-framework wordt
-dit gemeten. Nadien worden deze resultaten meegenomen in de besluitvorming.
+Men wil namelijk zo snel mogelijk de gevraagde gegevens ter beschikking hebben. De ingebouwde stopwatch in het .NET-framework meet
+dit. Nadien worden deze resultaten meegenomen in de besluitvorming.
 
 \section{Extra kosten bij de realisatie en publicatie}
 Om te kiezen voor de cross-platforme mobiele applicatie of de responsive website, dient rekening gehouden te worden met de kosten die nodig zijn voor de realisatie en publicatie.
@@ -83,5 +83,5 @@ anderzijds de webapplicatie. Deze kosten zijn online beschikbaar.
 
 \section{Besluitvorming}
 Eens alle bovenvermelde gegevens bekend zijn, worden deze met elkaar vergeleken om zo tot een gefundeerde lijst van argumenten
-te komen. Deze lijst zal vermelden in welke gevallen de cross-platforme mobiele applicatie de betere oplossing voor de klant is.
+te komen. Deze lijst vermeldt in welke gevallen de cross-platforme mobiele applicatie een betere oplossing kan zijn voor de klant.
 Overigens wordt er een lijst met karakteristieken voor de responsive webapplicatie bekend gemaakt.
