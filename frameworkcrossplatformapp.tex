@@ -2,7 +2,7 @@
 \label{ch:frameworkcrossplatformapp}
 \section{Twee grote categorieën}
 Ter voorbereiding van het vergelijkende onderzoek tussen de cross-platform mobiele applicatie en de
-responsive website, is er voor beide mogelijke manier gezocht om deze vormen van applicaties te ontwikkelen. Voor de cross-platforme
+responsive website, is er voor beide mogelijke manier gezocht om deze vormen van applicaties te ontwikkelen. Voor een cross-platforme
 mobiele applicatie zijn deze mogelijke vormen een methode die zeer sterk aansluit bij het ontwikkelen van html-website.
 Hierbij wordt de html code in combinatie met css voor de opmaak en JavaScript voor de logica door de compiler omgezet naar een cross-
 plaforme mobiele applicatie. Op deze laatste manier wordt er gedurende dit werk niet verder op ingegaan.
@@ -13,14 +13,14 @@ Voor de opbouw van de cross-platform mobiele applicatie is geopteerd om te kieze
 code gemeenschappelijk kan hergebruiken. Concreet houdt dit in de men in het Shared-project zowel de definitie van de domeinklassen,
 als de code die verantwoordelijk is voor het ophalen van de data uit de REST-service en de mapping definieërt.
 
-De schematische voorstelling van de architectuur van de cross-platform mobiele applicatie ziet er schematisch als volgt uit:
+De voorstelling van de architectuur van de cross-platform mobiele applicatie ziet er schematisch als volgt uit:
 \begin{figure}[ht!]
 \centering
 \caption{Architectuur van de cross-platforme mobiele applicatie \cite{joshholmes2017}}
 \includegraphics[width=90mm]{./img/architecture.png}
 \end{figure}
 
-Voor deze authenticatie in te implementeren, werd er volgend voorbeeld van \cite{authenticatemvcapplication2017} gevolgd.
+Voor deze authenticatie te implementeren, werd er volgend voorbeeld van \cite{authenticatemvcapplication2017} gevolgd.
 Eerst werd het voorbeeld aangepast om authenticatie aan de hand van Active Directory te voorzien, maar dit is later terug verwijderd.
 Dit omdat het op een externe locatie niet mogelijk is om verbinding te maken met het netwerk waarop deze Active Directory zich bevindt.
 De REST-service is dus zodanig opgebouwd dat de gebruikersgegevens niet worden gevalideerd, maar er wel een token teruggegeven wordt door de REST-service.
